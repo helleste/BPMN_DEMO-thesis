@@ -1,6 +1,9 @@
 \documentclass[]{article}
 \usepackage[czech]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{graphicx}
+
 
 \begin{document}
 
@@ -92,11 +95,82 @@ BPMS je obecný software, který využívá explicitní reprezentaci podnikovýc
 \footnote{A business process management system is a generic software system that is driven by explicit process representations to coordinate the enactment of business processes. \cite{Weske2007}}
 \end{quote}
 
+Jednou z charakteristik BPMS je, že není používán jen jedním typem uživatelů v rámci organizace, ale díky přizpůsobeným pohledům může sloužit napříč organizací. Mezi uživatele BPMS mohou patřit: \cite{Naplava2015}
+
+\begin{itemize}
+\item Procesní analytik
+\item Procesní architekt
+\item Koncoví uživatelé
+\item Liniový management
+\item Zákazníci
+\item Vývojáři
+\end{itemize}
+
+Přínosy používání některého BPMS systému tkví zejména v získání uceleného přehledu o procesech a jejich provádění v rámci organizace. Díky tomu je možné snáze identifikovat slabá místa, která přináší ztráty času nebo peněz. Pokud dojde při provádění procesu k nějakému problému, je díky BPMS snazší ho identifikovat a zjednat nápravu. BPMS systém rovněž usnadňuje provádění změn v nastavení procesů a také přispívá k lepšímu vyhodnocování výkonnosti firmy a predikci dalšího vývoje díky množství dat, které je možné nasbírat při provádění procesů.
+
 \subsection{Business Process Model}
+Pro potřeby standardizace, ale vlastně i obyčejné diskuse v rámci organizace je nejprve třeba podnikový proces popsat. Popisují se jednotlivé činnosti, tok informací, zastoupené role, interakce s jinými procesy apod. Z toho důvodu je vytvářen tzv. Business Proces Model, který můžeme dle \cite{Weske2007} definovat následovně:
+
+\begin{quote}
+Business Process Model se skládá ze souboru modelů činností a prováděcích pravidel mezi nimi. Každý Business Process Model představuje plán pro soubor instancí podnikového procesu a každý model činnosti představuje plán pro soubor instancí činnosti.
+\footnote{A business process model consists of a set of activity models and execution constraints between them. Each business process model acts as a blueprint for a set of business process instances, and each activity model acts as a blueprint for a set of activity instances. \cite{Weske2007}}
+\end{quote}
+
+Podnikové procesy v Business Process Modelu mohou být popsány textově nebo graficky. Grafický způsob v dnešní době jasně převládá zejména díky možnosti rychlejšího zorientování v procesu a jednoduššímu pochopení toho, jak proces probíhá.
+
+Mezi známější nástroje pro grafické znázornění podnikových procesorů řadíme: \cite{Naplava2015}
+\begin{itemize}
+\item Petriho sítě
+\item UML
+\item ECL
+\item BPMN
+\item DEMO?
+\item BPEL
+\end{itemize}
+
+Tři z těchto nástrojů (UML, BPMN a DEMO) podrobněji rozebereme v kapitole 2. %todo přidat odkaz%
+
+Business Process Model se soustředí zejména na strukturu a organizaci procesu, nikoliv na technické aspekty jeho implementace. Realizace procesu se tak může upravit, aniž by se musel měnit příslušný model.
+
+\subsection{Životní cyklus procesu}
+Obrázek \ref{fig:BusinessProcessLifecycle} ilustruje všechny fáze, kterými podnikový proces prochází. Obrázek také ilustruje ideu neustálé probíhající optimalizace procesu.
+
+\begin{figure}[H]\centering %todo překreslit obrázek%
+\includegraphics[width=1.0\textwidth]{../obrazky/processLifecycle}
+\caption{Business Process Lifecycle \cite{Weske2007}}
+\label{fig:BusinessProcessLifecycle}
+\end{figure}
+
+Ve fázi \textit{Návrh a analýza} dochází ke sběru informací o procesech většinou formou pohovorů a dotazování zodpovědných pracovníků. Na základě takto nasbíraných informací je možné procesy identifikovat, popsat, potvrdit se zodpovědnými pracovníky a vytvořit jejich Business Process Modely.
+
+Po návrhové fázi většinou následuje fáze \textit{Implementace}. Podnikový proces může být implementován například pouze \uv{slovně} pomocí souboru pravidel a opatření, které musí zodpovědní zaměstnanci dodržovat. Často je ale k realizaci podnikových procesů využíván specializovaný software. V takovém případě dochází k obohacení Business Process Modelu o specificky technické informace a také o doplnění interakcí pracovníků se softwarem.
+
+Ve chvíli, kdy je dokončena implementace je možné přikročit k fázi \textit{Provádění}. Provádění konkrétní instance podnikového procesu je většinou spuštěno nějakou událostí (např. jiným procesem). V této chvíli systém BPMS aktivně kontroluje provádění procesu a upozorňuje zodpovědné pracovníky na případné problémy nebo požadavky na součinnost. V průběhu této fáze jsou také shromažďována cenná data, která prováděním procesu vzniknou. Tato data slouží jako vstup poslední vyhodnocovací fáze.
+
+Fáze \textit{Vyhodnocení} využívá nasbíraná data, která jsou vyhodnocována a jsou v nich hledány příležitosti k optimalizaci procesu. Příkladem může být například, že některá část procesu trvá příliš dlouho z důvodu zpožďování dodávek materiálu. Na základě takové informace mohou manažeři přistoupit k úpravě procesu dodávání materiálů a dosáhnout tak časové úspory.
 
 \subsection{Capability Maturity Model}
-\subsection{Business Process Lifecycle}
+Capability Maturity Model (CMM) definuje pět stádií vyspělosti, kterými firmy a organizace procházejí při snaze porozumět vlastním podnikovým procesům. Jednotlivá stádia popisuje tabulka \ref{tab:cmm}.
+
+
+\begin{table}[H]\centering
+  \caption{Jednotlivá stádia vyspělosti v práci s podnikovými procesi dle modelu CMM \cite{Harmon2014}}
+  \label{tab:cmm}
+  \begin{tabular}{ | l | p{10cm} | }
+    \hline
+    \textbf{Stádium vyspělosti} & \textbf{Stav} \\ \hline\hline
+    1. Initial & Procesy jsou vykonávány ad hoc bez jasně definovaných postupů. \newline Úspěch procesu závisí zejména na výkonu zodpovědných pracovníků. \\ \hline
+    2. Repeatable & Základní techniky projektového řízení jsou již zavedeny pro sledování nákladů, plánování a definování funkcionalit. Je zaveden základní rámec, který umožňuje opakovat předchozí úspěšné provedení nějakého úkonu.  \\ \hline
+    3. Defined & V této fázi je proces již dokumentován a standardy pro jeho provádění jsou definovány. \\ \hline
+    4. Managed & Probíhá sběr výkonnostních měřítek pro vyhodnocování kvality provádění procesů. Procesy jsou prováděny pod dohledem.  \\ \hline
+    5. Optimizing & Procesy jsou na základě nasbíraných dat a zpětné vazby neustále vylepšovány za účelem jejich zefektivnění.  \\
+    \hline
+  \end{tabular}
+\end{table}
+
 \subsection{Classification of Business Processes}
+\subsection{Klíčové role při řížení podnikových procesů}
+
 
 \section{Vývoj přístupů k řízení podnikových procesů}
 
