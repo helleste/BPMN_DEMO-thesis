@@ -21,10 +21,31 @@ Z toho důvodu firmy a organizace hledají cesty, jak lépe pochopit a následn�
 
 Ačkoliv akademici i odpovědní lidé z prostředí samotných firem a organizací se často přou, který z přístupů je lepší, zůstává bez nejmenších pochyb, že adoptování jakéhokoliv přístupu vedoucího k lepšímu porozumění chodu vlastní organizace je lepší, než nahodilý přístup k řízení společnosti, kdy jsou změny vykonávany ad hoc a jakékoliv plánování do budoucna je tak velmi obtížné. Pochopení vlastní organizace je jedním (nikoli jediným) ze základních předpokladů pro její dlouhodbě udržitelný rozvoj a právě k tomu jsou procesy a procesní řízení široce akceptovaným přístupem.
 
-The main objective of process management is to find the most efficient and effective way to transform customer requirements into customer satisfaction.
+The main objective of process management is to find the most efficient and effective way to transform customer requirements into customer satisfaction. 
+
+
+\section{Vývoj přístupů k řízení podnikových procesů}
+Obsah této sekce vychází zejména z \cite{Panagacos2012}.
+
+Velkou změnou v myšlení společností v moderních dějinách byla bezpochyby Průmyslová revoluce v 18. a 19. století. Přechod k centralizované manufakturní výrobě nutil firmy přemýšlet nad efektivitou práce a vytvářet postupy (byť třeba neformální), které měly k požadované efektivitě přispívat.
+
+Dalším velkým impulsem byl konec 2. světové války, kdy docházelo ke změně orientace z hospodářství orientovaného na válečná snažení jednotlivých států zpět k trhu, kde měl hlavní slovo zákazník. Firmy (zejména továrny a průmyslové závody) začaly více měřit, kolik jim konkrétní činnost zabere času a kolik spolyká finančních prostředků.
+
+V 70. letech přicházejí na scénu první počítače, které budou mít zásadní dopad na to, jak organizace vnitřně fungují. Jedním z prvních rozpoznatelných přístupů tak byl Just In Time (JIT), který vyvinula a dále precizovala japonská Toyota. Jak již název napovídá, praktiky JIT se soustředily na to, aby dodávky materiálu proběhly až ve chvíli, kdy byly potřeba při výrobním procesu. Firmy tak šetří finanční prostředky na nutnosti materiál držet na skladě a pečovat o něj. 
+
+Přístup označovaný jako Total Quality Management (TQM), který zejména v 80. a 90. letech adoptují japonské továrny se soustředí na maximální kvalitu ve všech fázích výrobního procesu a minimalizaci chybovosti. Hlavními cíly pro organizace jako Ford Motor Company, Motorola nebo Toyota Motor Company bylo dosáhnout 100\% zákaznické spokojenosti a 0\% chybovosti.
+
+V druhé půlce 80. let firmy začaly pociťovat, že je potřeba začít lépe využívat statistická data nasbíraná za běhu procesů dle TQM. Tento přístup se nazývá Business Process Improvement a je využíván dodnes. Firmy se začaly více ptát \textit{proč} proces vlastně děláme místo toho, \textit{jak} jej vykonat efektivněji. Termín Business Process Improvement byl dnes již pohlcen obecnějším Business Process Management, stále je však možné se s ním někde setkat.
+
+Koncept \textit{Six Sigma} byl velmi populární v první polovině 90. let. Úspěch slavil především ve velkých společnostech jako Motorola nebo Sony. Six Sigma je soubor postupů, kterak zlepšit fungování procesů v organizaci eliminací chybovosti. \textit{Six Sigma Defect} je definován jako cokoliv, co se odychluje od očekávání zákazníka.
+
+Přístup nazývaný jako \textit{Lean} byl hojně využíván v druhé polovině 90. let. Jeho jádrem je snaha postupně eliminovat ztráty při výrobě za použití nejmenšího možného množství lidské práce, investic do nástrojů a času pro vývoj nového produktu.
+
+S příchodem 21. let se objevil nový přístup zvaný \textit{Service Science}. Jedná se o přístup, který klade vyšší nároky na flexibilitu procesů ve společnosti. Firma by měla být schopná plně přizpůsobit požadavkům zákazníka místo toho, aby mu nabízela soubor předem definovaných produktů nebo služeb. Dobrým příkladem využití přístupu Service Science je automobilka, která nevyrobí auto, dokud si ho zákazník neobjedná a může tak při jeho výrobě plně vycházet z požadavků zákazníka na úpravy na míru.
 
 \section{Definice základních pojmů}
 V rámci této sekce jsou definovány základní pojmy, jejichž znalost a plné porozumění je nezbytné pro orientaci v obsahu dalších kapitol.
+
 \subsection{Podnikový proces}
 V nadsázce řečeno definic pojmu \textit{proces} existuje tolik, kolik existuje publikací, které jsou jim věnovány. Intuitivně si člověk s těmito definicemi neseznámený představí určitou po sobě jdoucí posloupnost operací na jejichž konci může být nějaký výsledek.
 
@@ -118,6 +139,8 @@ Business Process Model se skládá ze souboru modelů činností a prováděcíc
 
 Podnikové procesy v Business Process Modelu mohou být popsány textově nebo graficky. Grafický způsob v dnešní době jasně převládá zejména díky možnosti rychlejšího zorientování v procesu a jednoduššímu pochopení toho, jak proces probíhá.
 
+It is desirable that a Business Process Model can be understood by the various stakeholders involved in an as straightforward manner as possible. This could e.g. be achieved through the use of graphical representations. At the same time, these stakeholders should assign the same meaning to such a model, there should not be any scope for alternative interpretations. Business Process Models can be quite complex and the use of a formal language for their specification is the only sure way to guarantee that alternative interpretations are ruled out. 
+
 Mezi známější nástroje pro grafické znázornění podnikových procesorů řadíme: \cite{Naplava2015}
 \begin{itemize}
 \item Petriho sítě
@@ -168,12 +191,43 @@ Capability Maturity Model (CMM) definuje pět stádií vyspělosti, kterými fir
   \end{tabular}
 \end{table}
 
-\subsection{Classification of Business Processes}
+\subsection{Klasifikace podnikových procesů}
+Podnikové procesy lze klasifikovat a zařazovat do tříd z několika hledisek. 
+
+\subsubsection{Hlavní a podpůrné procesy}
+Základní a zřejmě nejlépe uchopitelné hledisko je rozdělení podnikových procesů na \textit{hlavní} a \textit{podpůrné}.
+
+\textit{Hlavní} procesy jsou takové, které přímo vytvářejí hodnotu pro organizaci. Aby mohl být proces označen jako hlavní, je zde třeba přímé interakce se zákazníkem. Hlavních procesů není většinou v organizaci mnoho, spíše tyto procesy kopírují nabídku služeb zákazníkům.
+
+\textit{Podpůrné} procesy slouží, jak už z názvu vyplývá, jako podpora procesů hlavních. Tyto procesy přímo hodnotu většinou nevytvářejí, ale jsou nezbytné k jejímu vytváření hlavním procesem. Na rozdíl od hlavních procesů je možné (a často výhodné) podpůrné procesy outsorcovat.
+
+\subsubsection{Vnitřní a vnější procesy}
+\textit{Vnitřní} proces je takový proces, který probíhá uvnitř jedné organizace bez interakce s procesem jiné organizace.
+
+\textit{Vnější} procesy naopak interagují s procesy jiné organizace je tedy třeba u nich dbát na optimální synchronizaci.
+
+\subsubsection{Další členění podnikových procesů}
+Podnikové procesy můžeme členit dle mnoha dalších hledisek. Jedním z takových hledisek je například \textit{úroveň automatizace} konkrétního podnikového procesu. Některé procesy mohou probíhat plně automatizovaně bez zapojení člověka, u jiných je menší či větší zapojení lidského elementu nezbytné.
+
+Dalším možným pohledem je \textit{úroveň opakování}. Podnikové procesy, u kterých dochází k častému opakování, často podléhají vyšší úrovni automatizace, ale není to pravidlem. Existují však v organizaci i procesy, které se opakují jen výjimečně. Jako příklad si můžeme uvést návrh nového modelu auta v automobilce.
+
 \subsection{Klíčové role při řížení podnikových procesů}
+V každé organizaci, která se zabývá řízením vlastních podnikových procesů existuje několik zainteresovaných rolí osob, které jsou pro fungující řízení nezbytné. Mezi klíčové role dle \cite{Weske2007} patří: 
 
+\begin{itemize}
+\item \textit{Chief Process Officer}: Chief Process Officer je zodpovědný za standardizaci a správné fungování procesů v rámci organizace. Dále má také na starosti přizpůsobování podnikových procesů novým požadavkům trhu.
+\item \textit{Business Engineer}: Pracovníci v této roli jsou zodpovědní za definování strategických cílů společnosti a organizačních podnikových procesů.
+\item \textit{Process Designer}: Tito pracovníci mají na starost modelování podnikových procesů za neustálé probíhající komunikace s Business Engineer a dalšími zainteresovanými rolemi.
+\item \textit{Process Participant}: Pracovníci, kteří provádějí skutečné operaitvní činnosti při provádění samotného procesu.
+\item \textit{Knowledge Worker}: Účastníci procesu, kteří používají softwarové nástroje k provádění činností v rámci procesu.
+\item \textit{Process Responsible}: Osoba zodpovědná za správné provedení všech procesů používajících jeden konkrétní Business Process Model.
+\item \textit{System Architect}: Lidé zodpovědní za vývoj a nastavení BPMS v organizaci.
+\item \textit{Vývojáři}: Vývojáři mají na starost vývoj softwarových prostředků nezbytných pro implementaci podnikových procesů.
+\end{itemize}
 
-\section{Vývoj přístupů k řízení podnikových procesů}
+Pro optimální fungování řízení podnikových procesů je nezbytná úzká spolupráce všech výše uvedených rolí.
 
+\nocite{*}
 \bibliographystyle{plain}
 \bibliography{Bibliography}
 
