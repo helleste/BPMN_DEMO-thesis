@@ -1,0 +1,49 @@
+\documentclass[]{article}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{graphicx}
+
+
+\begin{document}
+
+\title{Kapitola 3: Notace BPMN}
+\author{Bc. Štěpán Heller}
+\date{\today}
+\maketitle
+
+\section{O BPMN}
+BPMN neboli Business Process Modelling Notation je soubor pravidel a grafických prvků, pomocí kterých mohou organizace modelovat svoje obchodní procesy. Jedná se o světově nejpoužívanější [zdroj?] standard pro modelování obchodních procesů. Jeho nespornou výhodou je, že narozdíl od hojně rozšířené flowchartové techniky, je BPMN standardizované, tudíž je možné modely vytvořené v BPMN například strojově zpracovat. Specifikace BPMN totiž přímo obsahuje definici, jak jednotlivé elementy a vztahy mezi nimi převádět do jazyka BPEL.
+
+Za vznikem BPMN stála iniciativa BPMI (Business Process Management Initiative), jejíž primární motivací bylo vytvořit grafickou notaci, která bude srozumitelná všem účastníkům životního cyklu procesu (management, vývojáři, analytici). \cite{Vasicek2008} 
+
+Dalším cílem, se kterým bylo BPMN vytvořeno bylo ustanovit notaci, které umožní zobrazovat jednoduché i komplexní obchodní procesy \cite{Vasicek2008}, protože v té době obvyklé modelovací metody byly při vytváření rozsáhlých modelů velmi obtížně použitelné a vzniklé modely bylo složité udržovat.
+
+O BPMN se stará organizace Object Management Group (OMG).
+
+\subsection{Verze 1.2 vs 2.0}
+BPMN je v současnosti ve verzi 2.0, nicméně v praxi je stále hojně využívána i verze 1.2. 2.0 je někdy mylně pokládána za novější verzi BPMN, nicméně faktem spíše je, že každá z verzí slouží trochu jinému účelu.
+
+Pro práci v obchodním oddělení organizace (například v operacích) se hodí spíše verze 1.2. Oproti tomu v technických divizích, jako je například IT je vhodnější použít 2.0. Je to proto, že OMG doplnila do BPMN 2.0 řadu elementů zaměřených právě na IT oblast. \cite{Panagacos2012} Důvodem byla zejména snazší integrace BPMN do BPM softwaru.
+
+\subsection{Základní elementy notace BPMN}
+
+Symbolika použitá v BPMN je odvozená od klasické a hojně rozšířené flowchartovací techniky, která je intuitivní na pochopení i pro pozorovatele, který není obeznámen s problematikou modelování obchodních procesů.
+
+BPMN obsahuje více jak 100 symbolů. Pro základní práci, ale obvykle stačí jen několik základních symbolů. Základní druhy grafických elementů jsou 4: \cite{Dumas2013}
+
+\begin{enumerate}
+\item Flow objects (Tokové objekty)
+\item Event (Událost)
+\item Activity (Aktivita)
+\item Gateway (Brána)
+\end{enumerate}
+
+\subsubsection{Flow objects}
+
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{Bibliography}
+
+\end{document}
