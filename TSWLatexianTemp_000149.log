@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  24 OCT 2015 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  28 OCT 2015 14:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000101.tex
-(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000101.tex
+**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000149.tex
+(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000149.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -278,8 +278,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
-) (./TSWLatexianTemp_000101.aux)
-\openout1 = `TSWLatexianTemp_000101.aux'.
+) (./TSWLatexianTemp_000149.aux)
+\openout1 = `TSWLatexianTemp_000149.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -396,20 +396,30 @@ File: obrazky/bpmn_nakupniproces.png Graphic file (type png)
  <use obrazky/bpmn_nakupniproces.png>
 Package pdftex.def Info: obrazky/bpmn_nakupniproces.png used on input line 75.
 (pdftex.def)             Requested size: 345.0pt x 236.59802pt.
- (./TSWLatexianTemp_000101.bbl [4 <./obrazky/bpmn_nakupniproces.png>]) [5] (./TSWLatexianTemp_000101.aux) ) 
+ [4 <./obrazky/bpmn_nakupniproces.png>]
+Overfull \hbox (0.61176pt too wide) in paragraph at lines 88--89
+\OT1/cmr/m/n/10 p^^Trenositelnost pro-cesn^^S^^Pch mo-del^^Wu vy-tvo^^Tren^^Sych v t^^Seto no-taci nez^^Savisle na tv^^Wurc^^S^^Pch
+ []
+
+
+Overfull \hbox (2.88855pt too wide) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 UML ne-boli Uni-fied Mo-de-ling Lan-gu-age je velmi po-pul^^Sarn^^S^^P gra-fick^^Sy ja-zyk, zvl^^Sa^^Tst^^Te
+ []
+
+[5] (./TSWLatexianTemp_000149.bbl [6]) [7] (./TSWLatexianTemp_000149.aux) ) 
 Here is how much of TeX's memory you used:
- 2335 strings out of 493089
- 31793 string characters out of 6134841
- 100356 words of memory out of 5000000
- 5789 multiletter control sequences out of 15000+600000
+ 2339 strings out of 493089
+ 31839 string characters out of 6134841
+ 102376 words of memory out of 5000000
+ 5793 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,23p,682b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,23p,963b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TSWLatexianTemp_000101.pdf (5 pages, 217648 bytes).
+Output written on TSWLatexianTemp_000149.pdf (7 pages, 224289 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

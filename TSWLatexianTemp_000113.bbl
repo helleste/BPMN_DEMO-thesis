@@ -1,7 +1,13 @@
 \begin{thebibliography}{10}
 
+\bibitem{BPELcz}
+{BPEL – jazyk pro automatizaci procesů}.
+
 \bibitem{iso_9000}
 {ISO 9000:2005}.
+
+\bibitem{UMLActivity}
+{UML 2 Activity Diagramming Guidelines}.
 
 \bibitem{Bandor2007}
 Mike Bandor.
@@ -21,6 +27,15 @@ Jan L~G Dietz.
 Marlon Dumas, M~La Rosa, Jan Mendling, and Hajo Reijers.
 \newblock {\em {Fundamentals of Business Process Management}}.
 \newblock Springer Berlin Heidelberg, 2013.
+
+\bibitem{Eriksson2000}
+Hans-Erik Eriksson and Magnus Penker.
+\newblock {\em {Business Modeling With UML: Business Patterns at Work}}.
+\newblock 2000.
+
+\bibitem{Eriksson}
+Hans-Erik Eriksson and Magnus (Open~Training) Penker.
+\newblock {Business Modeling with UML}.
 
 \bibitem{Harmon2014}
 Paul Harmon.
@@ -44,6 +59,10 @@ Theodore Panagacos.
 \newblock {\em {The Ultimate Guide to Business Process Management: Everything
   you need to know and how to apply it to your organization}}.
 \newblock CreateSpace Independent Publishing Platform, 2012.
+
+\bibitem{Polancic2014}
+Gregor Polancic.
+\newblock {Managing business processes with BPMN – SWOT Analysis}, 2014.
 
 \bibitem{Recker2009}
 Jan~C. Recker, Michael Rosemann, Marta Indulska, and Peter Green.

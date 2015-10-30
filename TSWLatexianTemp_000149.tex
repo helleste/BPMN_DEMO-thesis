@@ -78,10 +78,39 @@ nemá smysl na tomto místě zacházet do přílišných detailů. Zatím si vys
 \end{figure}
 
 \subsubsection{Výhody a nevýhody}
+Mezi hlavní výhody BPMN určitě můžeme zařadit fakt, že BPMN je standard, tedy je přesně definované jak a kdy, které symboly používat. O BPMN se stárá organizace OMG (Object Management Group) a kontinuálně pracuje na jeho rozvoji. Díky širokému rozšíření BPMN existuje na trhu velké množství placených i neplacených nástrojů, které umožňují modelování podnikových procesů pomocí této notace.
+
+Další neoddiskutovatelnou předností je srozumitelnost notace, která je vysoká právě díky své podobnosti k vývojovým diagramům. Bez nutnosti zdlouhavého studia dokumentace je BPMN modelu schopen porozumět člověk z managementu společnosti a stejně tak i softwarový inženýr nebo vývojář. Právě pro ty ukrývá BPMN další výhodu a tou je poměrně přímočará převoditelnost BPMN modelů do strojově čitelných formátů, jako je jazyk XML nebo na něm založený jazyk BPEL. %todo ověřit%
+
+Ačkoliv je používání notace BPMN definované v dokumentaci, reálné procesy v organizacích mohou být obtížně modelovatelné bez hluboké znalosti BPMN a může tedy docházet k vytváření nekorektních modelů nebo více různých modelů toho samého jevu. Dalším problémem dle \cite{Polancic2014} je, že někteří výrobci softwaru pro modelování v BPMN si tento standard ohýbají podle sebe nebo ho \uv{obohacují} o vlastní \uv{vylepšení}, která pak dělají takto vytvořené modely obtížně přenositelnými.
+
 \subsubsection{Použití}
+Organizace OMG, která BPMN nyní spravuje, uvádí jako hlavní poslání BPMN přenositelnost procesních modelů vytvořených v této notaci nezávisle na tvůrcích konkrétního modelovacího nástroje. BPMN je vhodné pro modelování podnikových procesů v celé jejich šíři.
 
 \subsection{BPEL}
+BPEL neboli Business Process Execution Langauge (a správněji WS-BPEL Web Service Business Process Execution Language) je v našem výčtu jedinou technikou pro modelování podnikových procesů, který nemá grafickou reprezentaci. Je to totiž jazyk. Své využití nachází zejména při automatizaci podnikových procesů. BPEL je založen na XML a v podstatě standradizuje definici podnikových procesů právě pomocí XML. \cite{BPELcz}
+
 \subsection{UML}
+UML neboli Unified Modeling Language je velmi populární grafický jazyk, zvláště v oblasti IT a vývoje softwarových systémů. Jak píše \cite{Eriksson} právě s tímhle cílem bylo UML původně také vytvořeno. Jenže jeho popularita se rychle rozšířila i do světa byznysu a UML přestalo dostačovat potřebám svých uživatelů. Proto bylo postupně rozšiřováno o další aspekty, které pokrývaly modelování podnikových procesů v celé jejich šíři.
+
+UML obsahuje standardizovaný mechanismus jak jazyk rozšiřovat tak, aby jeho obecné principy mohly být doplněny o další vyhovující specifickému účelu, jako je například právě modelování podnikových procesů. Proto byl již v době vzniku UML vytvořen standardní profil pro modelování podnikového procesu \cite{Repa2007}. Tento profil pracuje zejména s Diagramem tříd a s Diagramem Use-Case. Diagram Use-Case je v tomto profilu používán pro zobrazení podnikových procesů a jejich interakce s aktéry a zákazníky. Oproti tomu Diagram tříd se používá spíše k zobrazení vnitřní struktury popisované organizace. Faktem je, že se standardní profil pro modelování podnikového procesu v praxi příliš neujal, snad kvůli své přílišné snaze podnikové procesy přiblížit k IT a informančím systémům \cite{Repa2007}.
+
+UML se přesto pro modelování podnikových procesů používá a to buď v neformální podobě, kdy je organizacemi používán především Diagram aktivit, který je pro modelování podnikových procesů vhodný. Activity Diagram totiž umožňuje sekvenční i paralelní zobrazování aktivit a objekty na vstupu i výstupu procesu a také závislosti mezi jednotlivými aktivitami.
+
+Pro větší přenositelnost a potřeby standardizace UML jazyka pro modelování podnikových procesů však vznikla celá řada rozšíření třetích stran. Mezi nejpoužívanější pak patří rozšíření podle H. Erikssona. \cite{Repa2007,Eriksson2000}. 
+
+\begin{quote}
+Erikssonův přístup je nejenom rozšířením UML, ale do značné míry plnohodnotnou metodou modelování procesů – určuje sadu modelů a diagramů, postavených vesměs na standardních diagramech UML. \cite{Repa2007}
+\end{quote}
+
+Erikssonovo rozšíření obsahuje více různých diagramů, přičemž pro potřeby samotného modelování podnikového proceus je nejzásadnější Diagram procesů, který je rozšířením právě již výše zmíněného Diagramu aktivit. Právě tomu se tedy budeme v této kapitole věnovat.
+
+\subsubsection{Základní pravidla}
+
+
+\subsubsection{Výhody a nevýhody}
+\subsubsection{Použití}
+
 \subsection{Petriho sítě}
 \subsection{DEMO}
 \section{Srovnání technik}

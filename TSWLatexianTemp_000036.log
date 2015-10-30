@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  24 OCT 2015 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  30 OCT 2015 18:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000057.tex
-(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000057.tex
+**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000036.tex
+(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000036.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -278,8 +278,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
-) (./TSWLatexianTemp_000057.aux)
-\openout1 = `TSWLatexianTemp_000057.aux'.
+) (./TSWLatexianTemp_000036.aux)
+\openout1 = `TSWLatexianTemp_000036.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -348,22 +348,93 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 13.
- [1
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 24.
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./TSWLatexianTemp_000057.bbl) [2] (./TSWLatexianTemp_000057.aux) ) 
+Overfull \hbox (2.6674pt too wide) in paragraph at lines 28--30
+[]\OT1/cmr/m/n/10 Procesn^^S^^P mo-del po-pi-suje, v^^Tet^^Tsinou gra-fic-kou for-mou ak-ti-vity, ud^^Salosti,
+ []
+
+
+Overfull \hbox (1.13959pt too wide) in paragraph at lines 35--36
+\OT1/cmr/m/n/10 pod-ni-kov^^Sych pro-ces^^Wu. Vd^^Te^^Tc^^S^^P za to zejm^^Sena sv^^Se jed-no-du-chosti, do-stup-nosti mnoha
+ []
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
+ <obrazky/flowchart.png, id=13, 639.1077pt x 294.1389pt>
+File: obrazky/flowchart.png Graphic file (type png)
+ <use obrazky/flowchart.png>
+Package pdftex.def Info: obrazky/flowchart.png used on input line 52.
+(pdftex.def)             Requested size: 345.0pt x 158.78326pt.
+ [2]
+Overfull \hbox (6.41745pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10 Nespornou v^^Syhodou v^^Syvojov^^Sych di-a-gram^^Wu je pr^^Sav^^Te je-jich p^^Tr^^S^^Pstupnost pro u^^Tzivatele
+ []
+
+
+Overfull \hbox (2.83174pt too wide) in paragraph at lines 68--69
+[]\OT1/cmr/m/n/10 S tro-chou nads^^Sazky by se dalo ^^Tr^^S^^Pct, ^^Tze BPMN je vlastn^^Te roz^^Ts^^S^^P^^Tren^^S^^Pm v^^Syvojov^^Seho
+ []
+
+
+Overfull \hbox (6.94403pt too wide) in paragraph at lines 68--69
+\OT1/cmr/m/n/10 di-a-gramu. Je ur^^Tcit^^Te prav-dou, ^^Tze se BPMN touto jed-no-du-chou tech-ni-kou v mnoh^^Sem
+ []
+
+[3 <./obrazky/flowchart.png>] <obrazky/bpmn_nakupniproces.png, id=23, 500.5902pt x 343.2825pt>
+File: obrazky/bpmn_nakupniproces.png Graphic file (type png)
+ <use obrazky/bpmn_nakupniproces.png>
+Package pdftex.def Info: obrazky/bpmn_nakupniproces.png used on input line 75.
+(pdftex.def)             Requested size: 345.0pt x 236.59802pt.
+ [4 <./obrazky/bpmn_nakupniproces.png>]
+Overfull \hbox (0.61176pt too wide) in paragraph at lines 88--89
+\OT1/cmr/m/n/10 p^^Trenositelnost pro-cesn^^S^^Pch mo-del^^Wu vy-tvo^^Tren^^Sych v t^^Seto no-taci nez^^Savisle na tv^^Wurc^^S^^Pch
+ []
+
+
+Overfull \hbox (2.88855pt too wide) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 UML ne-boli Uni-fied Mo-de-ling Lan-gu-age je velmi po-pul^^Sarn^^S^^P gra-fick^^Sy ja-zyk, zvl^^Sa^^Tst^^Te
+ []
+
+[5]
+Overfull \hbox (12.19525pt too wide) in paragraph at lines 115--116
+[][]\OT1/cmr/m/n/10 R^^S^^Pd^^S^^Pc^^S^^P tok { ur^^Tcuje po^^Trad^^S^^P vy-kon^^Sav^^San^^S^^P jed-not-liv^^Sych krok^^Wu ak-ti-vity, zn^^Sazorn^^Ten^^Se
+ []
+
+<obrazky/uml_nakupniproces.png, id=31, 507.3354pt x 287.3937pt>
+File: obrazky/uml_nakupniproces.png Graphic file (type png)
+ <use obrazky/uml_nakupniproces.png>
+Package pdftex.def Info: obrazky/uml_nakupniproces.png used on input line 124.
+(pdftex.def)             Requested size: 345.0pt x 195.44266pt.
+ [6]
+Overfull \hbox (1.61066pt too wide) in paragraph at lines 135--136
+\OT1/cmr/m/n/10 Jak u^^Tz bylo ^^Tre^^Tceno v^^Sy^^Tse, UML nach^^Saz^^S^^P uplatn^^Ten^^S^^P v mnoha obo-rech lidsk^^Se ^^Tcinnosti,
+ []
+
+[7 <./obrazky/uml_nakupniproces.png>] [8] (./TSWLatexianTemp_000036.bbl [9]) [10] (./TSWLatexianTemp_000036.aux) ) 
 Here is how much of TeX's memory you used:
- 2297 strings out of 493089
- 31083 string characters out of 6134841
- 99340 words of memory out of 5000000
- 5758 multiletter control sequences out of 15000+600000
+ 2347 strings out of 493089
+ 32041 string characters out of 6134841
+ 102394 words of memory out of 5000000
+ 5800 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,7n,23p,666b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TSWLatexianTemp_000057.pdf (2 pages, 89267 bytes).
+ 37i,8n,23p,963b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on TSWLatexianTemp_000036.pdf (10 pages, 263269 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

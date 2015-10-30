@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  24 OCT 2015 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  29 OCT 2015 23:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000056.tex
-(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000056.tex
+**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000113.tex
+(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000113.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -278,8 +278,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
-) (./TSWLatexianTemp_000056.aux)
-\openout1 = `TSWLatexianTemp_000056.aux'.
+) (./TSWLatexianTemp_000113.aux)
+\openout1 = `TSWLatexianTemp_000113.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
@@ -399,42 +399,42 @@ Overfull \hbox (5.91728pt too wide) in paragraph at lines 144--145
 <obrazky/processLifecycle.png, id=28, 602.25pt x 468.75125pt>
 File: obrazky/processLifecycle.png Graphic file (type png)
  <use obrazky/processLifecycle.png>
-Package pdftex.def Info: obrazky/processLifecycle.png used on input line 163.
+Package pdftex.def Info: obrazky/processLifecycle.png used on input line 161.
 (pdftex.def)             Requested size: 345.0pt x 268.53566pt.
  [6]
-Overfull \hbox (0.15576pt too wide) in paragraph at lines 172--173
+Overfull \hbox (0.15576pt too wide) in paragraph at lines 170--171
 []\OT1/cmr/m/n/10 Ve chv^^S^^Pli, kdy je do-kon^^Tcena im-ple-men-tace je mo^^Tzn^^Se p^^Trikro^^Tcit k f^^Sazi \OT1/cmr/m/it/10 Prov^^Sad^^Ten^^S^^P\OT1/cmr/m/n/10 .
  []
 
 [7 <./obrazky/processLifecycle.png>]
-Overfull \hbox (58.84924pt too wide) in paragraph at lines 183--193
+Overfull \hbox (58.84924pt too wide) in paragraph at lines 181--191
  [][] 
  []
 
 [8]
-Overfull \hbox (0.20972pt too wide) in paragraph at lines 221--222
+Overfull \hbox (0.20972pt too wide) in paragraph at lines 219--220
 []\OT1/cmr/m/it/10 Process De-signer\OT1/cmr/m/n/10 : Tito pra-covn^^S^^Pci maj^^S^^P na sta-rost mo-de-lov^^San^^S^^P pod-ni-kov^^Sych
  []
 
 
-Overfull \hbox (5.47629pt too wide) in paragraph at lines 222--223
+Overfull \hbox (5.47629pt too wide) in paragraph at lines 220--221
 []\OT1/cmr/m/it/10 Process Par-ti-ci-pant\OT1/cmr/m/n/10 : Pra-covn^^S^^Pci, kte^^Tr^^S^^P prov^^Sad^^Tej^^S^^P skute^^Tcn^^Se ope-raitvn^^S^^P ^^Tcinnosti
  []
 
-[9] (./TSWLatexianTemp_000056.bbl) [10] (./TSWLatexianTemp_000056.aux) ) 
+[9] (./TSWLatexianTemp_000113.bbl [10]) [11] (./TSWLatexianTemp_000113.aux) ) 
 Here is how much of TeX's memory you used:
- 2333 strings out of 493089
- 31698 string characters out of 6134841
- 102356 words of memory out of 5000000
- 5788 multiletter control sequences out of 15000+600000
+ 2338 strings out of 493089
+ 31757 string characters out of 6134841
+ 102381 words of memory out of 5000000
+ 5793 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,23p,743b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TSWLatexianTemp_000056.pdf (10 pages, 193542 bytes).
+Output written on TSWLatexianTemp_000113.pdf (11 pages, 194310 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
