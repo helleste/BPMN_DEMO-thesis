@@ -3,6 +3,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage{hyperref} %todo přidat do normální hlavičky %
+\usepackage{longtable}
 
 
 \begin{document}
@@ -212,20 +214,60 @@ Tato část je založena zejména na \cite{Vejrazkova2012}, kde jsou uvedeny nej
 \section{Srovnání technik}
 Tato sekce se soustředí na porovnání objektivních měřítek, podle kterých můžeme jednotlivé techniky porovnávat. Její ambicí rozhodně není rozhodnout, která z nich je \uv{lepší} nebo \uv{horší}, jelikož to vždy závisí především na konkrétním účelu, ke kterým chceme danou techniku použít. Z porovnání je vyjmut BPEL, jelikož nepodporuje grafické znázornění procesu.
 
-\begin{table}[H]\centering
-  \caption{Porovnání vybraných technik k modelování podnikových procesů}
-  \label{tab:cmm}
-  \begin{tabular}{| c | c | c | c | c |}
-    \hline
-    & \textbf{Vývojový diagram} & \textbf{UML} & \textbf{BPMN} & \textbf{DEMO}  \\ \hline
-    Použití & & & & \\ \hline
-    Dostupnost nástrojů & & & & \\ \hline
-    Dostupnost literatury & & & & \\  \hline
-    Velikost komunity & & & & \\  \hline
-    Výhody & & & & \\  \hline
-    Nevýhody & & & & \\  \hline
-  \end{tabular}
-\end{table}
+\newpage
+
+\begin{center}
+\begin{longtable}{|p{2cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\caption{A simple longtable example}\\
+\hline
+\textbf{} & \textbf{Vývojový \newline diagram} & \textbf{UML} & \textbf{BPMN} & \textbf{DEMO}  \\
+\hline
+\endfirsthead
+\multicolumn{4}{c}%
+{\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
+\hline
+\textbf{} & \textbf{Vývojový \newline diagram} & \textbf{UML} & \textbf{BPMN} & \textbf{DEMO}  \\
+\hline
+\endhead
+\hline \multicolumn{5}{r}{\textit{Continued on next page}} \\
+\endfoot
+\hline
+\endlastfoot
+
+\textbf{Použití} & Používá se pro modelování podnikových procesů, pracovních postupů, kroků algoritmu atd. & Používá se pro zobrazení a návrh softwaru, kroků algoritmu, interakce uživatele s aplikací, organizační struktury, datových toků, rozhodovacích postupů atd. & BPMN je používáno exkluzivně pro modelování podnikových procesů v celé řadě odvětví. Verze 2.0 navíc nabízí větší podporu i pro implementaci procesů pomocí IT systémů. & DEMO se používá k zobrazení základních interakcí uvnitř organizace, může být tak využito pro její návrh nebo optimalizaci. Modely vytvořené v DEMO jsou rovněž vhodným základem pro tvorbu softwaru.\\  \hline
+
+\textbf{Dostupnost nástrojů} & Na trhu existuje celá řada nástrojů pro modelování vývojových diagramů a to jak volně dostupných, tak komerčních. Existují i on-line nástroje.  & Pro UML je dostupné velké množství volného i komerčního software. Existují i on-line nástroje. & Modelování v BPMN umožňuje celá řada aplikací, velká část z nich je komerčních. & Aplikací, které podporují modelování v DEMO jsou na trhu jen jednotky. Jejich výčet je dostupný na webu \url{http://www.ee-institute.org}. Jsou mezi nimi komerční i nekomerční aplikace.  \\ \hline
+
+\textbf{Dostupnost literatury} & O vývojových diagramech existuje mnoho literatury, nicméně z důvodu neexistence standradizujících pravidel se mohou ve výkladu lišit. & Díky své celosvětové popularitě existuje o UML opravdu velké množství literatury. Přímo na stránkách organizace OMG \url{http://www.omg.org} je k dispozici celá řada materiálů. & O BPMN se (stejně jako o UML) stará organizace OMG. Vzhledem k tomu, že BPMN je velmi rozšířené, existuje velké množství dostupné literatury. & Literatury zabývající se metodologií DEMO je na trhu poměrně málo. Významná část je napsaná přímo autorem celé metodologie Janem Dietzem. Základní literatura se dá dohledat na webu \url{http://www.ee-institute.org} v anglickém nebo v nizomeském jazyce. \\  \hline
+
+\textbf{Velikost  komunity} & Vzhledem k faktu, že narozdíl od ostatních technik neexistuje organizace, která by se starala o vývojové diagramy, těžko lze v tomto případě hovořit o existenci jasně identifikovatlené komunity akademiků, organizací nebo autorů literatury. & Komunita kolem UML je široká. UML je vyučováno na univerzitách, v podnicích i dalších organizacích. Je k dispozici velké množství literatury i nástrojů. & I BPMN má kolem sebe širokou komunitu autorů, lektorů i organizací, které se zabývají tvorbou BPMN nástrojů. & Komunita kolem DEMO se skládá hlavně z akademických obcí v Evropě. Po světě existuje i několik \uv{center excelence}, dá se však říct, že v porovnání s ostatními je komunita kolem DEMO malá. \\  \hline
+   
+\textbf{Výhody} & 
+\begin{itemize} 
+  \item Srozumitelné různým typům uživatelů
+  \item Přímočaré učení
+  \item Dobrá dostupnost nástrojů podporujících modelování
+\end{itemize} & 
+\begin{itemize}
+  \item Mnoho různých typů modelů
+  \item Standard, který je dále vyvíjen
+  \item Dobrá dostupnost nástrojů podporujících modelování
+  \item Možnost modely jednoduše implementovat pomocí IT systémů
+\end{itemize} & 
+\begin{itemize}
+  \item Notace zaměřená výhradně na modelování podnikových procesů
+  \item Standard, který je dále vyvíjen
+  \item Dobrá dostupnost nástrojů podporujících modelování
+  \item Možnost modely jednoduše implementovat pomocí IT systémů
+\end{itemize} &
+\begin{itemize}
+  \item Silný teoretický základ
+  \item Jednoznačnost a konzistence modelů
+  \item Abstrahuje od implementačních detailů
+\end{itemize} \\  \hline
+\end{longtable}
+\end{center}
+
 
 \nocite{*}
 \bibliographystyle{plain}
