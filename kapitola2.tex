@@ -63,6 +63,7 @@ Největší přednost vývojových diagramů je zároveň jejich největší sla
 Vývojové diagramy mají mnoho využití. Hodí se například pro komunikaci mezi organizací a jejími externími zákazníky, protože se dá předpokládat, že se s vývojovými diagrami už v minulosti setkali a budou jim tedy rozumět. Vhodné je také použít vývojový diagram v dokumentaci k softwaru nebo jinému systému, kterou budou číst různorodé skupiny uživatelů.
 
 \subsection{BPMN}
+%todo upravit: bpmn nemá metodologii!!°
 BPMN nebo rozepsaně Business Process Modelling Notation je v současnosti de facto standardem na poli modelování podnikových procesů. Jeho využití je široké od IT přes obchod až například po komplexní dopravní systémy. Za svou popularitu vděčí zejména kombinaci dvou věcí, z nichž jedna je stále poměrně jednoduchá notace, která neobsahuje přehršel symbolů.
 
 S trochou nadsázky by se dalo říct, že BPMN je vlastně rozšířením vývojového diagramu. Je určitě pravdou, že se BPMN touto jednoduchou technikou v mnohém inspirovalo a na jejích základech postavilo notaci, která umožňuje poměrně jednoduše modelovat i komplexní podnikové procesy a zároveň si stále uchovává dobrou srozumitelnost pro uživatele.
@@ -209,7 +210,22 @@ Tato část je založena zejména na \cite{Vejrazkova2012}, kde jsou uvedeny nej
 
 
 \section{Srovnání technik}
-Tato sekce se soustředí na porovnání objektivních měřítek, podle kterých můžeme jednotlivé techniky porovnávat. Její ambicí rozhodně není rozhodnout, která z nich je \uv{lepší} nebo \uv{horší}, jelikož to vždy závisí především na konkrétním účelu, ke kterým chceme danou techniku použít.
+Tato sekce se soustředí na porovnání objektivních měřítek, podle kterých můžeme jednotlivé techniky porovnávat. Její ambicí rozhodně není rozhodnout, která z nich je \uv{lepší} nebo \uv{horší}, jelikož to vždy závisí především na konkrétním účelu, ke kterým chceme danou techniku použít. Z porovnání je vyjmut BPEL, jelikož nepodporuje grafické znázornění procesu.
+
+\begin{table}[H]\centering
+  \caption{Porovnání vybraných technik k modelování podnikových procesů}
+  \label{tab:cmm}
+  \begin{tabular}{| c | c | c | c | c |}
+    \hline
+    & \textbf{Vývojový diagram} & \textbf{UML} & \textbf{BPMN} & \textbf{DEMO}  \\ \hline
+    Použití & & & & \\ \hline
+    Dostupnost nástrojů & & & & \\ \hline
+    Dostupnost literatury & & & & \\  \hline
+    Velikost komunity & & & & \\  \hline
+    Výhody & & & & \\  \hline
+    Nevýhody & & & & \\  \hline
+  \end{tabular}
+\end{table}
 
 \nocite{*}
 \bibliographystyle{plain}
