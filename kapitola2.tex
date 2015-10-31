@@ -132,7 +132,11 @@ Mezi výhody UML můžeme určitě zařadit velkou rozšířenost tohoto jazyka 
 Jako nevýhodu lze určitě uvést faktickou neexistenci standardu pro modelování podnikových procesů v UML. Standardní profil pro modelování podnikového procesu, který UML obsahuje, se příliš nepoužívá a od verze UML 2.0 už dokonce není součástí množiny standardních profilů. \cite{Repa2007} Existují sice další rozšíření, ale ty nejsou standardem, což snižuje možnost jejich přenositelnosti i udržitelnosti do budoucna. UML je přecijen jazyk stále velmi blízký vývoji softwaru a modelování podnikových procesů spíše umožňuje, než podporuje.
 
 \subsubsection{Použití}
-Jak už bylo řečeno výše, UML nachází uplatnění v mnoha oborech lidské činnosti, ale prosadilo se zejména v IT a tvorbě softwaru. 
+Jak už bylo řečeno výše, UML nachází uplatnění v mnoha oborech lidské činnosti, ale prosadilo se zejména v IT a tvorbě softwaru. Některé nástroje, které umožňují modelování v UML dokonce nabízí možnost z UML modelu exportovat přímo zdrojový kód například pro tvorbu databáze.
+
+Jelikož UML obsahuje různé druhy modelů, dostává tím celý jazyk další možnosti využití i mimo IT. Síla UML je v zachycení struktury jevu a již tolik nezáleží na tom, jestli se jedná o databázi nebo organizační strukturu podniku. Například Use-Case diagram najde využití nejen při modelování chování člověka při interakci se softwarem, ale například také obsluhy zákazníka v bance apod. 
+
+UML je tak mimo jiné využíváno v IT, bankovnictví, telekomunikacích, zdravotnictví nebo v obranném průmyslu.
 
 \subsection{DEMO}
 DEMO neboli Design \& Engineering Methodology for Organizations je metodologie se silným teoretickým základem určená k modelování, analýze a grafickému zobrazení podnikových procesů. Za jejím vznikem stojí zejména Jan Dietz. DEMO obsahuje 4 modely, každý pro jiný účel a jiný pohed na proces.
@@ -152,14 +156,38 @@ Fundementální vlastnosti DEMO modelu dle \cite{Dietz2006} jsou:
 \item obsahovat jen nezbytné množství informací.
 \end{itemize}
 
-Stručně řečeno, důvodem pro vytvoření této metodologie byla narůstající nevhodnost jiných metodologií, notací a jazyků obvykle používaných k modelování podnikových procesů. Modely vytvořené v těchto nástrojích jsou totiž většinou příliš podrobné a příliš technicky zaměřené, takže stěžují pohled na organizaci z vrchu, pohled jen na to důležité, co se v ní odehrává.
+Zjednodušeně řečeno, důvodem pro vytvoření této metodologie byla narůstající nevhodnost jiných metodologií, notací a jazyků obvykle používaných k modelování podnikových procesů. %todo zdroj?% 
+Modely vytvořené v těchto nástrojích jsou totiž většinou příliš podrobné a příliš technicky zaměřené, takže stěžují pohled na organizaci z vrchu, pohled jen na to důležité, co se v ní odehrává.
 
-DEMO je naopak postaveno na 
+DEMO je naopak postaveno na modelování podnikových procesů pomocí ontologií, což znamená, že je zachyceno jen jádro problému, které většinou tvoří komunikace mezi lidmi. DEMO má silný teoretický základ v teorii PSI, o které si více řekneme v kapitole 4. %todo odkaz%
 
 \subsubsection{Základní pravidla}
+Detailnímu popisu modelování v DEMO se věnuje kapitola 4, takže na tomto místě zmíním jen základní věci. Kompletní model organizace (tzv. essential model) se skládá ze 4 různých modelů: \cite{Vejrazkova2012}
+
+\begin{enumerate}
+\item Construction Model (CM)
+\item Process Model (PM)
+\item Action Model (AM)
+\item State Model (SM)
+\end{enumerate}
+
+Jedním z nejdůležitějších aspektů metodologie DEMO je tzv. \uv{transaction pattern}, který dává přesnou strukturu tomu, jak probíhají transakce (například objednávka). V DEMO se takové transakce skládají vždy ze stejných kroků a tudíž mají všechny stejnou strukturu, což zanechává malý prostor pro více interpretací stejné transakce.
+
+Nejdůležitější aspekty v DEMO jsou 2:
+
+\begin{enumerate}
+\item Ontologická transakce
+\item Actor role
+\end{enumerate}
+
+Podrobně budou tyto elementy rozebrány v kapitole 4. %todo odkaz°
+
+%todo order process img%
 
 \subsubsection{Výhody a nevýhody}
 Mezi silné stránky metodologie DEMO určitě musíme zařadit jeho absolutní jednoznačnost. Zatímco u jiných nástrojů, jako je třeba vývojový diagram, ale i BPMN nebo UML, vzhledem k jejich poměrně vysoké úrovni detailu, může docházet k nejednoznačnostem, tj. že stejný jev je vymodelován různě. DEMO díky svým poměrně rigidním pravidlům a modelu postavenému na jasně strukturovaných transakcích dostáváme stejné modely pro stejné jevy, což je velmi pozitivní pro celkovou konzistenci BPM v organizaci a zároveň to usnadňuje analýzu a vylepšování procesů.
+
+Jako hlavní přednost DEMO uvádí \cite{Barjis2011} schopnost modelů vytvořených pomocí této metodologie zachytit pouze základní podstatu každé organizace a schopnost modely abstrahovat od technických detailů, které jsou pro účely modelování organizací podružné.
 
 Jako nevýhodu celé metodologie je určitě nutné označit poměrně dlouhou a pozvolnou křivku učení, která je v tomto případě dána 2 věcmi:
 
@@ -171,9 +199,17 @@ Jako nevýhodu celé metodologie je určitě nutné označit poměrně dlouhou a
 Když by chtěla organizace začít používat DEMO pro modelování svých procesů, je nutné investovat čas i finanční prostředky do zasvěcení odpovědných lidí do metodologie a jejího používání, přičemž vycvičení lidí na potřebnou úroveň může být poměrně zdlouhavé. Právě toto by mohlo být jednou z hlavních překážek, které brání většímu rozšíření metodologie DEMO mimo akademickou půdu.
 
 \subsubsection{Použití}
+Tato část je založena zejména na \cite{Vejrazkova2012}, kde jsou uvedeny nejméně 3 možné způsoby, jak využít DEMO.
+
+\begin{enumerate}
+\item \textbf{Návrh a optimalizace organizací} – Díky přednostem metodologie DEMO, které jsou popsány výše, je možné se na organizaci podívat z ontologického hlediska, což umožňuje snáze pochopit, jak organizace skutečně funguje a je možné fungování jednotlivých procesů vylepšit a zefektivnit.
+\item \textbf{Softwarová podpora organizace} – Jelikož velká část podnikových procesů je dnes podporována IT systémy. DEMO rozděluje druhy softwaru do tří úrovní, aby korespondovaly se strukturou organizace tak, jak jí vidí DEMO (ontologická, infologická, datalogická). Pomáhá tak jasně určit strukturu používaného softwaru uvnitř organizace. %todo upravit%
+\item \textbf{Vývoj softwaru} – Ačkoliv DEMO abstrahuje při modelování procesů od implementačních detailů, tak může být užitečné při jeho vývoji. DEMO modely totiž mohou sloužit jako odrazový můstek na začátku vývoje. DEMO model totiž obsahuje základní informace o každém procesu: kdo ho iniciuje, kdo ho provádí a jaké aktivity obsahuje a v jakém pořadí. Dle \cite{Shishkov2005} jsou DEMO modely velmi snadno převoditelné do Use Case modelů.
+\end{enumerate}
 
 
 \section{Srovnání technik}
+Tato sekce se soustředí na porovnání objektivních měřítek, podle kterých můžeme jednotlivé techniky porovnávat. Její ambicí rozhodně není rozhodnout, která z nich je \uv{lepší} nebo \uv{horší}, jelikož to vždy závisí především na konkrétním účelu, ke kterým chceme danou techniku použít.
 
 \nocite{*}
 \bibliographystyle{plain}
