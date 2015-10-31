@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: TSWLatexianTemp_000009.aux
+The style file: plain.bst
+Database file #1: Bibliography.bib
+Warning--to sort, need author or key in BPELcz
+Warning--to sort, need author or key in UMLActivity
+Warning--to sort, need author or key in DEMO_web
+Warning--to sort, need author or key in iso_9000
+Warning--empty journal in Bandor2007
+Warning--empty publisher in Dietz2006
+Warning--empty publisher in Eriksson2000
+Warning--empty journal in Eriksson
+Warning--empty year in Eriksson
+Warning--there's a number but no volume in Jedlitschka2010
+Warning--empty journal in Shishkov2005
+Warning--empty note in Vejrazkova2012
+You've used 23 entries,
+            2118 wiz_defined-function locations,
+            621 strings with 6771 characters,
+and the built_in function-call counts, 5370 in all, are:
+= -- 488
+> -- 204
+< -- 1
++ -- 85
+- -- 62
+* -- 276
+:= -- 874
+add.period$ -- 55
+call.type$ -- 23
+change.case$ -- 93
+chr.to.int$ -- 0
+cite$ -- 35
+duplicate$ -- 226
+empty$ -- 515
+format.name$ -- 62
+if$ -- 1140
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 20
+newline$ -- 104
+num.names$ -- 38
+pop$ -- 176
+preamble$ -- 1
+purify$ -- 77
+quote$ -- 0
+skip$ -- 181
+stack$ -- 0
+substring$ -- 222
+swap$ -- 28
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 78
+warning$ -- 12
+while$ -- 47
+width$ -- 25
+write$ -- 198
+(There were 12 warnings)
