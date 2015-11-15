@@ -9,8 +9,14 @@
 \bibitem{iso_9000}
 {ISO 9000:2005}.
 
+\bibitem{Notace}
+{Notace}.
+
 \bibitem{UMLActivity}
 {UML 2 Activity Diagramming Guidelines}.
+
+\bibitem{Metodika}
+{R{\'{a}}mce a metodiky}, 2013.
 
 \bibitem{Bandor2007}
 Mike Bandor.
@@ -25,6 +31,10 @@ J.~Barjis.
 \bibitem{Chytil2005}
 Jiř{\'{\i}} Chytil and Zden{\v{e}}k Lehock{\'{y}}.
 \newblock {V{\'{y}}vojov{\'{e}} diagramy - 1. d{\'{\i}}l}, 2005.
+
+\bibitem{Dietz2005}
+Jan L.~G. Dietz.
+\newblock {Enterprise Ontology}, 2005.
 
 \bibitem{Dietz2006}
 Jan L~G Dietz.
@@ -62,6 +72,11 @@ Pavel N\'{a}plava.
 \newblock {A7B16ISP Informa\v{c}n\'{\i} syst\'{e}my a procesn\'{\i}
   ř\'{\i}zen\'{\i}}, 2015.
 
+\bibitem{Ochrana2009}
+Franti{\v{s}}ek Ochrana.
+\newblock {\em {Metodologie v{\v{e}}dy: {\'{u}}vod do probl{\'{e}}mu}}.
+\newblock Praha: Karolinum, 2009.
+
 \bibitem{Panagacos2012}
 Theodore Panagacos.
 \newblock {\em {The Ultimate Guide to Business Process Management: Everything
@@ -91,6 +106,13 @@ Petr Vašíček.
 Zuzana Vejra{\v{z}}kov{\'{a}}.
 \newblock {Design and Engineering Methodology for Organizations}.
 \newblock 2012.
+
+\bibitem{Vejrazkova2013}
+Zuzana Vejra{\v{z}}kov{\'{a}}.
+\newblock {\em {Business Process Modelling and Simulation: DEMO, BORM and
+  BPMN}}.
+\newblock PhD thesis, {\v{C}}esk{\'{e}} vysok{\'{e}} u{\v{c}}en{\'{\i}}
+  technick{\'{e}}, 2013.
 
 \bibitem{Weske2007}
 Mathias Weske.

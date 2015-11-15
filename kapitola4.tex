@@ -1,0 +1,205 @@
+\documentclass[]{article}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{graphicx}
+
+\newcommand{\ptheory}{$\Psi$-theory}
+
+\begin{document}
+
+\title{Kapitola 4: Metodologie DEMO}
+\author{Bc. Štěpán Heller}
+\date{\today}
+\maketitle
+
+\section{O DEMO}
+\subsection{Rozdíl mezi notací a metodologií}
+V celém textu se objevují 2 jevy. O BPMN mluvíme jako o notaci a o DEMO jako o metodologii. Takto tyto techniky označujeme záměrně a myslím, že je na tomto místě účelné si vysvětlit rozdíl mezi pojmy \textit{notace} a \textit{metodologie}. Pochopení této odlišnosti totiž vnáší trochu světla k lepšímu pochopení rozdílu mezi BPMN a DEMO.
+
+\subsubsection{Notace}
+Notace označuje formální prostředky pro popis reality. Například právě v oblasti analýzy a modelování podnikových procesů je notací sada grafických objektů, které pak používáme pro popsání samotného procesu. Na notaci je obvykle navázána související metodika. \cite{Notace}
+
+Metodikou nazýváme popis pracovního postupu nějaké činnosti, který je více či méně formalizovaný. \cite{Metodika} V případě modelovací techniky by taková metodika tedy popisovala jak při modelování postupovat a jak a kdy jednotlivé elementy přesně používat. To však v případě BPMN neplatí, jelikož BPMN není svázané s žádnou metodikou \cite{Vasicek2008} a tedy pokud se někde vyskytuje označení BPMN jako metodiky, je tato formulace chybná.
+
+\subsubsection{Metodologie}
+Metodologie je oproti tomu vědní disciplína, která se zabývá tvorbou metod a jejich aplikací. Metodologie vědy je tedy naukou o metodách. Jak píše \cite{Ochrana2009} je teorií k výběru výzkumných metod a návodem, jak vybrané metody (metodu) používat ve vědeckém zkoumání.
+
+Pod vlivem angličtiny se však i v češtině často setkáváme s tím, že pojmy metodika a metodologie splývají a jsou často zaměňovány. Můžeme nicméně vidět, že rozdíl BPMN a DEMO je na první pohled zřejmý v tom, že notace BPMN nemá za sebou zdaleka tak robustní základ jako metodologie DEMO. Tento fakt má několik důsledků týkajících se přístupnosti a přímočarosti použití obou technik. Tyto důsledky budou ještě v této práci dále rozebrány.
+
+\subsection{Motivace k vytvoření DEMO}
+Jak shrnuje \cite{Vejrazkova2013}, u základní úvahy tvůrců DEMO byl současný stav podniků a organizací, které jsou velmi komplexní a z toho důvodu je velmi obtížné mít pomocí současných nástrojů jasnou představu o tom, jak přesně fungují a co se v nich děje.
+
+Moderní organizace jsou totiž založeny na propojení sociálních a technických komponent, které spolu vzájemně komunikují. Komunikce je tedy nejdůležitějším aspektem celé metodologie DEMO. Dle \cite{Dietz2006} je ontologie podniků (Enterprise Ontology) nejvhodnějším prostředkem k pochopení konstrukce a operací v podniku.
+
+\begin{quote}
+DEMO bylo vytvořeno jako metodologie pro vytváření ontologického modelu podniku. \cite{Vejrazkova2012}
+\footnote{DEMO was developed to be a methodology for creating an ontological model of an enterprise. \cite{Vejrazkova2012}}
+\end{quote}
+
+\section{Ontologie}
+
+The ontology (or ontological model) of an enterprise is defined as an understanding of its operation, that is completely independent of the realization and the implementation of the enterprise.
+
+   The two system notions
+• The teleological system notion
+• Is about the function and external behavior of a system
+• Is the dominant system concept in the social sciences
+• Is perfectly adequate for using and controlling systems
+• Has the black-box model as the corresponding kind of model
+• The ontological system notion
+• Is about the construction and operation of a system
+• Is the dominant system concept in the engineering sciences
+• Is perfectly adequate for building and changing systems
+• Has the white-box model as the corresponding kind of model
+
+By the business of an enterprise is understood the function perspective on the enterprise. It is characterized by the products and services that are delivered to the environment.
+A business model of an enterprise is a black-box model type of model
+By the organization of an enterprise is understood the construction perspective on the enterprise. It is characterized by the processes in which the products and services are brought about.
+
+Who needs enterprise ontology?
+An enterprise ontology provides the common understanding of the operation of an enterprise to all stakeholders. In particular the next groups of stakeholders do need it:
+• Managers; managing has become too complex for relying only on the function view on the enterprise. They need to have a global understanding of its operation too.
+• Designers; for (re)designing and (re)engineering the organization of an enterprise, an explicit specification of the business processes is needed that is independent of their implementation.
+• Users; why should the operation of an enterprise be fully opaque to its users? An enterprise ontology would provide the users the transparency they need too!
+
+\section{Teorie PSI ($\Psi$-theory)}
+
+\begin{quote}
+Teorie PSI neboli \ptheory  je teorie o fungování organizací. \cite{Dietz2005}
+\footnote{The \ptheory is a theory about the operation of organizations. \cite{Dietz2005}}
+\end{quote}
+
+Zkratka PSI znamená \textit{Performance in Social Interaction}. Paradigma, na kterém je tato teorie založena říká, že subjekty, kterými jsou lidé v organizaci, vstupují do závazků a dodržují je. Tímto způsobem pak vzniká spolupráce mezi lidmi. %todo fuj%
+
+Cílem \ptheory je umožnit porozumění funkcím (%todo funkcím?%)
+organizace bez vlivu toho, jak jsou tyto funkce ve skutečnosti operativně vykonávány. Jak uvádí \cite{Vejrazkova2013} stejné cíle si klade i metodologie DEMO, takže je jen logické, že je právě na \ptheory postaveno. Porozumění této teorii je tedy nezbytné pro správné pochopení a používání DEMO.
+
+Teorie PSI se skládá ze čtyř axiomů:
+
+\begin{enumerate}
+\item operační,
+\item transakční,
+\item kompoziční,
+\item distinkční.
+\end{enumerate}
+
+\subsection{Operační axiom – The operation axiom}
+První axiom \ptheory se nazývá operační. Jeho základem jsou dvě tvrzení: \cite{Dietz2006}:
+
+\begin{enumerate}
+\item The operation of an enterprise is constituted by the activities of actor roles, which are elementary chunks of authority and responsibility, fulfilled by subjects. %todo wtf!!! %
+\item Při tom provádějí dva druhy činností: koordinační a produkční (\textit{coordination and production acts}). Výsledkem těchto činností jsou koordinační a produkční skutky (\textit{coordination and production facts}).
+\end{enumerate}
+
+Provádět produkční činnost znamená přivádět na svět něco nového a přispívat tak k podnikovým funkcím nebo službám. Produkční skutky pak mohou být hmotné i nehmotné. Příkladem těch hmotných může být například vyrobení pizzy, příkladem nehmotných zase napříkald vynsesení rozsudku soudem.
+
+Provádět koordinační činnost znamená, že subjekty jednají v souladu se závazky k sobě navzájem, které se týkají tvorby produkčních skutků.
+
+Kromě činností a skutků rozlišujeme ještě koordinační a produkční světy. Koordinační svět je možina koordinačních skutků a stejně tak produkční svět je množina produkčních skutků. Oba světy jsou tedy množinou skutků, které byly vytvořeny do konkrétního momentu v čase.
+
+%todo obrázek operačního axiomu%
+
+\subsubsection{Koordinační činnosti}
+Koordinační činnost probíhá mezi dvěma subjekty z nichž jeden se nazývá vykonavatel (\textit{performer}) a druhý (\textit{adressee}). Koordinačních činností je několik typů, které můžeme rozdělit na intenční (\textit{intention}) a propoziční (\textit{proposition}).
+
+Mezi příklady intenčních koordinačních činností řadíme:
+
+\begin{itemize}
+\item požadavek
+\item příslib
+\item dotázání
+\item tvrzení
+\end{itemize}
+
+V případě propozičních koordinačních činností vykonavatel prohlašuje produkční fakt a příslušný čast, kdy má být proveden. %todo prohlašuje ne% 
+
+%todo obrázek týhle sračky%
+
+\subsubsection{Produkční skutky}
+Jak již bylo naznačeno, produkční skutky jsou buď hmotné nebo nehmotné. Zde je nezbytné poukázat na to, kdy tyto skutky začnou v produkčním světě skutečně existovat. Před tím, než se to stane je totiž provést ještě dva koordinační skutky a to oznámení a přijetí. Teprve ve chvíli, kdy jsou tyto koordinační skutky provedeny začíná produkční fakt skutečně existovat v produkčním světě.
+
+%todo doplnit sekci o actorech když bude malej rozsah%
+\subssubection{Aktoři}
+Aktoři jsou aktivní subjekty uvnitř organizace. Jednají autonomně, tedy jejich činnost není vyvolána nějakou událostí. \cite{Dietz2005} U aktorů existují tři důležité vlastnosti, kterými jsou kompetence, autorita a zodpovědnost.
+
+Kompetencí je myšlena schopnost subjektu provádět produkční činnosti a souvesjící koordinační činnosti. \cite{Dietz2005} uvádí příklad instalatéra, který má znalosti a zkušenosti, které jsou nezbytné pro to být profesionálním instalatérem.
+
+Aby mohl být subjekt schopen vykonávat určitou profesi, musí pro to mít nějaký autoritativní základ, jako například být zaměstnancem určité organizace a podobně.
+
+Subjekt je vázán normami, které se vztahují k řečené autoritě nebo k obecným normám platným ve společnosti, které očekávají, že bude svojí autoritu vykonávat odpovědným způsobem. V příkladu instalatéra to znamená, že se očekává, že bude jednat zodpovědně se svými zákazníky.
+
+\subsection{Transakční axiom – The transaction axiom}
+Transkační axiom dále rozebírá produkční a koordinační činnosti a zejména to, jak spolu tyto činnosti souvisí. Základní myšlenkou transakčního axiomu, kterou formuluje \cite{Dietz2005} je, že koordinační činnosti probíhají postupně za sebou ve stejných vzorech. Tyhle vzory se nazývají transakce a vždy zahrnují dva aktory (iniciátor a vykonovatel) a jejich cílem je dosáhnout určitého výsledku, kterým je produkční skutek.
+
+Každá transakce má tři fáze:
+
+\begin{enumerate}
+\item vyjednávací fáze (\textit{order phase}),
+\item prováděcí fáze (\textit{execution phase}),
+\item výsledková fáze (\textit{result phase}).
+\end{enumerate}
+
+V rámci vyjednávací fáze se iniciátor a vykonavatel snaží dojít k dohodě ohledně výsledku, kterého má být dosaženo (co, kdy). V prováděcí fázi je tento výsledek vytvořen a ve výsledkové fázi opět dochází k jednání mezi iniciátorem a vykonovatelem, jestli vytvořený výsledek odpovídá požadavku iniciátora.
+
+Výsledek transakce (produkční skutek) začne existovat až ve chvíli, kdy je dokončena výsledková fáze, tedy produkční skutek je schválen a přijat iniciátorem transakce. Do tohoto okamžiku produkční skutek v našem výkladu neexistuje.
+
+Transakční vzory rozlišujeme 2: základní a standardní.
+
+\subsubsection{Zjednodušený transakční vzor}
+Zjednodušený transakční vzor, jak už jeho název napovídá, je zjednodušený průběh transakce oproštěný od tzv. \textit{unhappy paths} neboli \uv{negativních scénářů}. Popisuje postup transakce v případě, kdy nenastanou žádné problémy, tedy vykonovatel vytvoří produkční skutek, který odpovídá požadavkům iniciátora a tento produkční skutek je tedy bez komplikací akceptován.
+
+Průběh zjednodušeného transakčního vzoru:
+
+\begin{enumerate}
+\item Inicitátor formuluje \textit{požadavek} (\textit{request})
+\item Vykonavatel učiní \textit{příslib} (\textit{promise})
+\item Vykonavatel \textit{provede} požadavek (vytvoří produkční skutek) (\textit{execution})
+\item Vykonavatel \textit{prohlásí} výsledek za hotový (\textit{state})
+\item Iniciátor \textit{akceptuje} výsledek (\textit{accept})
+\end{enumerate}
+
+%todo obrázek%
+
+\subsubsection{Standardní transakční vzor}
+Standardní transakční vzor počítá i se situacemi, které v běžném životě neustále nastávají. Například se situací, kdy vykonavatel nemůže učinit příslib na požadavek iniciátora nebo iniciátor odmítne akceptovat výsledek transakce. Pokud toto nastane, dostává se celá transakce do tzv. \textit{diskusních stavů} (\textit{discussion states}), které mohou být buď \textit{nepřijmuto} (\textit{declined}) nebo \textit{odmítnuto} (\textit{rejected}).
+
+Důvody pro odmítnutí \textit{požadavku} vykonovatelem výchazejí z těchto tří typů tvrzení (\textit{validity claims}):
+
+\begin{itemize}
+\item tvrzení pravdivosti (\textit{claim to truth}),
+\item tvrzení oprávněnosti (\textit{claim to justice}),
+\item tvrzení upřímnosti (\texit{claim to sincerity}).
+\end{itemize}
+
+\subsubsection{Odvolávací vzory}
+V rámci standardního transakčního vzoru je možné odvolat kterýkoliv koordinační čin pomocí odvolávacího vzoru pro daný koordinační čin.
+
+\subsection{Kompoziční axiom – The composition axiom}
+Umět popsat strukturu konkrétní transakce je rozhodně přínosné, ale na ontologický popis organizace umět popsat jednotlivé transakce nestačí. Zde pak nastupuje kompoziční axiom, který se zabývá tím jak jsou jednotlivé transakce, respektive produkční skutky, propojené.
+
+Kompoziční axiom tvrdí, že každá transakce je buď součástí jiné, je transakcí zákazníka organizace nebo je sebeaktivující (\textit{self-activated}). Logickou implikací tedy je, že transakce mohou obsahovat další transakce. \textit{Takto propojené transakce pak tvoří podnikovový proces.}
+
+Jak píše \cite{Dietz2005} kompoziční axiom je tak základem pro definici podnikového procesu, která říká, že podnikový proces je množina volně propojených transakcí. 
+
+%todo případně obrázky odvolávacích vzorů%
+
+\subsection{Distinkční axiom – The distinction axiom}
+Distinkční axiom tvrdí, že lidé mají tři různé typy schopností, které hrají roli v jejich chování.
+
+\begin{itemize}
+\item \textbf{forma} – jak už název napovídá, tato schopnost se týká formy v jaké jsou informace uchovávány, předávány, přijímány atd.
+\item \textbf{informa} – v tomto případě jde o obsah informace a její komunikaci mezi lidmi a plně abstrahujeme od formy v jaké je informace komunikována.
+\item \textbf{performa} – jedná se o nejvyšší formu lidských schopností. Jde zde o vytváření nových originálních věcí přímo nebo nepřímo pomocí komunikace. To se týká závazků, rozhodnutí, posuzování apod.
+\end{itemize}
+
+Jak píše \cite{Vejrazkova2013} pro jeden infologický čin (performa) musíme provést více infologických činů (informa) a pro jeden infologických činů musíme provést více datalogických činů (forma). Toto rozlišení umožňuje výrazně zjednodušit procesní modely, protože se při jejich tvorbě zabýváme pouze ontologickými činy.
+
+\section{Teorém organizace – The organization theorem}
+\section{Notace}
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{Bibliography}
+
+\end{document}
