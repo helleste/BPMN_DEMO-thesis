@@ -194,24 +194,100 @@ Jak píše \cite{Vejrazkova2013} pro jeden infologický čin (performa) musíme 
 
 \section{Teorém organizace – The organization theorem}
 
-Moreover, at the ontological level of abstraction, which coincides with the performa ability, the number of actor roles is small, and therefore very well manageable.
+V předchozí sekci jsou popsány 4 axiomy \psitheory, které přináší z různých úhlů pohled na chod organizace, její operace a uspořádání. Tyto pojmy však samy o sobě nestačí k vytvoření ontologického modelu, který bude výstižný, úplný, ucelený a konzistentní. Teorém organizace se zabývá právě tím.
 
-The question ad- dressed in this section is how these benefits can be combined into one con- cise, comprehensive, coherent, and consistent notion of enterprise, such that the (white-box) model of this notion of enterprise may rightly be called an ontological model of an enterprise. The answer to the question is the organization theorem.
+Dle teorému organizace je každá organizace strukturovaná jako heterogenní systém, který je tvořen třemi vrstvami, z nichž každá představuje jeden homogenní systém: \cite{Dietz2006}
 
-The organization theorem states that the organization of an enterprise is a heterogeneous system that is constituted as the layered integration of three homogeneous systems: the B-organization (from Business), the I- organization (from Intellect), and the D-organization (from Document). The relationships among them are that the D-organization supports the I- organization, and the I-organization supports the B-organization. The inte- gration is established through the cohesive unity of the human being.
+\begin{itemize}
+\item B-organizace (B=Business)
+\item I-organizace (I=Intellect)
+\item D-organizace (D=Document)
+\end{itemize}
 
-They differ only in the kind of production: the production in the B-organization is ontological, the production in the I- organization is infological, and the production in the D-organization is datalogical.
+Mezi těmito vrstvami (systémy) existuje velká provázanost. D-organizace podporuje I-organizaci a I-organizace podporuje B-organizaci. Provázanost mezi těmito systému zajišťuje člověk. U tohoto konstatování je třeba se zastavit. Rozdělení organizace do tří systému si není možné představovat tak, že existují v organizaci nějaká B-oddělení, I-oddělení nebo D-oddělení nebo dokonce B-lidé, I-lidé či D-lidé. Naopak v realitě nic takového neexistuje. Lidi i skupiny lidí zastávají role ve všech systémech najednou a volně mezi nimi \uv{přechází}.
+
+Rozdíl mezi jednotlivými systémy tvoří jejich výstupy. Jak uvádí \cite{Dietz2006} výstup B-organizace je ontologický, výstup I-organizace je infologický a výstup D-organizace je datalogický.
 
 %todo obrázek%
 
-The triangular shape in Fig. 13.1 means that there is nothing ‘above’ the ontological level. In other words, the knowledge of the B-organization of an enterprise is a complete knowledge of the essence of the enterprise; all the rest is merely realization and implementation.
+Na vrcholu této pyramidy je B-organizace neboli ontologický level. Tím je naznačeno, že porozumění chodu organizace na této úrovni je kompletní, tedy není z něj nic vynecháno.
 
-In order to discuss the exact meaning of the integration of the three as- pect organizations into one heterogeneous system, we choose the I- organization as the starting point. When we take the function perspective, we see that the I-organization provides information services to the con- struction of the B-organization, i.e., to the B-actors.
+Pro lepší pochopení provázanosti jednotlivých systémů v organizaci bude nyní jejich provázanost hlouběji rozebrána. I-organizace poskytuje \uv{informační zdroje} pro fungování B-organizace. \cite{Dietz2006} uvádí příklad s výpočtem denního obratu, který B-aktor v B-organizaci chce vytvořit. Za tímto účelem je ale nejprve v I-organizaci I-aktorem třeba provést několik jasně definovaných výpočtů (I-transakce) a následně doručit B-aktorovi výsledek, kterým je právě denní obrat.
 
-An example of an I-transaction is one in which the daily total of a well-defined set of values is calculated, and in which the result, labeled “turnover”, is delivered to the initiator of that transaction. So, for the executing I-actor, turnover is defined as the sum to- tal of something, contrary to the initiating actor.
+Dále je nutné rozebrat propojení mezi I-organizací a I-aktorem s D-organizaci a D-aktorem. V příkladu počítání denního obratu musí nejdříve I-aktor sčítající jednotlivé položky, které denní obrat tvoří, někde tyto položky (čísla) opatřit. Tyto údaje získá samozřejmě v D-organizaci pomocí D-transakcí.
 
-Let us have a closer look at the I-actor who produced the turnover value as the result of the conducted I-transaction. The competence of this actor clearly is to do additions (and perhaps to perform other mathematical op- erations). In order to compute the sum of the individual figures, he or she must dispose of the figures. How does this actor get these figures, or, more generally, how does an I-actor get information? The answer is quite similar to the answer that was given to the question of how a B-actor acquires knowledge. It reads that the subject fulfilling the role of I-actor has to take his or her shape of D-actor, and, in that shape, initiate a D-transaction of which the result is the delivery of a document that contains the desired in- formation. 
-\section{Notace}
+Jak už bylo naznačeno výše, není důležité, jestli v tomto konkrétním případě je B-aktor, I-aktor a D-aktor několik osob nebo jeden člověk a stejně tak B-organizace, I-organizace či C-organizace mohou být na několika kontinentech nebo uvnitř jedné kanceláře.
+
+\section{Metodologie}
+V této sekci bude rozebrána vlastní metodologie DEMO. Rozebrány budou zejména dvě věci: typy modelů, ze kterých se DEMO skládá a doporučený postup, jak v DEMO modelovat. Pro přesný popis jednotlivých elementů je možné dohledat například v \cite{2006}.
+
+Jak píše \cite{Vejrazkova2012}, základními elementy DEMO jsou \textit{ontologické transakce} a \textit{aktoři}.
+
+\subsection{Ontologická transakce}
+Ontologické transakce jsou transakce, jejichž výsledkem je vytvoření nčeho nového, ať už se jedná o věc hmotnou či nehmotnou. Jak už uvádí distinkční axiom \ptheory, který byl popsán výše, ontologické transakce probíhají na ontologické úrovni (performa).
+
+\subsection{Aktor}
+Každá transakce má vždy jednoho iniciátor a jednoho vykonavatele.
+
+\subsection{Modely DEMO (Aspect models)}
+Struktura a popis jednotlivých vzorů vychází zejména z \cite{Vejrazkova2003} a \cite{Dietz2005}.
+
+Jak už bylo zevrubně popsáno v kapitole 2 %todo přidat odkaz%
+, DEMO se skládá ze 4 hlavních modelů a dalších podmodelů (většinou diagramy nebo tabulky). Jedná se o:
+
+\begin{itemize}
+\item Construction Model (CM)
+\item Process Model (PM)
+\item State Model (SM)
+\item Action Model (AM)
+\end{itemize}
+
+Každý z těchto modelů se pohybuje na jiné úrovni abstrakce, což se dá dobře popsat na principu pyramidy, který je naznačen na obrázku. %todo link na obrázek%
+Construction Model, který je usazen na vrcholu této pyramidy pracuje s nejvyšší úrovní abstrakce a naopak Action Model, který je na obrázku zobrazen při základu pyramidy je už velmi podrobný a detailní. Všechny tyto modely dohromady tvoří kompletní ontologickou znalost organizace.
+
+\subsubsection{Construction Model}
+Jak už jeho název napovídá, Construction Model se zabývá konstrukcí organizace na té nejvyšší úrovni abstrakce. Construction Model tvoří dva podmodely: \textit{Interaction Model (IAM)} a \textit{Interstriction Model (ISM)}. Cílem Construction Modelu je v podstatě jen identifikovat jednotlivé ontologické transakce a jejich výsledky. 
+
+\subsubsubsection{Interaction Model (IAM)}
+Interaction Model (IAM) zobrazuje aktory (inicitátory a exekutory) a transakce, které tito aktoři vykonávají. Jedná se o vysoce abstraktní pohled, takže v něm není vidět jednotlivé kroky transakcí, ale čistě jen interakci mezi aktory, která je prováděna právě prostřednictvím transakce.
+
+IAM se skládá z Transaction Result Table (TRT) a Actor Transaction Diagram (ATD). TRT je jednoduchá tabulka indetifikovaných ontologických transakcí a jejich výsledků. ATD je diagram, který ukazuje transakce mezi aktory.
+
+\subsubsubsection{Interstriction Model (ISM)}
+ISM je založen na IAM a obsahuje 2 diagramy a tabulku:
+
+\begin{itemize}
+\item \textbf{Actor Bank Diagram (ABD)} – zobrazuje vztah mezi aktory a informančími bankami
+\item \textbf{Organization Construction Diagram (OCD)} – jedná se o kombinaci ABD s ATD. Tedy aktoři, transakce mezi nimi a navíc ještě propojení s informačními bankami.
+\item \textbf{Bank Contents Table (BCT)} – tabulka popisující obsah bank faktů.
+\end{itemize}
+
+\subsubsection{Process Model (PM)}
+Pokud se v Construction Model nacházel na vysoké úrovni abstrakce, tak Process Model jde o krok více do detailu. Kde CM použe pojmenovával transakce, PM rozvádí jejich jednotlivé kroky tak, jak jsou popsány v transakčním axiomu \ptheory. Zároveň ukazuje také vztahy mezi jednotlivými transakcemi. Stále je potřeba mít na paměti, že ačkoliv PM detailně popisuje strukturu podnikového procesu, tak je stále abstrahován od implementace a vlastní realizace daného procesu včetně takových věcí jako je výměna dat apod.
+
+V případě přípravy na vývoj informačního systému je PM dobré místo, odkud začít se soupisem požadavků a případů užití.
+
+
+PM se skládá z:
+
+\begin{itemize}
+\item \textbf{Process Structure Diagram (PSD)} – jak už název napovídá, zobrazuje strukturu procesu. Jak už bylo popsáno výše, podnikový proces se skládá z jedné či více vzájemně provázaných transakcí. Kroky, které nejsou popsány v PSD nejsou povolené a PSD by měl obsahovat i odvolávací vzory.
+\item \textbf{Information Use Table (IUT)} – přímo se váže na State Model. Pro každou objektovou třídu, typ skutku a výsledku ze State Modelu. %todo ???%
+\end{itemize}
+
+\subsubsection{State Model (SM)}
+State Model se zabývá především p-světem – jeho objektovými třídami, typy skutků, typy výsledků a existenčními ontologickými pravidly. SM je přímo navázaný na Action Model, zobrazuje ale pouze informace, které jsou relevantní pro chod organizace. SM obsahuje:
+
+\begin{itemize}
+\item \textbf{Object Fact Diagram (OFD)} – tento diagram zobrazuje vztah mezi objektovými třídami a typy výsledků.
+\item \textbf{Object Property List (OPL)} – popisuje objektové třídy a jejich vlastnosti.
+\end{itemize}
+
+\subsubsection{Action Model (AM)}
+Action Model existuje v metodologii DEMO na té nejnižší úrovni abstrakce a tudíž je velmi detailní a ostatní modely na něm stojí, AM popisuje především pravidla, kterými se operace v organizaci řídí. Tato pravidla jsou v AM popsána slovně pomocí pseudo-algoritmického jazyka, ve kterém specifikují co má být uděláno při požadavku, příslibu, prohlášení a akceptaci.
+
+Už z popisu výše je zřejmé, že AM bude velmi užitečný nástroj při implementaci informačního softwaru. Action Model je ontologicky atomický, což znamená, že již nemůže být dále rozdělen na podmodely.
+
 
 \nocite{*}
 \bibliographystyle{plain}
