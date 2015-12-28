@@ -44,7 +44,7 @@ Zajímavá zjištění uvádí \cite{Caetano2012}, kde při svém výzkumu aplik
 
 Je tedy zřejmé, že absence pevného teoretického je reálným problémem (ač ho uživatelé sami nepociťují \cite{VanNuffel2009}) a jeho vytvoření by zvýšilo kvalitu vytvářených modelů podnikových procesů.
 
-\section{Benefity kombinace DEMO a BPMN}
+\subsection{Benefity kombinace DEMO a BPMN}
 Hlavním přínosem této práce je vytvoření rámce, který vychází z metodologie DEMO a slouží ke stanovéní základů metodologie, která v budoucnu umožní vytváření kvalitnějších BPMN modelů. Slovo \uv{kvalitnější} si na tomto místě zaslouží hlubší rozebrání.
 
 Cílem této práce není vytvoření metodologie, která bude dokonale kopírovat DEMO a v podstatě jen umožní vytvoření DEMO modelů za použití notace BPMN. Abstrahujme zde od toho, zda je to vůbec možné, to musí být potvrzeno dalším výzkumem. Pokud bychom se k takovému přístupu rozhodli, nedosáhli bychom vyřešení problémů uvedených v předchozí sekci \ref{sec:motivace}. Cílem této práce je nalézt takový teoretický rámec, který bude stále pochopitelný pro uživatele a umožní jim vytvářet kvalitnější BPMN modely, ale nebude s sebou nést dlouhou křivku učení, kterou obsahuje DEMO. Co je tedy míněno \uv{kvalitnějšími} BPMN modely?
@@ -55,13 +55,42 @@ Cílem této práce není vytvoření metodologie, která bude dokonale kopírov
 \item Modely budou oproštěné od implementačních detailů a budou tedy zachycovat jen skutečné jádro organizace
 \end{itemize}
 
+We consider a process model to be consistent if its activities comply with the business transaction pattern. 
+
+If a process complies with the transac- tion pattern then its specification describes who is responsible for the execution of its activities and why each activity is being performed. However, a business process can be consistent but still be missing activities required to fully produce the intended transactional results. This means that a complete process must not only be consistent but also specify all transactional activities.
+
+A business process model is consistent if the order of its actions complies with the transactional axiom. A business process model is complete if all transactional pattern steps can be mapped to its activities.
+
+Thus, a process model that is both consis- tent and complete is a process that fully specifies an end-to-end collaboration pattern between a service requester and a service provider.
+
 %todo jaké nebudou%
 
 \section{Existující možnosti společného využití obou přístupů} \label{sec:existujici_moznosti}
-Vhodnost spojení obou přístupů neušla pozornosti jiných autorů, například \cite{VanNuffel2009} nebo %todo doplnit%
-. Ve stručnosti si tak tyto přístupy nyní popíšeme, protože i na jejich zjištěních autor této práce svůj návrh metodologie staví.
+Vhodnost spojení obou přístupů neušla pozornosti jiných autorů, například \cite{VanNuffel2009}, \cite{Caetano2011} nebo \cite{Caetano2012}. Ve stručnosti budou na tomto místě tyto přístupy popsány, protože i na jejich zjištěních autor této práce svůj návrh metodologie staví.
 
-Práce \cite{VanNuffel2009} nazvaná \textit{Enhancing the Formal Foundations of BPMN by Enterprise Ontology} se na teoretické úrovni zabývá možností, jak využít enterprise ontology jako ontologický základ pro vytváření BPMN modelů a argumentuje, že fundamentální koncepty BPMN jsou \uv{podobné} konceptům DEMO:
+\subsection{Analýza procesních modelů pomocí $\Psi$-Theory} \label{sec:analyza_proc_modelu_psi}
+V \cite{Caetano2012} a \cite{Caetano2011} se autor zabývá využitím $\Psi$-Theory pro analýzu modelů podnikových procesů s cílem zvýšit jejich \textit{kompletnost} a \textit{konzistentnost}. Za tímto účelem představuje autor metodu jejímž vstupem je procesní model v notaci BPMN. Metoda se skládá z následujících čtyř kroků:
+
+\begin{enumerate}
+\item Provedení analýzu vstupního BPMN modelu s cílem klasifikovat jednotlivé elementy jako C-act nebo P-act a také rozlišit, zda jsou ontologické, infologické nebo datalogické. Dále je nutné se pokusit v modelu identifikovat Actory odpovědné za vykonání C-actů a P-actů.
+
+Ontologické C-acty jsou následně klasifikovány dle jednotlivých kroků \textit{standardního transakčního vzoru}.
+\item V dalším kroku je vygenerován DEMO Process Structure Diagram (PSD) na základě seznamu Actorů, transakcí, C-actů a P-actů získaných v předchozím kroku.
+\item Ve třetím kroku je PSD diagram z předchozího kroku doplněn o C-acty a P-acty, které v něm chybí oproti transakčnímu vzoru. Dále je vytvořen DEMO Actor Transaction Diagram (ATD) pro zobrazení návaznosti transakcí dle \textit{Composition axiomu}.
+\item V následujícím kroku je provedena revize vstupního BPMN modelu a ten je na odpovídajících místech doplněn o elementy představující chybějící C-acty nebo P-acty identifikované v předchozím kroku. Takto revidovaný vstupní model je nyní \textit{kompletní} a \textit{konzistentní} dle $\Psi$-Theory.
+\end{enumerate}
+
+Opakovanou aplikací této metody za účasti doménových i procesních vlastníků je možné dosáhnout procesních modelů, které uspokojí business uživatele a zároveň budou \textit{kompletní} a \textit{konzistentní} dle $\Psi$-Theory. Iterativní způsob aplikace představené metody ilustruje obrázek \ref{fig:caetano-bpmn-demo-method}.
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{obrazky/caetano-bpmn-demo-method}
+\caption{Iterativní aplikace metody dle \cite{Caetano2011}}
+\label{fig:caetano-bpmn-demo-method}
+\end{figure}
+
+\subsection{Rozšíření formálních základů BPMN pomocí Enterprise Ontology}
+
+Práce \cite{VanNuffel2009} nazvaná \textit{Enhancing the Formal Foundations of BPMN by Enterprise Ontology} se na teoretické úrovni zabývá možností, jak využít Enterprise ontology jako ontologický základ pro vytváření BPMN modelů a argumentuje, že fundamentální koncepty BPMN jsou \uv{podobné} konceptům DEMO:
 
 \begin{itemize}
 \item Koncept \textit{aktivity} je \uv{podobný} konceptu výkonu (performance) nebo DEMO P-factu nebo určité komunikaci o tomto výkonu neboli DEMO C-factu.
@@ -82,6 +111,12 @@ Na tomto základě a následnou důkladnou analýzou axiomů \ptheory autoři do
 \item Pouze iniciátor kořenového P-factu není iniciátorem žádného jiného P-factu.
 \item U každého modelu existuje alespoň jeden P-fact, který je ve vztahu k actorovi, který je pouze exekutorem tohoto P-factu.
 \item Existuje množina osmi atributů (Request, Promise, etc.), které se unikátně vztahují ke konkrétnímu C-factu, která  popisuje aktuální stav komunikace ohledně úkonu (vytvoření P-factu).\end{itemize}
+
+Autoři ve své práci představují nástin dvou přístupů, jak využít DEMO a Enterprise Ontology pro vytváření či vylepšení BPMN modelů. Jedním z přístupů je analýza a doplnění existujících BPMN modelů na základě čtyř základních axiomů \ptheory v základu podobně jak bylo popsáno v sekci \ref{sec:analyza_proc_modelu_psi}. 
+
+Pro tuto práci přínosnější je fakt nástin druhé možnosti – vytváření nových BPMN modelů na formálním základě, který z DEMO a Enteprise Ontology vychází. Vytváření takového BPMN modelu začíná sběrem informací o organizaci, jejím chodu a funkci. Dalším krokem je aplikace \textit{Distinction axiomu} a  vyřazení všech informací, které nejsou ontologické. Třetím krokem je pak ve zbylých informacích nalézt ontologické transakce a Actory, kteří vystupují v rolích Actor-Initiator a Actor-Executor ve vztahu k těmto transakcím. Závěrečným krokem je pak vytvoření DEMO Actor-Transaction Diagramu, který zobrazuje vztah mezi transakcemi a Actory. 
+
+Výsledkem tohoto postupu tedy není BPMN model, ale kroky v něm nastíněné je nezbytné provést, aby bylo možné vytvořit BPMN model, který je \textit{konzistentní} a \textit{kompletní}. Metodologie nastíněná v této práci právě na těchto krokech staví a posouvá je směrem ke skutečnému BPMN modelu.
 
 \section{Návrh metodologie}
 \subsection{Výchozí předpoklady}
@@ -186,7 +221,7 @@ V tomto zobrazení nejsou zobrazeny žádné C-facty, což je z hlediska DEMO pr
 
 \subsection{Vyjádření pomocí Úloh a Signálů}
 
-Další možností, jak transakční vzor zobrazit je využití \textit{Úloh} a \textit{Signálů}. Narozdíl od způsobu popsaného v sekci \ref{sec:vyjadreni_ulohy} zde \textit{Sekvenční toky} slouží pouze k vyjádření pořadí, ve kterém jsou C-acty prováděny a pro převádění Agendy mezi Actory. O reprezentaci vzniklého C-factu se zde však stará BPMN element Signál, což poskytuje dvě velké výhody. Jednak je díky tomu C-fact v modelu vizuálně zastoupen, takže se výsledný model více blíží transakčnímu vzoru tak, jak ho definuje DEMO a jednak BPMN element Signál, který dle specifikace \cite{Omg2011} i \cite{Silver2011} je možné použít ke komunikaci uvnitř procesu, respektive k odeslání neadresné zprávy komukoliv, kdo je připraven jí naslouchat. Pro reprezentaci Actorů jsou v tomto případě opět použity \textit{Plavecké dráhy} uvnitř \textit{Bazénu}, který zastřešuje celou transakci. C-facty, ve kterých transakce končí jsou i v tomto případě zastoupeny pomocí BPMN elementu \textit{Konečná událost}.
+Další možností, jak transakční vzor zobrazit, je využití \textit{Úloh} a \textit{Signálů}. Narozdíl od způsobu popsaného v sekci \ref{sec:vyjadreni_ulohy} \textit{Sekvenční toky} v tomto případě slouží pouze k vyjádření pořadí, ve kterém jsou C-acty prováděny a pro převádění Agendy mezi Actory. O reprezentaci vzniklého C-factu se zde však stará BPMN element Signál, což poskytuje dvě velké výhody. Jednak je díky tomu C-fact v modelu vizuálně zastoupen, takže se výsledný model více blíží transakčnímu vzoru tak, jak ho definuje DEMO a jednak BPMN element Signál, který dle specifikace \cite{Omg2011} i \cite{Silver2011} je možné použít ke komunikaci uvnitř procesu, respektive k odeslání neadresné zprávy komukoliv, kdo je připraven jí naslouchat. Pro reprezentaci Actorů jsou v tomto případě opět použity \textit{Plavecké dráhy} uvnitř \textit{Bazénu}, který zastřešuje celou transakci. C-facty, ve kterých transakce končí jsou i v tomto případě zastoupeny pomocí BPMN elementu \textit{Konečná událost}.
 
 Na obrázku \ref{fig:Zk_trans_ulohy_signaly} vidíme \textit{základní transakční vzor} pomocí Úloh a Signálů. Lze vidět, že po provedení C-actu \textit{Request T1} se Sekvenční tok přesouvá do Signálu \textit{T1 Requested}, který vyjadřuje vzniklý C-fact. Předpokládáme, že Actor-Executor tomuto Signálu naslouchá a může tak provést C-act \textit{Promise T1}.
 
@@ -205,11 +240,19 @@ Obrázek \ref{fig:St_trans_ulohy_signaly} zobrazuje \textit{standardní transak�
 \end{figure}
 
 \subsection{Vyjádření pomocí Úloh a Zpráv}
+Jiným přístupem k vyjádření transakčního vzoru je využít ke komunikaci mezi Actory BPMN element \textit{Zpráva}. Jelikož specifikace BPMN předepisuje, že Zpráva může být použita pouze ke komunikaci mezi \textit{Bazény}, musí být v tomto případě pro každého Actora vyhrazen zvláštní Bazén. Na obrázku \ref{fig:Zk_trans_ulohy_zpravy} lze vidět \textit{základní transakční vzor} vyjádřený tímto způsobem.
 
+Předávání Agendy v tomto případě probíhá pomocí zaslání Zprávy a  \textit{Průběžné události (Intermediate event)}. Jakmile \textit{Actor-Initiator} provede C-act \textit{Request T1}, vyšle Zprávu reprezentující C-fact, kterou přijme \textit{Actor-Executor} na druhé straně pomocí Počáteční události typu \textit{Catch (Message)}, čímž vznikne instance procesu na straně Executora. O každém provedeném C-actu je pak druhý Actor informován pomocí Zprávy. 
 
-V případě, že bychom nepoužili mezistavové zprávy, dostali bychom se do problémů hned v případě, že by se Executor rozhodl pro Decline. V takovém případě Executor vyšle zprávu Initiatorovi a ten může buď transakci zastavit použitím Quit nebo poslat Request znovu. Jenže sekvenční tok v případě Executora je stále v situaci Decline T1 a bez mezistavové zprávy (neboli zprávy o rozhodnutí jak se Initiator rozhodl naložit s T1 Declined) nemůže dále pokračovat. Částečným řešením by v tomto případě mohlo být použít na tomto místě koncový stav T1 Declined a instanci procesu u Executora ukončit. V případě, že by se Initiator rozhodl transakci neukončit a poslal request znovu, což by vytvořilo novou instanci procesu na straně Executora.
+V případě základního transakčního vzoru se většina problematických míst tohoto přístupu neprojevuje. K diskusi je však rozdělení Actorů do dvou Bazénů, které v podstatě znamená rozdělení transakce na dva podprocesy, jeden na straně Initiatora a jeden na straně Executora. Toto je poměrně výrazné odchýlení od transakčního axiomu tak, jak ho definuje DEMO a přináší komplikace, které se projeví v případě \textit{standardního transakčního vzoru}.
 
-Ještě větší problém by však nastal v případě, kdy by Initiator po obdržení T1 State rozhodl tento State odmítnout a provést Reject T1. Executor by následně obdržel zprávu o Rejectu a musel by rozhodnout, zda transakci zastavit provedením Stop nebo provést State znovu. Jenže bez mezistavových zpráv se Initiator nemá šanci dozvědět výsledek tohoto rozhodnutí Executora, které může být buď zastavení transakce provedením Stop nebo nové provedení State. Řešení popsané v předchozím odstavci zde nebude fungovat, protože pokud by se Executor rozhodl provést znovu State, proces na straně Initiatora by již byl ukončen. Jediným řešením jsou tedy mezistavové zprávy, které informují druhého Actora o rozhodnutích v případě, kdy by mohlo dojít k deadlocku.
+Ve standardním transakčním vzoru totiž existují místa, která při maximální snaze o dodržení standardního transakčního vzoru z DEMO mohou vyústit v deadlock. Jedná se o případy, kdy se Actor rozhodne zmamítnout výsledek C-actu \textit{Request} nebo \textit{State}. V takovém případě totiž musí Actor odpovědný za C-act rozhodnout, zda transakci zastavit nebo se pokusit o C-act znovu. Transakční vzor dle DEMO, ale nepočítá s tím, že by transakce byla rozdělena mezi dva procesy a že by měl existovat mechanismus, jak o tomto rozhodnutí informovat druhého Actora. Řešením je v tomto případě přidat do transakčního vzoru mezistavové zprávy.
+
+V případě, že bychom nepoužili mezistavové zprávy, nastal by problém hned v případě, že by se Actor-Executor rozhodl pro \textit{Decline T1}. V takovém případě Executor vyšle zprávu Actoru-Initiatorovi a ten může buď transakci zastavit použitím \textit{Quit T1} nebo poslat \textit{Request T1} znovu. Jenže sekvenční tok v případě Executora je stále v situaci Decline T1 a bez mezistavové zprávy (neboli zprávy o rozhodnutí jak se Initiator rozhodl naložit s \textit{T1 Declined}) nemůže dále pokračovat. Částečným řešením, které můžeme vidět na obrázku \ref{fig:St_trans_ulohy_zpravy}, by v tomto případě mohlo být použít na tomto místě koncový stav T1 Declined a instanci procesu u Executora ukončit. V případě, že by se Initiator rozhodl transakci neukončit a poslal Request znovu, vznikla by nová instanci procesu na straně Executora.
+
+Větší problém však nastane v případě, kdy by Initiator po obdržení \textit{T1 State} rozhodl tento State odmítnout a provést \textit{Reject T1}. Executor by následně obdržel zprávu o Rejectu a musel by rozhodnout, zda transakci zastavit provedením \textit{Stop T1} nebo provést \textit{State T1} znovu. Jenže bez mezistavových zpráv se Initiator nemá šanci dozvědět výsledek tohoto rozhodnutí Executora, které může být buď zastavení transakce provedením Stop T1 nebo nové provedení State. Řešení popsané v předchozím odstavci zde nebude fungovat, protože pokud by se Executor rozhodl provést znovu State T1, proces na straně Initiatora by již byl ukončen. Jediným řešením jsou tedy mezistavové zprávy, které informují druhého Actora o rozhodnutích v případě, kdy by mohlo dojít k deadlocku. Toto řešení lze vidět na obrázku \ref{fig:St_trans_ulohy_zpravy_mezistav}. Jakmile nastane Decline T1 proces na straně Executora se přesune do Průběžné události (\textit{Multiple}) a čeká na příchod mezistavové zprávy od Initiatora, jestli se rozhodl transakci ukončit nebo pošle Request znovu. Na základě toho buď proces ukončí nebo ho přesune na začátek a bude čekat na Request od Initiatora. Analogicky je pak mezistavových zpráv využito v případě State.
+
+Využití mezistavových zpráv je však výrazným odchýlením od transakčního axiomu, protože tyto zprávy fakticky přidávají další komunikaci, se kterou transakční axiom nepočítá. Z tohoto důvodu vyhpdnocujeme tento způsob pro vyjádření transakčního axiomu jako nevhodný. 
 
 \begin{figure}[H]\centering
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{obrazky/transaction-basic-messages}
@@ -218,12 +261,26 @@ Ještě větší problém by však nastal v případě, kdy by Initiator po obdr
 \end{figure}
 
 \begin{figure}[H]\centering
-\includegraphics[width=1.3\textwidth,height=1.3\textheight,keepaspectratio]{obrazky/transaction-standard-messages}
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{obrazky/transaction-standard-messages-1}
 \caption{Standardní transakční vzor pomocí Úloh a Zpráv}
 \label{fig:St_trans_ulohy_zpravy}
 \end{figure}
 
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{obrazky/transaction-standard-messages}
+\caption{Standardní transakční vzor pomocí Úloh a Zpráv (včetně mezistavových Zpráv)}
+\label{fig:St_trans_ulohy_zpravy_mezistav}
+\end{figure}
+
 \section{Návrh postupu návrhu BPMN modelů dle zásad DEMO}
+
+\subsection{Krok 1: Získání textového popisu procesu}
+
+\subsection{Krok 2: Aplikace Distinction axiomu}
+The goal of the bottom-up phase is not to translate the original model to a DEMO process model but to identify its pro- duction and coordination acts. These abstracted produc- tion and coordination acts are then modelled in DEMO and analysed according to the Ψ-theory axioms to assess their consistency and completeness.
+
+\section{Další výzkum}
+BPMN is not a sentential language, but a graphical language, so some methodology must be found to represent graphical BPMN models in a sentential form. If we have this sentential form, then for- mal correctness can be verified using a grammar. Such a grammar is currently researched by the authors.
 
 \nocite{*}
 \bibliographystyle{plain}

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  28 DEC 2015 02:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  29 DEC 2015 00:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000707.tex
-(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000707.tex
+**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000999.tex
+(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000999.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -309,8 +309,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
-) (./TSWLatexianTemp_000707.aux)
-\openout1 = `TSWLatexianTemp_000707.aux'.
+) (./TSWLatexianTemp_000999.aux)
+\openout1 = `TSWLatexianTemp_000999.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -396,32 +396,57 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
  [2] [3]
-Overfull \hbox (7.60739pt too wide) in paragraph at lines 67--68
+Overfull \hbox (17.61171pt too wide) in paragraph at lines 78--79
+\OT1/cmr/m/n/10 na z^^Saklad^^Te se-znamu Ac-tor^^Wu, trans-akc^^S^^P, C-act^^Wu a P-act^^Wu z^^S^^Pskan^^Sych v p^^Tredchoz^^S^^Pm
+ []
+
+
+Overfull \hbox (4.36183pt too wide) in paragraph at lines 83--84
+[]\OT1/cmr/m/n/10 Opakovanou apli-kac^^S^^P t^^Seto me-tody za ^^Su^^Tcasti dom^^Senov^^Sych i pro-cesn^^S^^Pch vlastn^^S^^Pk^^Wu
+ []
+
+<obrazky/caetano-bpmn-demo-method.png, id=18, 903.375pt x 607.26875pt>
+File: obrazky/caetano-bpmn-demo-method.png Graphic file (type png)
+ <use obrazky/caetano-bpmn-demo-method.png>
+Package pdftex.def Info: obrazky/caetano-bpmn-demo-method.png used on input line 86.
+(pdftex.def)             Requested size: 345.00911pt x 231.92279pt.
+ [4]
+Overfull \hbox (7.60739pt too wide) in paragraph at lines 96--97
 []\OT1/cmr/m/n/10 Koncept \OT1/cmr/m/it/10 ak-ti-vity \OT1/cmr/m/n/10 je []po-dobn^^Sy\ kon-ceptu v^^Sykonu (per-for-mance) nebo DEMO
  []
 
-
-Overfull \hbox (3.0562pt too wide) in paragraph at lines 81--82
+[5 <./obrazky/caetano-bpmn-demo-method.png>]
+Overfull \hbox (3.0562pt too wide) in paragraph at lines 110--111
 []\OT1/cmr/m/n/10 Actor, kter^^Sy je exe-ku-to-rem n^^Tejak^^Seho P-factu je z^^Sarove^^Tn inici^^Satorem ka^^Tzd^^Seho
  []
 
-[4] [5]
-Overfull \hbox (4.60962pt too wide) in paragraph at lines 117--118
+
+Overfull \hbox (9.00064pt too wide) in paragraph at lines 118--119
+\OT1/cmr/m/n/10 rol^^S^^Pch Actor-Initiator a Actor-Executor ve vztahu k t^^Temto trans-akc^^S^^Pm. Z^^Sav^^Tere^^Tcn^^Sym
+ []
+
+
+Overfull \hbox (4.36072pt too wide) in paragraph at lines 120--121
+[]\OT1/cmr/m/n/10 V^^Sysledkem to-hoto po-stupu tedy nen^^S^^P BPMN mo-del, ale kroky v n^^Tem nast^^S^^Pn^^Ten^^Se
+ []
+
+[6] [7]
+Overfull \hbox (4.60962pt too wide) in paragraph at lines 152--153
 \OT1/cmr/m/n/10 nav^^Saz^^San na C-act, kter^^Sy jej []vytv^^Sa^^Tr^^S^^P\. V BPMN lze C-fact vyj^^Sad^^Trit t^^Tremi zp^^Wusoby: 
  []
 
-[6]
-Overfull \hbox (6.36177pt too wide) in paragraph at lines 132--133
+
+Overfull \hbox (6.36177pt too wide) in paragraph at lines 167--168
 []\OT1/cmr/m/n/10 Actor-Inici^^Sator je o vzniku P-factu in-for-mov^^San ve chv^^S^^Pli, kdy je mu p^^Tredlo^^Tzen
  []
 
-
-Overfull \hbox (7.13959pt too wide) in paragraph at lines 157--158
+[8]
+Overfull \hbox (7.13959pt too wide) in paragraph at lines 192--193
 \OT1/cmr/m/n/10 Pro me-to-do-lo-gii, kter^^Sa je nast^^S^^Pn^^Tena v t^^Seto pr^^Saci je transak^^Tcn^^S^^P vzor dle transak^^Tcn^^S^^Pho
  []
 
-[7]
-Overfull \hbox (28.9508pt too wide) in paragraph at lines 172--173
+[9]
+Overfull \hbox (28.9508pt too wide) in paragraph at lines 207--208
 \OT1/cmr/m/n/10 v^^Tcetn^^Te v^^Tsech []ne^^Tst[]astn^^Sych sc^^Sen^^Sa^^Tr^^Wu (unhappy paths)\. Oproti z^^Sakladn^^S^^Pmu transak^^Tcn^^S^^Pmu
  []
 
@@ -432,14 +457,14 @@ Package epstopdf Info: Source file: <obrazky/transaction-basic-tasks.eps>
 (epstopdf)                    date: 2015-12-27 15:46:28
 (epstopdf)                    size: 22091 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/transaction-basic-tasks-eps-converted-to.pdf obrazky/transaction-basic-tasks.eps>
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
-<obrazky/transaction-basic-tasks-eps-converted-to.pdf, id=36, 589.20125pt x 827.09pt>
+<obrazky/transaction-basic-tasks-eps-converted-to.pdf, id=45, 589.20125pt x 827.09pt>
 File: obrazky/transaction-basic-tasks-eps-converted-to.pdf Graphic file (type pdf)
  <use obrazky/transaction-basic-tasks-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/transaction-basic-tasks-eps-converted-to.pdf used on input line 177.
+Package pdftex.def Info: obrazky/transaction-basic-tasks-eps-converted-to.pdf used on input line 212.
 (pdftex.def)             Requested size: 345.0pt x 484.29372pt.
- [8]
+ [10]
 Package epstopdf Info: Source file: <obrazky/transaction-standard-tasks.eps>
 (epstopdf)                    date: 2015-12-27 16:03:51
 (epstopdf)                    size: 219814 bytes
@@ -447,18 +472,18 @@ Package epstopdf Info: Source file: <obrazky/transaction-standard-tasks.eps>
 (epstopdf)                    date: 2015-12-27 16:04:29
 (epstopdf)                    size: 59341 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/transaction-standard-tasks-eps-converted-to.pdf obrazky/transaction-standard-tasks.eps>
-(epstopdf)             \includegraphics on input line 183.
+(epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
- <obrazky/transaction-standard-tasks-eps-converted-to.pdf, id=40, 594.22pt x 1368.11125pt>
+ <obrazky/transaction-standard-tasks-eps-converted-to.pdf, id=49, 594.22pt x 1368.11125pt>
 File: obrazky/transaction-standard-tasks-eps-converted-to.pdf Graphic file (type pdf)
  <use obrazky/transaction-standard-tasks-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/transaction-standard-tasks-eps-converted-to.pdf used on input line 183.
+Package pdftex.def Info: obrazky/transaction-standard-tasks-eps-converted-to.pdf used on input line 218.
 (pdftex.def)             Requested size: 238.88971pt x 550.01128pt.
- [9 <./obrazky/transaction-basic-tasks-eps-converted-to.pdf>]
+ [11 <./obrazky/transaction-basic-tasks-eps-converted-to.pdf>]
 Overfull \vbox (23.08353pt too high) has occurred while \output is active []
 
- [10 <./obrazky/transaction-standard-tasks-eps-converted-to.pdf>]
-Overfull \hbox (2.28906pt too wide) in paragraph at lines 192--193
+ [12 <./obrazky/transaction-standard-tasks-eps-converted-to.pdf>]
+Overfull \hbox (2.28906pt too wide) in paragraph at lines 227--228
 \OT1/cmr/m/it/10 T1 Reques-ted\OT1/cmr/m/n/10 , kter^^Sy vy-jad^^Truje vznikl^^Sy C-fact. P^^Tredpokl^^Sad^^Same, ^^Tze Actor-Executor
  []
 
@@ -469,17 +494,17 @@ Package epstopdf Info: Source file: <obrazky/transaction-basic-signals.eps>
 (epstopdf)                    date: 2015-12-27 18:50:04
 (epstopdf)                    size: 32372 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/transaction-basic-signals-eps-converted-to.pdf obrazky/transaction-basic-signals.eps>
-(epstopdf)             \includegraphics on input line 197.
+(epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
-<obrazky/transaction-basic-signals-eps-converted-to.pdf, id=123, 570.13pt x 1111.15125pt>
+<obrazky/transaction-basic-signals-eps-converted-to.pdf, id=132, 570.13pt x 1111.15125pt>
 File: obrazky/transaction-basic-signals-eps-converted-to.pdf Graphic file (type pdf)
  <use obrazky/transaction-basic-signals-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/transaction-basic-signals-eps-converted-to.pdf used on input line 197.
+Package pdftex.def Info: obrazky/transaction-basic-signals-eps-converted-to.pdf used on input line 232.
 (pdftex.def)             Requested size: 282.20218pt x 549.99614pt.
- [11]
+ [13]
 Overfull \vbox (23.06839pt too high) has occurred while \output is active []
 
- [12 <./obrazky/transaction-basic-signals-eps-converted-to.pdf>]
+ [14 <./obrazky/transaction-basic-signals-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obrazky/transaction-standard-signals.eps>
 (epstopdf)                    date: 2015-12-27 18:51:39
 (epstopdf)                    size: 262534 bytes
@@ -487,19 +512,29 @@ Package epstopdf Info: Source file: <obrazky/transaction-standard-signals.eps>
 (epstopdf)                    date: 2015-12-27 18:51:59
 (epstopdf)                    size: 76617 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/transaction-standard-signals-eps-converted-to.pdf obrazky/transaction-standard-signals.eps>
-(epstopdf)             \includegraphics on input line 203.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
- <obrazky/transaction-standard-signals-eps-converted-to.pdf, id=161, 589.20125pt x 1624.0675pt>
+ <obrazky/transaction-standard-signals-eps-converted-to.pdf, id=171, 589.20125pt x 1624.0675pt>
 File: obrazky/transaction-standard-signals-eps-converted-to.pdf Graphic file (type pdf)
  <use obrazky/transaction-standard-signals-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/transaction-standard-signals-eps-converted-to.pdf used on input line 203.
+Package pdftex.def Info: obrazky/transaction-standard-signals-eps-converted-to.pdf used on input line 238.
 (pdftex.def)             Requested size: 199.5346pt x 549.9949pt.
 
 Overfull \vbox (23.06715pt too high) has occurred while \output is active []
 
- [13 <./obrazky/transaction-standard-signals-eps-converted-to.pdf>]
-Overfull \hbox (10.24954pt too wide) in paragraph at lines 211--212
-\OT1/cmr/m/n/10 V p^^Tr^^S^^Ppad^^Te, ^^Tze bychom ne-pou^^Tzili me-zi-sta-vov^^Se zpr^^Savy, do-stali bychom se do probl^^Sem^^Wu
+ [15 <./obrazky/transaction-standard-signals-eps-converted-to.pdf>]
+Overfull \hbox (4.35037pt too wide) in paragraph at lines 246--247
+[]\OT1/cmr/m/n/10 P^^Tred^^Sav^^San^^S^^P Agendy v tomto p^^Tr^^S^^Ppad^^Te prob^^S^^Ph^^Sa po-moc^^S^^P zasl^^San^^S^^P Zpr^^Savy a \OT1/cmr/m/it/10 Pr^^Wub^^Te^^Tzn^^Se
+ []
+
+
+Overfull \hbox (0.69508pt too wide) in paragraph at lines 248--249
+\OT1/cmr/m/n/10 stran^^Te Ini-ti-a-tora a je-den na stran^^Te Execu-tora. Toto je pom^^Tern^^Te v^^Syrazn^^Se odch^^Sylen^^S^^P
+ []
+
+[16]
+Overfull \hbox (18.36192pt too wide) in paragraph at lines 256--257
+\OT1/cmr/m/n/10 axi-omu, proto^^Tze tyto zpr^^Savy fak-ticky p^^Trid^^Savaj^^S^^P dal^^Ts^^S^^P ko-mu-ni-kaci, se kte-rou transak^^Tcn^^S^^P
  []
 
 Package epstopdf Info: Source file: <obrazky/transaction-basic-messages.eps>
@@ -509,14 +544,32 @@ Package epstopdf Info: Source file: <obrazky/transaction-basic-messages.eps>
 (epstopdf)                    date: 2015-12-28 02:04:52
 (epstopdf)                    size: 45357 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/transaction-basic-messages-eps-converted-to.pdf obrazky/transaction-basic-messages.eps>
-(epstopdf)             \includegraphics on input line 216.
+(epstopdf)             \includegraphics on input line 259.
 Package epstopdf Info: Output file is already uptodate.
-<obrazky/transaction-basic-messages-eps-converted-to.pdf, id=236, 733.74126pt x 807.015pt>
+<obrazky/transaction-basic-messages-eps-converted-to.pdf, id=248, 733.74126pt x 807.015pt>
 File: obrazky/transaction-basic-messages-eps-converted-to.pdf Graphic file (type pdf)
  <use obrazky/transaction-basic-messages-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/transaction-basic-messages-eps-converted-to.pdf used on input line 216.
+Package pdftex.def Info: obrazky/transaction-basic-messages-eps-converted-to.pdf used on input line 259.
 (pdftex.def)             Requested size: 345.00398pt x 379.45718pt.
- [14]
+ [17]
+Package epstopdf Info: Source file: <obrazky/transaction-standard-messages-1.eps>
+(epstopdf)                    date: 2015-12-25 18:18:37
+(epstopdf)                    size: 329569 bytes
+(epstopdf)             Output file: <obrazky/transaction-standard-messages-1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-28 14:25:21
+(epstopdf)                    size: 97288 bytes
+(epstopdf)             Command: <epstopdf --outfile=obrazky/transaction-standard-messages-1-eps-converted-to.pdf obrazky/transaction-standard-messages-1.eps>
+(epstopdf)             \includegraphics on input line 265.
+Package epstopdf Info: Output file is already uptodate.
+ <obrazky/transaction-standard-messages-1-eps-converted-to.pdf, id=252, 873.2625pt x 1490.56876pt>
+File: obrazky/transaction-standard-messages-1-eps-converted-to.pdf Graphic file (type pdf)
+ <use obrazky/transaction-standard-messages-1-eps-converted-to.pdf>
+Package pdftex.def Info: obrazky/transaction-standard-messages-1-eps-converted-to.pdf used on input line 265.
+(pdftex.def)             Requested size: 322.22263pt x 550.00069pt.
+ [18 <./obrazky/transaction-basic-messages-eps-converted-to.pdf>]
+Overfull \vbox (23.07294pt too high) has occurred while \output is active []
+
+ [19 <./obrazky/transaction-standard-messages-1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <obrazky/transaction-standard-messages.eps>
 (epstopdf)                    date: 2015-12-28 02:05:47
 (epstopdf)                    size: 458070 bytes
@@ -524,40 +577,50 @@ Package epstopdf Info: Source file: <obrazky/transaction-standard-messages.eps>
 (epstopdf)                    date: 2015-12-28 02:06:16
 (epstopdf)                    size: 136970 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/transaction-standard-messages-eps-converted-to.pdf obrazky/transaction-standard-messages.eps>
-(epstopdf)             \includegraphics on input line 222.
+(epstopdf)             \includegraphics on input line 271.
 Package epstopdf Info: Output file is already uptodate.
- <obrazky/transaction-standard-messages-eps-converted-to.pdf, id=240, 1236.62pt x 1490.56876pt>
+ <obrazky/transaction-standard-messages-eps-converted-to.pdf, id=377, 1236.62pt x 1490.56876pt>
 File: obrazky/transaction-standard-messages-eps-converted-to.pdf Graphic file (type pdf)
  <use obrazky/transaction-standard-messages-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/transaction-standard-messages-eps-converted-to.pdf used on input line 222.
-(pdftex.def)             Requested size: 448.50386pt x 540.60733pt.
+Package pdftex.def Info: obrazky/transaction-standard-messages-eps-converted-to.pdf used on input line 271.
+(pdftex.def)             Requested size: 345.00587pt x 415.85529pt.
 
-Overfull \hbox (103.50386pt too wide) in paragraph at lines 222--223
- [][] 
- []
-
-[15 <./obrazky/transaction-basic-messages-eps-converted-to.pdf>]
-Overfull \vbox (13.67958pt too high) has occurred while \output is active []
-
- [16 <./obrazky/transaction-standard-messages-eps-converted-to.pdf>]
-Overfull \hbox (14.22787pt too wide) in paragraph at lines 227--227
+Overfull \hbox (14.22787pt too wide) in paragraph at lines 276--276
 []\OT1/cmr/bx/n/14.4 N^^Savrh po-stupu n^^Savrhu BPMN mo-del^^Wu dle z^^Sasad
  []
 
-(./TSWLatexianTemp_000707.bbl [17]) [18] (./TSWLatexianTemp_000707.aux) ) 
+
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000999.tex:281: Package inputenc Error: Unicode char \u8:Ψ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.281 ... in DEMO and analysed according to the Ψ
+                                                  -theory axioms to assess their consistency and completeness.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (1.38951pt too wide) in paragraph at lines 281--282
+\OT1/cmr/m/n/10 These abs-trac-ted produc- tion and co-or-di-nation acts are then mo-delled in DEMO
+ []
+
+[20 <./obrazky/transaction-standard-messages-eps-converted-to.pdf>] (./TSWLatexianTemp_000999.bbl [21] [22]) [23] (./TSWLatexianTemp_000999.aux) ) 
 Here is how much of TeX's memory you used:
- 3573 strings out of 493089
- 54795 string characters out of 6134841
- 119349 words of memory out of 5000000
- 7001 multiletter control sequences out of 15000+600000
+ 3588 strings out of 493089
+ 55393 string characters out of 6134841
+ 120383 words of memory out of 5000000
+ 7014 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,8n,42p,1184b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,8n,42p,1463b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TSWLatexianTemp_000707.pdf (18 pages, 508227 bytes).
+Output written on TSWLatexianTemp_000999.pdf (23 pages, 817533 bytes).
 PDF statistics:
- 431 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
+ 533 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

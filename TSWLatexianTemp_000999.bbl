@@ -31,8 +31,16 @@ J.~Barjis.
 \bibitem{Caetano2012}
 Artur Caetano, Aur{\'{e}}lio Assis, Jos{\'{e}} Borbinha, and Jos{\'{e}}
   Tribolet.
-\newblock {the Analysis of Business Process Models}.
+\newblock {An Application of the $\psi$-Theory to the Analysis of Business
+  Process Models}.
 \newblock {\em Enterprise Information Systems of the Future}, 2012.
+
+\bibitem{Caetano2011}
+Artur Caetano, Aur{\'{e}}lio Assis, and Jos{\'{e}} Tribolet.
+\newblock {Using business transactions to analyse the consistency of business
+  process models}.
+\newblock {\em Proceedings of the Annual Hawaii International Conference on
+  System Sciences}, pages 4277--4285, 2011.
 
 \bibitem{Chytil2005}
 Jiř{\'{\i}} Chytil and Zden{\v{e}}k Lehock{\'{y}}.
