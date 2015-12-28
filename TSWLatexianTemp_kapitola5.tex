@@ -2,7 +2,7 @@
 \usepackage[czech]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{float}
-\usepackage{graphicx}
+\usepackage{subfig,graphicx}
 
 \newcommand{\ptheory}{$\Psi$-theory}
 
@@ -92,7 +92,7 @@ Důkladným studiem notace BPMN i metodologie DEMO bylo vypozorování několik 
 \item
 \end{itemize}
 
-\subsection{Základní pravidla používání notace BPMN}
+\subsection{Základní pravidla používání notace BPMN} \label{sec:zakladni_pravidla}
 V této sekci jsou vypsány základní pravidla, jak používat některé elementy z notace BPMN tak, aby jejich použití korespondovalo s vybranými konstrukty z metodologie DEMO dle konceptu metodologie představené v této práci. Z metodologie DEMO byly vybrány zejména ty koncepty, které jsou součástí transakčního axiomu, který je pro vlastní tvorba modelů podnikových procesů nejzásadnější a vyjádření tohoto axiomu pomocí korespondujících elementů BPMN by výrazně přispělo k možnosti vytvářet kvalitnější modely v této notaci.
 \subsubsection{Vyjádření Actorů}
 \textit{Actor} je v DEMO definován jako kombinace odpovědnosti a kompetence a není nezbytně svázán s konkrétním jedincem, který ve výsledku aktivitu či transakci fyzicky provádí. Pokud chceme v BPMN transakce zobrazovat, musí se podařit v paletě elementů, které BPMN nabízí nalézt takové, pomocí kterých je možné aktory korektně vyjádřit. Vybraný element musí splňovat tyto předpoklady:
@@ -153,7 +153,31 @@ Jelikož návrh metodologie, který tato práce popisuje, pracuje pouze s existu
 Metodologie navrhovaná v této práci si vystačí s částečným zobrazením agendy přímo v BPMN modelu, kterého je docíleno pomocí \textit{Plavecké dráhy} (případně \textit{Bazénu}), \textit{Sekvenčního toku} a časového hlediska. Neboli díky Plavecké dráze nebo Bazénu, který obsahuje elementy, jež spadají do kompetence a odpovědnosti Actora, kterému je Plavecká dráha nebo Bazén příslušná a díky Sekvenčnímu toku, který určuje pořadí provádění jednotlivých \textit{Úloh} daný Actor v každém momentě v čase ví, kterou Úlohu má provést. Pravidla pro vyhodnocení, zda přijmout Request nebo State pro zjednodušení opomíjíme.
 
 \section{Vyjádření transakčního vzoru v BPMN}
+Pro metodologii, která je nastíněna v této práci je transakční vzor dle transakčního axiomu DEMO tím nejdůležitějším stavebním kamenem. Dává totiž řád a jasnou strukturu tomu, jak popsat podnikový proces, který je dle metodologie DEMO jen uspořádanou strukturou na sebe navázaných transakcí – \textit{transakčním stromem}.
+
+Vyjádření transakčního vzoru pomocí elementů z notace BPMN je tak zcela zásadní pro to, aby mohl být naplněn účel nově vznikající metodologie, kterým je přispět k vytváření BPMN modelů, které budou kompletní a jednoznačné. Jak bylo popsáno v sekci \ref{sec:zakladni_pravidla}, vyjádření jednotlivých komponent transakčního vzoru je možné provést pomocí různých elementů a v této sekci jsou tyto různé přístupy rozebrány do většího detailu. 
+
 \subsection{Vyjádření pomocí Úloh}
+Prvním a nejjednoduším přístupem je vyjádřit transakční vzor čistě pomocí \textit{Úloh} a \textit{Sekvenčních toků}. Úlohy jsou použity pro vyjádření \textit{C-actů} a \textit{P-actů}. Sekvenční tok je použit ve více významech:
+
+\begin{itemize}
+\item jednak pro určení pořadí provádění jednotlivých C-actů,
+\item jednak pro zadávání C-factů do Agendy druhému Actorovi,
+\item jednak Sekvenční tok vycházející z každé Úlohy reprezentující C-act reprezentuje úspěšný vznik korespondujícího C-factu.
+\end{itemize}
+
+\begin{figure}[H]\centering
+\includegraphics[width=1.0\textwidth]{obrazky/transaction-basic-tasks}
+\caption{Základní transakční vzor pomocí Úloh}
+\label{fig:Zk_trans_ulohy}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{obrazky/transaction-standard-tasks}
+\caption{Základní transakční vzor pomocí Úloh}
+\label{fig:Zk_trans_ulohy}
+\end{figure}
+
 \subsection{Vyjádření pomocí Úloh a Signálů}
 \subsection{Vyjádření pomocí Úloh a Zpráv}
 V případě, že bychom nepoužili mezistavové zprávy, dostali bychom se do problémů hned v případě, že by se Executor rozhodl pro Decline. V takovém případě Executor vyšle zprávu Initiatorovi a ten může buď transakci zastavit použitím Quit nebo poslat Request znovu. Jenže sekvenční tok v případě Executora je stále v situaci Decline T1 a bez mezistavové zprávy (neboli zprávy o rozhodnutí jak se Initiator rozhodl naložit s T1 Declined) nemůže dále pokračovat. Částečným řešením by v tomto případě mohlo být použít na tomto místě koncový stav T1 Declined a instanci procesu u Executora ukončit. V případě, že by se Initiator rozhodl transakci neukončit a poslal request znovu, což by vytvořilo novou instanci procesu na straně Executora.

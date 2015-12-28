@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: TSWLatexianTemp_000707.aux
+The style file: plain.bst
+Database file #1: Bibliography.bib
+Repeated entry---line 220 of file Bibliography.bib
+ : @misc{Vasicek2008
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in iso_9000
+Warning--to sort, need author or key in BPELcz
+Warning--to sort, need author or key in UMLActivity
+Warning--to sort, need author or key in DEMO_web
+Warning--to sort, need author or key in Notace
+Warning--to sort, need author or key in Metodika
+Warning--empty journal in Bandor2007
+Warning--empty publisher in Dietz2006
+Warning--empty publisher in Eriksson2000
+Warning--empty journal in Eriksson
+Warning--empty year in Eriksson
+Warning--there's a number but no volume in Jedlitschka2010
+Warning--empty journal in Shishkov2005
+Warning--empty publisher in Silver2011
+Warning--empty note in Vejrazkova2012
+You've used 32 entries,
+            2118 wiz_defined-function locations,
+            667 strings with 7865 characters,
+and the built_in function-call counts, 7353 in all, are:
+= -- 669
+> -- 282
+< -- 1
++ -- 118
+- -- 86
+* -- 375
+:= -- 1200
+add.period$ -- 76
+call.type$ -- 32
+change.case$ -- 129
+chr.to.int$ -- 0
+cite$ -- 47
+duplicate$ -- 308
+empty$ -- 706
+format.name$ -- 86
+if$ -- 1560
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 26
+newline$ -- 143
+num.names$ -- 52
+pop$ -- 242
+preamble$ -- 1
+purify$ -- 107
+quote$ -- 0
+skip$ -- 247
+stack$ -- 0
+substring$ -- 292
+swap$ -- 37
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 110
+warning$ -- 15
+while$ -- 63
+width$ -- 34
+write$ -- 276
+(There was 1 error message)

@@ -1,16 +1,16 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: TSWLatexianTemp_000339.aux
+The top-level auxiliary file: TSWLatexianTemp_000393.aux
 The style file: plain.bst
 Database file #1: Bibliography.bib
 Repeated entry---line 220 of file Bibliography.bib
  : @misc{Vasicek2008
  :                  ,
 I'm skipping whatever remains of this entry
-Warning--to sort, need author or key in iso_9000
 Warning--to sort, need author or key in BPELcz
 Warning--to sort, need author or key in UMLActivity
 Warning--to sort, need author or key in DEMO_web
+Warning--to sort, need author or key in iso_9000
 Warning--to sort, need author or key in Notace
 Warning--to sort, need author or key in Metodika
 Warning--empty journal in Bandor2007
