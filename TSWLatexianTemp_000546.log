@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  26 DEC 2015 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  30 DEC 2015 03:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000002.tex
-(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000002.tex
+**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex
+(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -278,8 +278,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
-) (./TSWLatexianTemp_000002.aux)
-\openout1 = `TSWLatexianTemp_000002.aux'.
+) (./TSWLatexianTemp_000546.aux)
+\openout1 = `TSWLatexianTemp_000546.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -369,7 +369,7 @@ Overfull \hbox (5.27838pt too wide) in paragraph at lines 50--51
 []\OT1/cmr/m/n/10 black-box mo-del\ ne-boli vid^^S^^Pte, ^^Tze se vstupy zm^^Ten^^S^^P na n^^Tejak^^Se v^^Systupy,
  []
 
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000002.tex:52: Undefined control sequence.
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:52: Undefined control sequence.
 l.52 ...systém funguje uvnitř, tedy tím, \texit
                                                   {jak} dojde k proměně vstupů na výstupy. Zabývá se tedy konstrukcí a chodem systému. Ontologický model je tedy typem tzv. \uv{white-box modelu}. Ontologický model najde uplatnění při budov�...
 The control sequence at the end of the top line
@@ -408,7 +408,7 @@ Overfull \hbox (4.66628pt too wide) in paragraph at lines 112--113
  []
 
 [4]
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000002.tex:120: Undefined control sequence.
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:120: Undefined control sequence.
 l.120 \subssubection
                     {Aktoři}
 The control sequence at the end of the top line
@@ -437,7 +437,7 @@ Overfull \hbox (9.69513pt too wide) in paragraph at lines 162--163
 \OT1/cmr/m/n/10 ^^Tzivot^^Te ne-ust^^Sale nast^^Savaj^^S^^P. Nap^^Tr^^S^^Pklad se si-tuac^^S^^P, kdy vy-ko-na-va-tel nem^^Wu^^Tze
  []
 
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000002.tex:169: Undefined control sequence.
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:169: Undefined control sequence.
 l.169 \item tvrzení upřímnosti (\texit
                                          {claim to sincerity}).
 The control sequence at the end of the top line
@@ -466,7 +466,7 @@ Overfull \hbox (8.44513pt too wide) in paragraph at lines 193--194
 \OT1/cmr/m/n/10 v^^S^^Pce in-fo-lo-gick^^Sych ^^Tcin^^Wu (in-forma) a pro je-den in-fo-lo-gick^^Sych ^^Tcin^^Wu mus^^S^^Pme
  []
 
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000002.tex:197: Undefined control sequence.
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:197: Undefined control sequence.
 l.197 ...� sekci jsou popsány 4 axiomy \psitheory
                                                   , které přináší z různých úhlů pohled na chod organizace, její operace a uspořádání. Tyto pojmy však samy o sobě nestačí k vytvoření ontologického modelu, který bude výstižný, �...
 The control sequence at the end of the top line
@@ -503,7 +503,7 @@ LaTeX Warning: Citation `2006' on page 9 undefined on input line 222.
 LaTeX Warning: Citation `Vejrazkova2003' on page 9 undefined on input line 233.
 
 [9]
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000002.tex:251: Undefined control sequence.
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:251: Undefined control sequence.
 l.251 \subsubsubsection
                        {Interaction Model (IAM)}
 The control sequence at the end of the top line
@@ -517,7 +517,7 @@ Overfull \hbox (1.47047pt too wide) in paragraph at lines 254--255
 []\OT1/cmr/m/n/10 IAM se skl^^Sad^^Sa z Transaction Re-sult Table (TRT) a Ac-tor Transaction
  []
 
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000002.tex:256: Undefined control sequence.
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:256: Undefined control sequence.
 l.256 \subsubsubsection
                        {Interstriction Model (ISM)}
 The control sequence at the end of the top line
@@ -541,9 +541,9 @@ Overfull \hbox (9.72183pt too wide) in paragraph at lines 287--288
 \OT1/cmr/m/n/10 Tato pra-vi-dla jsou v AM pops^^Sana slovn^^Te po-moc^^S^^P pseudo-algoritmick^^Seho
  []
 
-(./TSWLatexianTemp_000002.bbl [11] [12])
+(./TSWLatexianTemp_000546.bbl [11] [12])
 
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000002.tex:296: LaTeX Error: \begin{quote} on input line 44 ended by \end{document}.
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:296: LaTeX Error: \begin{quote} on input line 44 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -555,7 +555,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[13] (./TSWLatexianTemp_000002.aux)
+[13] (./TSWLatexianTemp_000546.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -565,18 +565,18 @@ LaTeX Warning: There were undefined references.
 ### semi simple group (level 1) entered at line 44 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2342 strings out of 493089
- 31729 string characters out of 6134841
- 101437 words of memory out of 5000000
- 5800 multiletter control sequences out of 15000+600000
+ 2346 strings out of 493089
+ 31796 string characters out of 6134841
+ 101467 words of memory out of 5000000
+ 5804 multiletter control sequences out of 15000+600000
  8856 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,8n,23p,683b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TSWLatexianTemp_000002.pdf (13 pages, 164586 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on TSWLatexianTemp_000546.pdf (13 pages, 172692 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{float}
 \usepackage{subfig,graphicx}
+\usepackage{array}
 
 \newcommand{\ptheory}{$\Psi$-theory}
 
@@ -187,7 +188,7 @@ Jelikož návrh metodologie, který tato práce popisuje, pracuje pouze s existu
 
 Metodologie navrhovaná v této práci si vystačí s částečným zobrazením agendy přímo v BPMN modelu, kterého je docíleno pomocí \textit{Plavecké dráhy} (případně \textit{Bazénu}), \textit{Sekvenčního toku} a časového hlediska. Neboli díky Plavecké dráze nebo Bazénu, který obsahuje elementy, jež spadají do kompetence a odpovědnosti Actora, kterému je Plavecká dráha nebo Bazén příslušná a díky Sekvenčnímu toku, který určuje pořadí provádění jednotlivých \textit{Úloh} daný Actor v každém momentě v čase ví, kterou Úlohu má provést. Pravidla pro vyhodnocení, zda přijmout Request nebo State pro zjednodušení opomíjíme.
 
-\section{Vyjádření transakčního vzoru v BPMN}
+\section{Vyjádření transakčního vzoru v BPMN} \label{sec:vyjadreni_trans_vzor}
 Pro metodologii, která je nastíněna v této práci je transakční vzor dle transakčního axiomu DEMO tím nejdůležitějším stavebním kamenem. Dává totiž řád a jasnou strukturu tomu, jak popsat podnikový proces, který je dle metodologie DEMO jen uspořádanou strukturou na sebe navázaných transakcí – \textit{transakčním stromem}.
 
 Vyjádření transakčního vzoru pomocí elementů z notace BPMN je tak zcela zásadní pro to, aby mohl být naplněn účel nově vznikající metodologie, kterým je přispět k vytváření BPMN modelů, které budou kompletní a jednoznačné. Jak bylo popsáno v sekci \ref{sec:zakladni_pravidla}, vyjádření jednotlivých komponent transakčního vzoru je možné provést pomocí různých elementů a v této sekci jsou tyto různé přístupy rozebrány do většího detailu. 
@@ -219,7 +220,7 @@ V tomto zobrazení nejsou zobrazeny žádné C-facty, což je z hlediska DEMO pr
 \label{fig:St_trans_ulohy}
 \end{figure}
 
-\subsection{Vyjádření pomocí Úloh a Signálů}
+\subsection{Vyjádření pomocí Úloh a Signálů} \label{sec:tr_vzor_ulohy_signaly}
 
 Další možností, jak transakční vzor zobrazit, je využití \textit{Úloh} a \textit{Signálů}. Narozdíl od způsobu popsaného v sekci \ref{sec:vyjadreni_ulohy} \textit{Sekvenční toky} v tomto případě slouží pouze k vyjádření pořadí, ve kterém jsou C-acty prováděny a pro převádění Agendy mezi Actory. O reprezentaci vzniklého C-factu se zde však stará BPMN element Signál, což poskytuje dvě velké výhody. Jednak je díky tomu C-fact v modelu vizuálně zastoupen, takže se výsledný model více blíží transakčnímu vzoru tak, jak ho definuje DEMO a jednak BPMN element Signál, který dle specifikace \cite{Omg2011} i \cite{Silver2011} je možné použít ke komunikaci uvnitř procesu, respektive k odeslání neadresné zprávy komukoliv, kdo je připraven jí naslouchat. Pro reprezentaci Actorů jsou v tomto případě opět použity \textit{Plavecké dráhy} uvnitř \textit{Bazénu}, který zastřešuje celou transakci. C-facty, ve kterých transakce končí jsou i v tomto případě zastoupeny pomocí BPMN elementu \textit{Konečná událost}.
 
@@ -272,14 +273,178 @@ Využití mezistavových zpráv je však výrazným odchýlením od transakční
 \label{fig:St_trans_ulohy_zpravy_mezistav}
 \end{figure}
 
-\section{Návrh postupu návrhu BPMN modelů dle zásad DEMO}
+\section{Návrh metody pro vytváření BPMN modelů dle zásad DEMO}
+V této sekci je popsána metoda pro vytváření BPMN dle zásad DEMO. Představená metoda je navržena pro vytváření zcela nových modelů, nikoli k analýze a doplnění již existujících BPMN modelů. Cílem této metody je umožnit popisovat průběh podnikových procesů v oblíbené notaci BPMN a zároveň zajistit, aby výsledný model byl \textit{kompletní} a \textit{konzistentní}.
+
+\subsection{Předpoklady}
+Aby bylo možné implementovat tuto metodu v praxi, je nezbytné, aby odpovědní pracovníci byli vybaveni následujícími teoretickými znalostmi, které vycházejí z \ptheory, Enteprise ontology a metodologie DEMO.
+
+\begin{itemize}
+\item Znalost \textit{operation axiomu} a schopnost rozlišit komunikační acty od produkčních.
+\item Znalost \textit{transaction axiomu}, \textit{základního i standardního transakčního vzoru} včetně všech jeho kroků (C-actů, C-factů, P-actů, P-factů).
+\item Znalost a schopnost vytvořit DEMO Actor-Transaction Diagram (ATD) a DEMO Process Structure Diagram (PSD).
+\item Znalost notace BPMN včetně elementů, které oblíbená publikace \cite{Silver2011} označuje jako Level 2.
+\item Znalost a schopnost aplikovat \textit{composition axiom}, tedy umět identifikovat jak jsou na sebe transakce navázané
+\end{itemize}
 
 \subsection{Krok 1: Získání textového popisu procesu}
+Při vytváření modelu určitého podnikového procesu je obvyklým prvním krokem získání informací od osob, které se tohoto procesu účastní nebo mu dobře rozumí. Může se jednat o výkonné i vedoucí pracovníky a obvykle je užitečné posbírat více pohledů na jeden konkrétní proces a následně diskutovat nesrovnalosti, které mohou vzniknout.
 
-\subsection{Krok 2: Aplikace Distinction axiomu}
+Díky tomu, že sběr informací provádějí pracovníci se znalostí transakčního axiomu i transakčních vzorů, mohou se cíleně zeptat na jednotlivé jeho kroky. Tedy zjistit, jak probíhá \textit{request}, jak \textit{state}, jak \textit{accept} a podobně. Na konci by tedy měl vzniknout textový popis procesu s maximem relevantních informací pro další postup.
+
+\subsection{Krok 2: Aplikace distinkčního axiomu}
+Nyní jsme schopni na vzniklý textový popis procesu, chodu organizace či její složky aplikovat tzv. \textit{Performa-Informa-Forma analýzu}, což není nic jiného než praktická aplikace distinction axiomu, který je popsán v sekci \ref{sec:distinction_axiom}. Použijeme stejný postup jako v \cite{Dietz2006} a v textovém popisu označíme Performa aktivity červeně, Informa zeleně a Forma modře. Je naprosto přirozené, že u některých aktivit v textu bude problematické určit o jaký druh se jedná. S tím, jak budeme provádět další kroky dojdeme i k většímu porozumění celému procesu a je možné rozhodnutí přehodnotit. Výsledkem této části tedy je textový popis procesu s identifikovanými a vizuálně označenými Performa, Informa a Forma aktivitami.
+
+\subsection{Krok 3: Aplikace operačního axiomu}
+V tomto kroku budeme pracovat pouze s aktivitami, které jsme v Kroku 2 označili jako Performa (červeně). Úkolem je rozlišit, zda se jedná o C-act, C-fact, P-act nebo P-fact a dále k nim identifikovat příslušné actory tak jak předepisuje operation axiom. Opět není důvod nedodržet postup doporučený v \cite{Dietz2006}, tedy části textu, které indikují Actora označit hranatými závorkami \uv{[} a \uv{]}. Části textu, které indikují C-act nebo C-fact označíme kulatými závorkami \uv{(} a \uv{)}. Nakonec P-acty a P-facty nalezené v textu označíme špičatými závorkami \uv{$<$}  a \uv{$>$}. Text uzavřený v závorkách navíc podtrhneme.
+
+\subsection{Krok 4: Zápis nalezených transakcí a jejich parametrů}
+Ve čtvrtém kroku označené C-acty, C-facty, P-acty a P-facty roztřídíme dle jednotlivých \textit{transakčních kroků} (\textit{request, promise, state, accept atd.}) dle transakčního axiomu. Zároveň specifikujeme výsledek transakce a všechny poznatky učiněné v předchozích krocích zapíšeme společně do tabulky, která má strukturu dle tabulky \ref{tab:trans_param}. Navržená struktura vychází ze struktury představené v \cite{Naplava2015}.
+
+Silnou stránkou DEMO, respektive transakčního axiomu je, že dává každé transakci (a tím i podnikovému procesu) pevně danou strukturu, kterou nelze obejít nebo upravit. I když v textovém popisu procesu nenalezneme popsané všechny transakční kroky (což se stane téměř vždy), neznamená to, že neexistují. V takovém případě je třeba jít zpět do Kroku 1 a zjistit chybějící informace od doménových a procesních vlastníků a dle nových zjištění upravit i výsledky následujících kroků metody.
+
+\begin{table} [H] \centering
+\begin{tabular}{|>{\bfseries} l| | c |}
+\hline
+  ID transakce & T01 \\
+\hline
+  Název transakce & Vyřízení objednávky $O$  \\
+\hline
+  Výsledek transakce & Objednávka $O$ byla vyřízena \\
+\hline
+  Initiator & Zákazník \\
+\hline
+  Executor & Mia \\
+\hline
+\hline
+  Request & Zavolání s objednávkou \\
+\hline
+  Promise & Objednávka potvrzena s cenou a časem vyhotovení \\
+\hline
+  State & Zboží předáno zákazníkovi \\
+\hline
+  Accept & Zákazník odchází s balíčkem z prodejny \\
+\hline
+\hline
+  Decline & Zamítnutí objednávky pokud zboží není na skladě \\
+\hline
+  Reject & \textit{chybí v popisu} \\
+\hline
+\hline
+  Revoke request & \textit{chybí v popisu} \\
+\hline
+  Revoke promise & \textit{chybí v popisu} \\
+\hline
+  Revoke state & \textit{chybí v popisu} \\
+\hline
+  Revoke accept & \textit{chybí v popisu} \\
+\hline
+\end{tabular}
+\caption{Tabulka s parametry transakce}
+\label{tab:trans_param}
+\end{table}
+
+\subsection{Krok 5: Aplikace kompozičního axiomu}
+Jak již bylo popsáno v \ref{sec:kompozicni_axiom} podnikový proces můžeme definovat jako množinu volně propojených transakcí. Úkolem pátého kroku je tedy identifikovat exekuce transakcí, které jsou závislé na předchozím provedení exekucí jiných transakcí. Jedinou možností jak toto prakticky provést je vrátit se k textovému popisu procesu a pokusit se identifikovat fráze, které značí závislost provádění P-actů nebo P-factů na sobě. Pokud se nám podaří objevit, že vznik P-factu B byl iniciován v průběhu vytváření P-factu A a zároveň je vznik P-factu A na B závislý, poté B je součástí A.  Všechny takto objevené závislosti zakreslíme do diagramu, který můžeme vidět na obrázku \ref{fig:result_structure_chart}.
+
+\begin{figure}[H]\centering
+\includegraphics[width=1.0\textwidth]{obrazky/result-structure-chart}
+\caption{Struktura závislosti transakcí v podnikovém procesu}
+\label{fig:result_structure_chart}
+\end{figure}
+
+\subsection{Krok 6: Vytvoření DEMO modelů}
+Nyní již máme dostatek informací pro vytvoření dvou DEMO modelů, které budou sloužit jako pevný bod pro verifikaci výsledného BPMN modelu i pro diskusi s byznys uživateli v případě požadavků na úpravy. Důvodem proč k této diskusi využívat DEMO modely (zejména ATD) a ne přímo výsledný BPMN model je vysoká úroveň komplexnosti BPMN modelu, který znesnadňuje jeho porozumění business uživateli.
+
+Tabulky s popisem transakcí, které vznikly v Kroku 4 je dostatečným podkladem pro vytvoření DEMO Actor-Transaction Diagramu (ATD) i DEMO Process Structure Diagramu (PSD). ATD model zachycuje jevy v organizaci na nejvyšší úrovni abstrakce, tedy pouze actory a mezi nimi probíhající transakce. PSD jde o úroveň níže a zobrazuje jednotlivé transakční kroky stejně jako vzájemnou provázanost transakcí, kterou jsme indetifikovali v předchozím kroku. Oba modely jsou podrobně popsány v rámci kapitoly 4.
+
+\subsection{Krok 7: Vytvoření BPMN modelu}
+Nyní již máme vytvořený dostatečně silný základ a můžeme přikročit k vytvoření samotného BPMN modelu, který je výsledkem celé metody. Při jeho tvorbě využijeme zejména PSD diagram vytvořený v předchozím kroku a způsob vyjádření standardního transakčního vzoru pomocí Úloh a Signálů popsaný v sekci \ref{sec:tr_vzor_ulohy_signaly}.
+
+Při vytváření BPMN modelu postupejeme tak, že následujeme PSD diagram od místa, kde dojde k provedení C-actu \textit{request} u kořenové transakce celého podnikového procesu a postupně převádíme jednotlivé transakční kroky do BPMN primitiv (Úloh, Signálů, Sekvenčních toků, Bran) popsaných v sekci \ref{sec:tr_vzor_ulohy_signaly}. V případě, že je podnikový proces složen z více vzájemně provázaných transakcí musíme při vytváření BPMN modelu v momentě, kdy v PSD diagramu dojdeme na místo, kde je při provedení C-actu \textit{promise} vytvořen \textit{request} na další transakci, odkloníme Sekvenční tok a pokračujeme v provádění transakčního vzoru transakce-potomka. Stejně tak pokračujeme i v dalších případech dokud se opět \uv{nevynoříme} (v případě, že všechny transakce-potomci dopadnou úspěšně) v kořenové transakci a jsme schopni provést exekuci P-actu.
+
+V případě potřeby a pokud máme identifikované reálné aktivity příslušné k jednotlivým transakčním krokům tak můžeme tyto kroky přejmenovat i v našem výsledném BPMN modelu. %???%
+
+1. The Perfoma-Informa-Forma Analysis. In this step all available pieces of knowledge are divided in three sets, according to the dis- tinction axiom (Chap. 12). As we will see, this is not always an easy job, since in natural language descriptions words and sentences may belong to more than one of these sets.2. The Coordination-Actors-Production Analysis. The Performa items are divided into C-acts/results, P-acts/results, and actor roles, accord- ing to the operation axiom (Chap. 9). This step goes rather straight- forward since the three kinds are well distinguished in textual de- scriptions.
+
 The goal of the bottom-up phase is not to translate the original model to a DEMO process model but to identify its pro- duction and coordination acts. These abstracted produc- tion and coordination acts are then modelled in DEMO and analysed according to the Ψ-theory axioms to assess their consistency and completeness.
 
+The method starts with a BPMN process model and produces a DEMO process struc- ture diagram that abstracts the coordination and production acts depicted on the input model. The goal of the first step is to analyse the design artefacts used to represent the business process model. It analyses the activities and classifies them according to the operation axiom and distinction axiom. As a result each activity is classified as a pro- duction or coordination act (operation axiom) and also as a performa, informa, or forma speech act (distinction axiom). Furthermore, the operation axiom also discrimi- nates the actor roles involved in the process. The result of this step is a traceable list that maps the coordination and production acts and actors to the original process model from where they were sourced.Consider the following examples: an activity that sends an electronic message is classified as a coordination act since it involves communication between actors and as a forma act because it represents a source uttering a message to a recipient. An activ- ity that archives that message is classified as forma but it is a production act because it is generating a new production fact (the archived message). An activity that counts the number of messages archived on a given date is a production act as it generates a
+262 A. Caetano et al.new production fact (the message count) but it is classified as an informa speech act since it is computing a result.Next, each performa coordination act is classified as a request, promise, state, ac- cept coordination act according to the transaction pattern. Using the standard transac- tion pattern implies further identifying the decline, reject, stop, quit acts. . For in- stance, an activity Place Order is as a request coordination act as it is performed by the initiator to start a new transaction. The activity Receive Ordered Product is an accept coordination act as it indicates the initiator acknowledged and accepted the result of the transaction.
+
+1.
+Using the DEMO concepts provided by the three axioms,
+operation axiom, construction axiom and communication axiom.
+Ignore the distinction axiom, since we want to create immediately some
+implementation. 
+
+We apply an abstraction layer to reduce complexity. We capture only
+communication between actors and embed production in some "production task".
+
+Identify transactions and actors.
+a single communication act identifies to some communication pattern between
+who and who, and for which production etc.
+If certain communication acts are not mentioned, this does not mean that they do not exist.
+
+We have then lists of actors, transactions with communication acts and facts,
+a production act and a production fact.
+Using a set of well-defined BPMN primitives and constructs we can devise
+a BPMN model that should be ontological complete in communication and transactions.
+We abandon "happy flow only" kind of modeling.
+
+This BPMN model is the best possible foundation for further BPMN implementation.
+
+
+2.
+We devise an ATD based on the actors and transaction we identified.
+This an improvement, It gives a convenient useful overview, with guaranteed completeness
+and much easier to analyse.
+The translation to a BPMN model is now easier to do in a manual way.
+
+Both approaches are "programming" from high level formal specifications -DEMO- using
+a lower level language, BPMN / BPEL. All problems associated with normal programming 
+manifest themselves. (make a list of problem manifestations and root causes, I can help)
+
+
+3.
+3.1 Ontological appropriateness assessment
+If we are able to make a BPMN implementation of a single transaction with a reasonable
+good ontological appropriateness in execution then we have made an important step.
+"reasobale good" means that would "work quite good" in daily life.
+Some flaws can be "quite acceptable".
+
+3.2 Ontological truthfulness assessment
+It has been proven that the DEMO models are ontological truthful and execution by the DEMO engine
+is precisely compliant with the theory. 
+We must show that the execution of the BPMN model is congruent with the DEMO engine
+executing a DEMO model.
+A lack of ontological truthfulness can be quite serious, it may invalidate all work.
+If we can shown that it cannot be resolved then we have proven that BPMN cannot provide
+ontological truthfulness. It is fundamentally flawed.
+
+
+4.
+An additional problem is exploding complexity if the number of transactions
+is more than say three. Only three transactions and it explodes in a combinatorial
+way in such a way that it exceeds the capabilities of normal human programmers.
+It is a not-programmable system (!).
+
+As we see DEMO models with tens of transactions in daily life this approach is much better,
+but not yet good enough.
+
+The way to address this challenge is to render BPMN models directly by the DEMO engine,
+expressing in exectable BPEL.
+No problem how large the BPMN models become. If BPEL is a correct formal language, not some
+notation, then it should work.
+
+The challenge is to derive some algorithm that runs through the DEMO ATD and maps DEMO
+primitives to BPMN primitives and constructs, and resolves the relations between these.
+
+Once this is clear we can build it into the DEMO engine. Should be not too difficult!
+
 \section{Další výzkum}
+
+Obsah této práce je prvním pokusem o vytvoření metody pro vytváření BPMN modelů podnikových procesů za použití teoretických konstruktů z \ptheory, Enterprise ontology a metodologie DEMO. Jako každá první verze i tato musí být doplněna dalším výzkumem a všechna představená východiska musí být prověřena a potvrzena.
 BPMN is not a sentential language, but a graphical language, so some methodology must be found to represent graphical BPMN models in a sentential form. If we have this sentential form, then for- mal correctness can be verified using a grammar. Such a grammar is currently researched by the authors.
 
 \nocite{*}
