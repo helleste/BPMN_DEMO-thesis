@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  30 DEC 2015 03:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  3 JAN 2016 19:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex
-(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex
+**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_kapitola3.tex
+(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_kapitola3.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -278,21 +278,21 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
-) (./TSWLatexianTemp_000546.aux)
-\openout1 = `TSWLatexianTemp_000546.aux'.
+) (./TSWLatexianTemp_kapitola3.aux)
+\openout1 = `TSWLatexianTemp_kapitola3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
@@ -343,240 +343,88 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
- [1
+(Font)              <6> on input line 13.
+
+Overfull \hbox (11.97298pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10 svoj^^S^^P po-pu-la-ritu vd^^Te^^Tc^^S^^P BPMN, krom^^Te v^^Sy^^Tse zm^^S^^Pn^^Ten^^Sych d^^Wuvod^^Wu, zejm^^Sena p^^Tr^^S^^Pstupnosti
+ []
+
+[1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (1.25075pt too wide) in paragraph at lines 33--34
-\OT1/cmr/m/n/10 kom-po-nent, kter^^Se spolu vz^^Sajemn^^Te ko-mu-ni-kuj^^S^^P. Ko-mu-nikce je tedy nejd^^Wule^^Tzit^^Tej^^Ts^^S^^Pm
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
-
-Overfull \hbox (5.58397pt too wide) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/10 Pro lep^^Ts^^S^^P po-cho-pen^^S^^P toho, co on-to-lo-gick^^Sy mo-del p^^Tredstavuje je u^^Tzite^^Tcn^^Se
- []
-
-
-Overfull \hbox (5.27838pt too wide) in paragraph at lines 50--51
-[]\OT1/cmr/m/n/10 black-box mo-del\ ne-boli vid^^S^^Pte, ^^Tze se vstupy zm^^Ten^^S^^P na n^^Tejak^^Se v^^Systupy,
- []
-
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:52: Undefined control sequence.
-l.52 ...systém funguje uvnitř, tedy tím, \texit
-                                                  {jak} dojde k proměně vstupů na výstupy. Zabývá se tedy konstrukcí a chodem systému. Ontologický model je tedy typem tzv. \uv{white-box modelu}. Ontologický model najde uplatnění při budov�...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 58.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 63.
+(Font)              <7> on input line 35.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 35.
+ [2] [3]
 
-Overfull \hbox (0.22052pt too wide) in paragraph at lines 70--71
-[]\OT1/cmr/m/n/10 Zkratka PSI zna-men^^Sa \OT1/cmr/m/it/10 Per-for-mance in So-cial In-ter-action\OT1/cmr/m/n/10 . Pa-ra-digma,
- []
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_kapitola3.tex:104: Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
-[3]
-Overfull \hbox (1.61185pt too wide) in paragraph at lines 92--93
-\OT1/cmr/m/n/10 skutky pak mo-hou b^^Syt hmotn^^Se i ne-hmotn^^Se. P^^Tr^^S^^Pkladem t^^Tech hmotn^^Sych
- []
-
-
-Overfull \hbox (19.88965pt too wide) in paragraph at lines 92--93
-\OT1/cmr/m/n/10 m^^Wu^^Tze b^^Syt nap^^Tr^^S^^Pklad vy-ro-ben^^S^^P pizzy, p^^Tr^^S^^Pkladem ne-hmotn^^Sych zase nap^^Tr^^S^^Pkald
- []
-
-
-Overfull \hbox (4.66628pt too wide) in paragraph at lines 112--113
-[]\OT1/cmr/m/n/10 V p^^Tr^^S^^Ppad^^Te pro-pozi^^Tcn^^S^^Pch ko-or-dina^^Tcn^^S^^Pch ^^Tcinnost^^S^^P vy-ko-na-va-tel prohla^^Tsuje
- []
-
-[4]
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:120: Undefined control sequence.
-l.120 \subssubection
-                    {Aktoři}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (12.27846pt too wide) in paragraph at lines 123--124
-[]\OT1/cmr/m/n/10 Kompetenc^^S^^P je my^^Tslena schop-nost sub-jektu prov^^Sad^^Tet pro-duk^^Tcn^^S^^P ^^Tcinnosti
- []
-
-
-Overfull \hbox (2.16737pt too wide) in paragraph at lines 130--131
-\OT1/cmr/m/n/10 transak^^Tcn^^S^^Pho axi-omu, kte-rou for-mu-luje [[]] je, ^^Tze ko-or-dina^^Tcn^^S^^P ^^Tcinnosti
- []
-
-[5]
-Overfull \hbox (14.56264pt too wide) in paragraph at lines 154--155
-[]\OT1/cmr/m/n/10 Vykonavatel \OT1/cmr/m/it/10 pro-vede \OT1/cmr/m/n/10 po^^Tzadavek (vy-tvo^^Tr^^S^^P pro-duk^^Tcn^^S^^P sku-tek) (\OT1/cmr/m/it/10 execu-
- []
-
-
-Overfull \hbox (9.69513pt too wide) in paragraph at lines 162--163
-\OT1/cmr/m/n/10 ^^Tzivot^^Te ne-ust^^Sale nast^^Savaj^^S^^P. Nap^^Tr^^S^^Pklad se si-tuac^^S^^P, kdy vy-ko-na-va-tel nem^^Wu^^Tze
- []
-
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:169: Undefined control sequence.
-l.169 \item tvrzení upřímnosti (\texit
-                                         {claim to sincerity}).
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (3.58296pt too wide) in paragraph at lines 173--174
-\OT1/cmr/m/n/10 V r^^Samci stan-dardn^^S^^Pho transak^^Tcn^^S^^Pho vzoru je mo^^Tzn^^Se od-vo-lat kter^^Sykoliv
- []
-
-[6]
-Overfull \hbox (0.75569pt too wide) in paragraph at lines 178--179
-\OT1/cmr/m/n/10 trans-akc^^S^^P z^^Sakazn^^S^^Pka or-ga-ni-zace nebo je se-be-ak-ti-vuj^^S^^Pc^^S^^P (\OT1/cmr/m/it/10 self-activated\OT1/cmr/m/n/10 ).
- []
-
-
-Overfull \hbox (0.97285pt too wide) in paragraph at lines 178--179
-\OT1/cmr/m/n/10 Lo-gic-kou im-pli-kac^^S^^P tedy je, ^^Tze trans-akce mo-hou ob-sa-ho-vat dal^^Ts^^S^^P trans-
- []
-
-
-Overfull \hbox (8.44513pt too wide) in paragraph at lines 193--194
-\OT1/cmr/m/n/10 v^^S^^Pce in-fo-lo-gick^^Sych ^^Tcin^^Wu (in-forma) a pro je-den in-fo-lo-gick^^Sych ^^Tcin^^Wu mus^^S^^Pme
- []
-
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:197: Undefined control sequence.
-l.197 ...� sekci jsou popsány 4 axiomy \psitheory
-                                                  , které přináší z různých úhlů pohled na chod organizace, její operace a uspořádání. Tyto pojmy však samy o sobě nestačí k vytvoření ontologického modelu, který bude výstižný, �...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[7]
-Overfull \hbox (17.72289pt too wide) in paragraph at lines 207--208
-[]\OT1/cmr/m/n/10 Mezi t^^Temito vrst-vami (syst^^Semy) exis-tuje velk^^Sa prov^^Sazanost. D-organizace
- []
-
-
-Overfull \hbox (26.33408pt too wide) in paragraph at lines 207--208
-\OT1/cmr/m/n/10 pod-po-ruje I-organizaci a I-organizace pod-po-ruje B-organizaci. Prov^^Sazanost
- []
-
-
-Overfull \hbox (24.72278pt too wide) in paragraph at lines 207--208
-\OT1/cmr/m/n/10 se za-sta-vit. Rozd^^Telen^^S^^P or-ga-ni-zace do t^^Tr^^S^^P syst^^Semu si nen^^S^^P mo^^Tzn^^Se p^^Tredstavovat
- []
-
-
-Overfull \hbox (11.33392pt too wide) in paragraph at lines 207--208
-\OT1/cmr/m/n/10 ta-kov^^Seho ne-e-xis-tuje. Lidi i sku-piny lid^^S^^P zast^^Savaj^^S^^P role ve v^^Tsech syst^^Semech
- []
-
-[8]
-
-LaTeX Warning: Citation `2006' on page 9 undefined on input line 222.
-
-
-LaTeX Warning: Citation `Vejrazkova2003' on page 9 undefined on input line 233.
-
-[9]
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:251: Undefined control sequence.
-l.251 \subsubsubsection
-                       {Interaction Model (IAM)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (1.47047pt too wide) in paragraph at lines 254--255
-[]\OT1/cmr/m/n/10 IAM se skl^^Sad^^Sa z Transaction Re-sult Table (TRT) a Ac-tor Transaction
- []
-
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:256: Undefined control sequence.
-l.256 \subsubsubsection
-                       {Interstriction Model (ISM)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (2.50056pt too wide) in paragraph at lines 274--275
-\OT1/cmr/m/n/10 pod-ni-kov^^Sy pro-ces se skl^^Sad^^Sa z jedn^^Se ^^Tci v^^S^^Pce vz^^Sajemn^^Te prov^^Sazan^^Sych
- []
-
-[10]
-Overfull \hbox (9.66734pt too wide) in paragraph at lines 279--280
-\OT1/cmr/m/n/10 State Mo-del se zab^^Syv^^Sa p^^Tredev^^Ts^^S^^Pm p-sv^^Tetem { jeho ob-jek-tov^^Symi t^^Tr^^S^^Pdami,
- []
-
-
-Overfull \hbox (9.72183pt too wide) in paragraph at lines 287--288
-\OT1/cmr/m/n/10 Tato pra-vi-dla jsou v AM pops^^Sana slovn^^Te po-moc^^S^^P pseudo-algoritmick^^Seho
- []
-
-(./TSWLatexianTemp_000546.bbl [11] [12])
-
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000546.tex:296: LaTeX Error: \begin{quote} on input line 44 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \end{document}
-                    
+l.104 ...n the context of the BPMN 2.0 standard. 
+                                                   We’ll show how process data is represented in the BPMN XML and how it is mapped to variables, task I/O parameters, gateway conditions, message payloads, event definitions, service interfaces, and hum...
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[13] (./TSWLatexianTemp_000546.aux)
 
-LaTeX Warning: There were undefined references.
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_kapitola3.tex:104: Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
- )
-(\end occurred inside a group at level 1)
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...ignment rules in “executable BPMN”. 
+                                                   The basic structure has not changed since the first edition of the book, but the XML schema has changed significantly.  The new edition describes the proper serialization of BPMN 2.0 execution-related...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-### semi simple group (level 1) entered at line 44 (\begingroup)
-### bottom level 
+
+/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_kapitola3.tex:104: Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...e XML schema has changed significantly. 
+                                                   The new edition describes the proper serialization of BPMN 2.0 execution-related details in accordance with the final BPMN 2.0 specification, and relates that to the way these details are defined in re...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[4]
+Overfull \hbox (4.47173pt too wide) in paragraph at lines 106--107
+[]\OT1/cmr/m/n/10 BPMN ori-gi-na-ted in 2002 as the vi-sual de-sign la-yer of a new type of \transacti-
+ []
+
+[5] (./TSWLatexianTemp_kapitola3.bbl [6] [7]) [8] (./TSWLatexianTemp_kapitola3.aux) ) 
 Here is how much of TeX's memory you used:
- 2346 strings out of 493089
- 31796 string characters out of 6134841
- 101467 words of memory out of 5000000
- 5804 multiletter control sequences out of 15000+600000
- 8856 words of font info for 31 fonts, out of 8000000 for 9000
+ 2340 strings out of 493089
+ 31721 string characters out of 6134841
+ 102440 words of memory out of 5000000
+ 5798 multiletter control sequences out of 15000+600000
+ 8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,23p,683b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,23p,1966b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TSWLatexianTemp_000546.pdf (13 pages, 172692 bytes).
+Output written on TSWLatexianTemp_kapitola3.pdf (8 pages, 151746 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

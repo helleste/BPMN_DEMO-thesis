@@ -1,16 +1,20 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: TSWLatexianTemp_000267.aux
+The top-level auxiliary file: TSWLatexianTemp_kapitola3.aux
 The style file: plain.bst
 Database file #1: Bibliography.bib
 Repeated entry---line 220 of file Bibliography.bib
  : @misc{Vasicek2008
  :                  ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 311 of file Bibliography.bib
+ : @article{Naplava2015
+ :                     ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in BPELcz
+Warning--to sort, need author or key in iso_9000
 Warning--to sort, need author or key in UMLActivity
 Warning--to sort, need author or key in DEMO_web
-Warning--to sort, need author or key in iso_9000
 Warning--to sort, need author or key in Notace
 Warning--to sort, need author or key in Metodika
 Warning--empty journal in Bandor2007
@@ -22,45 +26,45 @@ Warning--there's a number but no volume in Jedlitschka2010
 Warning--empty journal in Shishkov2005
 Warning--empty publisher in Silver2011
 Warning--empty note in Vejrazkova2012
-You've used 33 entries,
+You've used 34 entries,
             2118 wiz_defined-function locations,
-            673 strings with 8159 characters,
-and the built_in function-call counts, 7846 in all, are:
-= -- 723
-> -- 300
+            676 strings with 8220 characters,
+and the built_in function-call counts, 8043 in all, are:
+= -- 740
+> -- 307
 < -- 2
-+ -- 125
-- -- 92
-* -- 405
-:= -- 1270
-add.period$ -- 79
-call.type$ -- 33
-change.case$ -- 135
++ -- 128
+- -- 94
+* -- 411
+:= -- 1302
+add.period$ -- 81
+call.type$ -- 34
+change.case$ -- 139
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 330
-empty$ -- 741
-format.name$ -- 92
-if$ -- 1672
+cite$ -- 49
+duplicate$ -- 337
+empty$ -- 763
+format.name$ -- 94
+if$ -- 1715
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 34
 missing$ -- 27
-newline$ -- 148
-num.names$ -- 54
-pop$ -- 248
+newline$ -- 152
+num.names$ -- 56
+pop$ -- 257
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 115
 quote$ -- 0
-skip$ -- 269
+skip$ -- 277
 stack$ -- 0
-substring$ -- 337
-swap$ -- 49
+substring$ -- 342
+swap$ -- 50
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 114
+type$ -- 118
 warning$ -- 15
-while$ -- 68
-width$ -- 35
-write$ -- 287
-(There was 1 error message)
+while$ -- 70
+width$ -- 36
+write$ -- 295
+(There were 2 error messages)

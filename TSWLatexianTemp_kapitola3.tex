@@ -93,17 +93,8 @@ Jak uvádí \cite{Silver2011} a \cite{Vasicek2008} pro základní práci obvykle
 \item Datová asociace (Data association)
 \end{enumerate}
 
-Pro potřeby této práce si ještě popíšeme následující elementy:
-
-\begin{itemize}
-\item Signál (Signal)
-\item Průběžná událost (Intermediate event)
-\end{itemize}
-
 \subsection{Aktivita}
-\textit{Aktivita} je v procesu graficky znázorněna obdélníkem se zaoblenými rohy. Jak již bylo popsáno výše, reprezentuje jednotku provedené práce. Jako jediný BPMN element má \textit{vykonavatele} \cite{Silver2011}. 
 
-Každá aktivita je buď \textit{task (Task)} nebo \textit{subproces (Subprocess)}. Task je atomický typ aktivity, tedy v modelu jej není možné rozdělit na další aktivity, ze kterých se skládá narozdíl od subprocesu, který je definované má a v modelu jsou znázorněné jako samostatný proces s počátečním i koncovým stavem. V závislosti na preferenci uživatele může být subproces zobrazen v rodičovském procesu jako jedna \uv{sbalená} aktivita nebo jsou přímo v rodičovském procesu vidět všechny aktivity, které subproces obsahuje. Subproces musí vždy začínat \textit{počáteční událostí typu None}. Task se dělí na 8 podtypů, jejichž definice je k dohledání ve specifikaci \cite{Omg2011}. V rámci této práce budeme používat pouze abstraktní task.
 
 \section{Základní pravidla modelování v BPMN}
 
