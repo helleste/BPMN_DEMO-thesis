@@ -42,6 +42,11 @@ Artur Caetano, Aur{\'{e}}lio Assis, and Jos{\'{e}} Tribolet.
 \newblock {\em Proceedings of the Annual Hawaii International Conference on
   System Sciences}, pages 4277--4285, 2011.
 
+\bibitem{Cerny2010}
+Ondřej {\v{C}}ern{\'{y}}.
+\newblock {\em {BPEL}}.
+\newblock PhD thesis, Vysok{\'{a}} {\v{s}}kola ekonomick{\'{a}}, 2010.
+
 \bibitem{Chytil2005}
 Jiř{\'{\i}} Chytil and Zden{\v{e}}k Lehock{\'{y}}.
 \newblock {V{\'{y}}vojov{\'{e}} diagramy - 1. d{\'{\i}}l}, 2005.
@@ -81,6 +86,10 @@ Andreas Jedlitschka, Outi Salo, and Frank Bomarius.
 \newblock {\em Journal of Software Maintenance and Evolution: Research and
   Practice}, (May):143--149, 2010.
 
+\bibitem{Leymann2009}
+Frank Leymann.
+\newblock {BPEL vs BPMN 2.0: Should you care?}, 2009.
+
 \bibitem{Naplava2015}
 Pavel N\'{a}plava.
 \newblock {A7B16ISP Informa\v{c}n\'{\i} syst\'{e}my a procesn\'{\i}
@@ -110,6 +119,10 @@ Jan~C. Recker, Michael Rosemann, Marta Indulska, and Peter Green.
 \newblock {Business process modeling: a comparative analysis}.
 \newblock {\em Journal of the {\ldots}}, 10(4):333--363, 2009.
 
+\bibitem{Rowley2009}
+Michael Rowley.
+\newblock {Why use BPMN for BPEL?}, 2009.
+
 \bibitem{Shishkov2005}
 Boris Shishkov and Jan Dietz.
 \newblock {Deriving Use Cases from Business Processes - The advantages of
@@ -122,6 +135,10 @@ Bruce Silver.
   Guide: A structured approach for business process modeling and implementation
   using BPMN 2.0}}.
 \newblock 2011.
+
+\bibitem{Silver20112}
+Bruce Silver.
+\newblock {Executable BPMN 2.0}, 2011.
 
 \bibitem{Silver2013}
 Bruce Silver.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  3 JAN 2016 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  8 JAN 2016 23:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -367,64 +367,134 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 35.
  [2] [3]
+Package epstopdf Info: Source file: <obrazky/activity.eps>
+(epstopdf)                    date: 2016-01-07 17:35:30
+(epstopdf)                    size: 37541 bytes
+(epstopdf)             Output file: <obrazky/activity-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-07 17:37:20
+(epstopdf)                    size: 5171 bytes
+(epstopdf)             Command: <epstopdf --outfile=obrazky/activity-eps-converted-to.pdf obrazky/activity.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
+ <obrazky/activity-eps-converted-to.pdf, id=22, 116.435pt x 86.3225pt>
+File: obrazky/activity-eps-converted-to.pdf Graphic file (type pdf)
+ <use obrazky/activity-eps-converted-to.pdf>
+Package pdftex.def Info: obrazky/activity-eps-converted-to.pdf used on input line 106.
+(pdftex.def)             Requested size: 116.43471pt x 86.32227pt.
+ [4]
+Package epstopdf Info: Source file: <obrazky/gateway-types.eps>
+(epstopdf)                    date: 2016-01-07 17:56:30
+(epstopdf)                    size: 81322 bytes
+(epstopdf)             Output file: <obrazky/gateway-types-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-07 17:57:38
+(epstopdf)                    size: 22912 bytes
+(epstopdf)             Command: <epstopdf --outfile=obrazky/gateway-types-eps-converted-to.pdf obrazky/gateway-types.eps>
+(epstopdf)             \includegraphics on input line 125.
+Package epstopdf Info: Output file is already uptodate.
+ <obrazky/gateway-types-eps-converted-to.pdf, id=26, 852.18375pt x 179.67125pt>
+File: obrazky/gateway-types-eps-converted-to.pdf Graphic file (type pdf)
+ <use obrazky/gateway-types-eps-converted-to.pdf>
+Package pdftex.def Info: obrazky/gateway-types-eps-converted-to.pdf used on input line 125.
+(pdftex.def)             Requested size: 852.18166pt x 179.67079pt.
 
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_kapitola3.tex:104: Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 ...n the context of the BPMN 2.0 standard. 
-                                                   We’ll show how process data is represented in the BPMN XML and how it is mapped to variables, task I/O parameters, gateway conditions, message payloads, event definitions, service interfaces, and hum...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_kapitola3.tex:104: Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 ...ignment rules in “executable BPMN”. 
-                                                   The basic structure has not changed since the first edition of the book, but the XML schema has changed significantly.  The new edition describes the proper serialization of BPMN 2.0 execution-related...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_kapitola3.tex:104: Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 ...e XML schema has changed significantly. 
-                                                   The new edition describes the proper serialization of BPMN 2.0 execution-related details in accordance with the final BPMN 2.0 specification, and relates that to the way these details are defined in re...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[4]
-Overfull \hbox (4.47173pt too wide) in paragraph at lines 106--107
-[]\OT1/cmr/m/n/10 BPMN ori-gi-na-ted in 2002 as the vi-sual de-sign la-yer of a new type of \transacti-
+Overfull \hbox (507.18166pt too wide) in paragraph at lines 125--126
+ [][] 
  []
 
-[5] (./TSWLatexianTemp_kapitola3.bbl [6] [7]) [8] (./TSWLatexianTemp_kapitola3.aux) ) 
+[5 <./obrazky/activity-eps-converted-to.pdf>]
+Overfull \hbox (3.61192pt too wide) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 toku []roz-hodne\ si-tu-ace, kdy na-stala n^^Tejak^^Sa ud^^Salost (nap^^Tr^^S^^Pklad obdr^^Tzen^^S^^P zpr^^Savy). 
+ []
+
+[6 <./obrazky/gateway-types-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <obrazky/start-events.eps>
+(epstopdf)                    date: 2016-01-07 20:04:51
+(epstopdf)                    size: 69327 bytes
+(epstopdf)             Output file: <obrazky/start-events-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-07 20:05:17
+(epstopdf)                    size: 17329 bytes
+(epstopdf)             Command: <epstopdf --outfile=obrazky/start-events-eps-converted-to.pdf obrazky/start-events.eps>
+(epstopdf)             \includegraphics on input line 158.
+Package epstopdf Info: Output file is already uptodate.
+ <obrazky/start-events-eps-converted-to.pdf, id=63, 254.9525pt x 149.55875pt>
+File: obrazky/start-events-eps-converted-to.pdf Graphic file (type pdf)
+ <use obrazky/start-events-eps-converted-to.pdf>
+Package pdftex.def Info: obrazky/start-events-eps-converted-to.pdf used on input line 158.
+(pdftex.def)             Requested size: 254.95186pt x 149.55838pt.
+Package epstopdf Info: Source file: <obrazky/end-events.eps>
+(epstopdf)                    date: 2016-01-07 20:20:26
+(epstopdf)                    size: 59546 bytes
+(epstopdf)             Output file: <obrazky/end-events-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-07 20:20:43
+(epstopdf)                    size: 14225 bytes
+(epstopdf)             Command: <epstopdf --outfile=obrazky/end-events-eps-converted-to.pdf obrazky/end-events.eps>
+(epstopdf)             \includegraphics on input line 173.
+Package epstopdf Info: Output file is already uptodate.
+ <obrazky/end-events-eps-converted-to.pdf, id=64, 300.12125pt x 83.31125pt>
+File: obrazky/end-events-eps-converted-to.pdf Graphic file (type pdf)
+ <use obrazky/end-events-eps-converted-to.pdf>
+Package pdftex.def Info: obrazky/end-events-eps-converted-to.pdf used on input line 173.
+(pdftex.def)             Requested size: 300.12051pt x 83.31104pt.
+ [7 <./obrazky/start-events-eps-converted-to.pdf>] [8 <./obrazky/end-events-eps-converted-to.pdf>]
+Overfull \hbox (21.22295pt too wide) in paragraph at lines 202--203
+\OT1/cmr/m/n/10 Narozd^^S^^Pl od sek-ven^^Tcn^^S^^Pho toku je tok zpr^^Sav v di-a-gramu zob-ra-zen ^^Tsipkou s p^^Treru^^Tsovanou
+ []
+
+Package epstopdf Info: Source file: <obrazky/pool-swimming_lane.eps>
+(epstopdf)                    date: 2016-01-07 21:05:01
+(epstopdf)                    size: 75667 bytes
+(epstopdf)             Output file: <obrazky/pool-swimming_lane-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-07 21:07:08
+(epstopdf)                    size: 9629 bytes
+(epstopdf)             Command: <epstopdf --outfile=obrazky/pool-swimming_lane-eps-converted-to.pdf obrazky/pool-swimming_lane.eps>
+(epstopdf)             \includegraphics on input line 208.
+Package epstopdf Info: Output file is already uptodate.
+<obrazky/pool-swimming_lane-eps-converted-to.pdf, id=107, 445.665pt x 375.4025pt>
+File: obrazky/pool-swimming_lane-eps-converted-to.pdf Graphic file (type pdf)
+ <use obrazky/pool-swimming_lane-eps-converted-to.pdf>
+Package pdftex.def Info: obrazky/pool-swimming_lane-eps-converted-to.pdf used on input line 208.
+(pdftex.def)             Requested size: 311.96336pt x 262.77995pt.
+ [9] [10 <./obrazky/pool-swimming_lane-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <obrazky/data-object-store.eps>
+(epstopdf)                    date: 2016-01-07 21:59:55
+(epstopdf)                    size: 51710 bytes
+(epstopdf)             Output file: <obrazky/data-object-store-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-07 22:01:36
+(epstopdf)                    size: 9946 bytes
+(epstopdf)             Command: <epstopdf --outfile=obrazky/data-object-store-eps-converted-to.pdf obrazky/data-object-store.eps>
+(epstopdf)             \includegraphics on input line 227.
+Package epstopdf Info: Output file is already uptodate.
+ <obrazky/data-object-store-eps-converted-to.pdf, id=116, 240.9pt x 115.43124pt>
+File: obrazky/data-object-store-eps-converted-to.pdf Graphic file (type pdf)
+ <use obrazky/data-object-store-eps-converted-to.pdf>
+Package pdftex.def Info: obrazky/data-object-store-eps-converted-to.pdf used on input line 227.
+(pdftex.def)             Requested size: 168.62883pt x 80.80132pt.
+ [11 <./obrazky/data-object-store-eps-converted-to.pdf>]
+Overfull \hbox (10.8884pt too wide) in paragraph at lines 259--260
+[]\OT1/cmr/m/n/10 BPMN 2.0 tak stan-dar-di-zuje re-pre-zen-taci dat v pro-cesu, zpr^^Sav, slu^^Tzeb, p^^Trid^^Telen^^S^^P
+ []
+
+
+LaTeX Warning: Citation `Siver2011' on page 12 undefined on input line 269.
+
+[12] (./TSWLatexianTemp_kapitola3.bbl [13] [14]) [15] (./TSWLatexianTemp_kapitola3.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2340 strings out of 493089
- 31721 string characters out of 6134841
- 102440 words of memory out of 5000000
- 5798 multiletter control sequences out of 15000+600000
+ 2397 strings out of 493089
+ 33201 string characters out of 6134841
+ 102510 words of memory out of 5000000
+ 5835 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,23p,1966b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,23p,1059b,216s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TSWLatexianTemp_kapitola3.pdf (8 pages, 151746 bytes).
+Output written on TSWLatexianTemp_kapitola3.pdf (15 pages, 235207 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 174 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
