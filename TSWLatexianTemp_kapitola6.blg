@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: TSWLatexianTemp_000042.aux
+The top-level auxiliary file: TSWLatexianTemp_kapitola6.aux
 The style file: plain.bst
 Database file #1: Bibliography.bib
 Repeated entry---line 220 of file Bibliography.bib
@@ -26,45 +26,45 @@ Warning--there's a number but no volume in Jedlitschka2010
 Warning--empty journal in Shishkov2005
 Warning--empty publisher in Silver2011
 Warning--empty note in Vejrazkova2012
-You've used 33 entries,
+You've used 38 entries,
             2118 wiz_defined-function locations,
-            673 strings with 8159 characters,
-and the built_in function-call counts, 7846 in all, are:
-= -- 723
-> -- 300
+            692 strings with 8485 characters,
+and the built_in function-call counts, 8831 in all, are:
+= -- 812
+> -- 335
 < -- 2
-+ -- 125
-- -- 92
-* -- 405
-:= -- 1270
-add.period$ -- 79
-call.type$ -- 33
-change.case$ -- 135
++ -- 140
+- -- 102
+* -- 438
+:= -- 1438
+add.period$ -- 90
+call.type$ -- 38
+change.case$ -- 154
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 330
-empty$ -- 741
-format.name$ -- 92
-if$ -- 1672
+cite$ -- 53
+duplicate$ -- 367
+empty$ -- 843
+format.name$ -- 102
+if$ -- 1882
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 38
 missing$ -- 27
-newline$ -- 148
-num.names$ -- 54
-pop$ -- 248
+newline$ -- 169
+num.names$ -- 64
+pop$ -- 287
 preamble$ -- 1
-purify$ -- 112
+purify$ -- 127
 quote$ -- 0
-skip$ -- 269
+skip$ -- 307
 stack$ -- 0
-substring$ -- 337
-swap$ -- 49
+substring$ -- 362
+swap$ -- 54
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 114
+type$ -- 134
 warning$ -- 15
-while$ -- 68
-width$ -- 35
-write$ -- 287
+while$ -- 78
+width$ -- 40
+write$ -- 330
 (There were 2 error messages)

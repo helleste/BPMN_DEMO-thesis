@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  8 JAN 2016 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  10 JAN 2016 02:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_kapitola3.tex
-(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_kapitola3.tex
+**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000937.tex
+(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000937.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -254,12 +254,43 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box26
 \@float@everytoks=\toks17
 \@floatcapt=\box27
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
  (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen104
+\captionmargin@=\dimen105
+\captionwidth=\dimen106
+\caption@tempdima=\dimen107
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
+)
+\c@ContinuedFloat=\count90
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count91
+\sf@farskip=\skip43
+\sf@captopadj=\dimen111
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count92
+\c@subfigure@save=\count93
+\c@lofdepth=\count94
+\c@subtable=\count95
+\c@subtable@save=\count96
+\c@lotdepth=\count97
+\sf@top=\skip46
+\sf@bottom=\skip47
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
@@ -274,38 +305,59 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count90
+\Gread@gobject=\count98
 ))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
-) (./TSWLatexianTemp_kapitola3.aux)
-\openout1 = `TSWLatexianTemp_kapitola3.aux'.
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks19
+\extratabsurround=\skip48
+\backup@length=\skip49
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen116
+\c@nlinenum=\count99
+\TeXr@lab=\toks20
+) (./TSWLatexianTemp_000937.aux)
+\openout1 = `TSWLatexianTemp_000937.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
  (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen106
+\scratchcounter=\count100
+\scratchdimen=\dimen117
 \scratchbox=\box28
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen107
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks20
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen118
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
@@ -343,158 +395,154 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 20.
+ [1
 
-Overfull \hbox (11.97298pt too wide) in paragraph at lines 22--23
-\OT1/cmr/m/n/10 svoj^^S^^P po-pu-la-ritu vd^^Te^^Tc^^S^^P BPMN, krom^^Te v^^Sy^^Tse zm^^S^^Pn^^Ten^^Sych d^^Wuvod^^Wu, zejm^^Sena p^^Tr^^S^^Pstupnosti
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (17.13948pt too wide) in paragraph at lines 42--43
+[]\OT1/cmr/m/n/10 M^^Wu^^Tze se st^^Sat, ^^Tze Ma-rio nen^^S^^P scho-pen ob-jedn^^Savce vy-hov^^Tet kv^^Wuli chyb^^Tej^^S^^Pc^^S^^Pm
  []
 
-[1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Warning: Reference `sec:st3_opax' on page 3 undefined on input line 46.
+
+
+Overfull \hbox (0.63847pt too wide) in paragraph at lines 49--50
+\OT1/cmr/m/n/10 za-vo-laj^^S^^P. V obou p^^Tr^^S^^Ppadech [$[]$] []zap^^S^^P^^Tse[] []jm^^Seno z^^Sakazn^^S^^Pka, ob-jedn^^Savku
+ []
+
+
+Overfull \hbox (2.19516pt too wide) in paragraph at lines 49--50
+\OT1/cmr/m/n/10 p^^Tripravena. Po-kud je to nutn^^Se []sd^^Tel^^S^^P tak^^Se z^^Sakazn^^S^^Pkovi akut^^Saln^^S^^P nab^^S^^Pdku
+ []
+
+
+Overfull \hbox (0.69508pt too wide) in paragraph at lines 51--52
+\OT1/cmr/m/n/10 jedn^^Savku[], []($[]$[] pizzy v kra-bic^^S^^Pch p^^Tres okno Mie, v^^Tcetn^^Te []$[]$
+ []
+
+
+Overfull \hbox (17.13948pt too wide) in paragraph at lines 53--54
+[]\OT1/cmr/m/n/10 M^^Wu^^Tze se st^^Sat, ^^Tze Ma-rio nen^^S^^P scho-pen ob-jedn^^Savce vy-hov^^Tet kv^^Wuli chyb^^Tej^^S^^Pc^^S^^Pm
+ []
+
+[3]
+Overfull \hbox (0.63847pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 za-vo-laj^^S^^P. V obou p^^Tr^^S^^Ppadech [$[]$] []zap^^S^^P^^Tse[] []jm^^Seno z^^Sakazn^^S^^Pka, ob-jedn^^Savku
+ []
+
+
+Overfull \hbox (2.19516pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 p^^Tripravena. Po-kud je to nutn^^Se []sd^^Tel^^S^^P tak^^Se z^^Sakazn^^S^^Pkovi akut^^Saln^^S^^P nab^^S^^Pdku
+ []
+
+
+Overfull \hbox (0.69508pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/10 jedn^^Savku[], []($[]$[] pizzy v kra-bic^^S^^Pch p^^Tres okno Mie, v^^Tcetn^^Te []$[]$
+ []
+
+
+Overfull \hbox (17.13948pt too wide) in paragraph at lines 63--64
+[]\OT1/cmr/m/n/10 M^^Wu^^Tze se st^^Sat, ^^Tze Ma-rio nen^^S^^P scho-pen ob-jedn^^Savce vy-hov^^Tet kv^^Wuli chyb^^Tej^^S^^Pc^^S^^Pm
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 35.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 35.
- [2] [3]
-Package epstopdf Info: Source file: <obrazky/activity.eps>
-(epstopdf)                    date: 2016-01-07 17:35:30
-(epstopdf)                    size: 37541 bytes
-(epstopdf)             Output file: <obrazky/activity-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-07 17:37:20
-(epstopdf)                    size: 5171 bytes
-(epstopdf)             Command: <epstopdf --outfile=obrazky/activity-eps-converted-to.pdf obrazky/activity.eps>
-(epstopdf)             \includegraphics on input line 106.
-Package epstopdf Info: Output file is already uptodate.
- <obrazky/activity-eps-converted-to.pdf, id=22, 116.435pt x 86.3225pt>
-File: obrazky/activity-eps-converted-to.pdf Graphic file (type pdf)
- <use obrazky/activity-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/activity-eps-converted-to.pdf used on input line 106.
-(pdftex.def)             Requested size: 116.43471pt x 86.32227pt.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
  [4]
-Package epstopdf Info: Source file: <obrazky/gateway-types.eps>
-(epstopdf)                    date: 2016-01-07 17:56:30
-(epstopdf)                    size: 81322 bytes
-(epstopdf)             Output file: <obrazky/gateway-types-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-07 17:57:38
-(epstopdf)                    size: 22912 bytes
-(epstopdf)             Command: <epstopdf --outfile=obrazky/gateway-types-eps-converted-to.pdf obrazky/gateway-types.eps>
-(epstopdf)             \includegraphics on input line 125.
-Package epstopdf Info: Output file is already uptodate.
- <obrazky/gateway-types-eps-converted-to.pdf, id=26, 852.18375pt x 179.67125pt>
-File: obrazky/gateway-types-eps-converted-to.pdf Graphic file (type pdf)
- <use obrazky/gateway-types-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/gateway-types-eps-converted-to.pdf used on input line 125.
-(pdftex.def)             Requested size: 852.18166pt x 179.67079pt.
-
-Overfull \hbox (507.18166pt too wide) in paragraph at lines 125--126
+Overfull \hbox (6.04015pt too wide) in paragraph at lines 78--114
  [][] 
  []
 
-[5 <./obrazky/activity-eps-converted-to.pdf>]
-Overfull \hbox (3.61192pt too wide) in paragraph at lines 143--144
-\OT1/cmr/m/n/10 toku []roz-hodne\ si-tu-ace, kdy na-stala n^^Tejak^^Sa ud^^Salost (nap^^Tr^^S^^Pklad obdr^^Tzen^^S^^P zpr^^Savy). 
- []
+[5] [6]
+Package epstopdf Info: Source file: <obrazky/result-structure-chart-pizzeria.eps>
+(epstopdf)                    date: 2016-01-09 23:31:43
+(epstopdf)                    size: 72478 bytes
+(epstopdf)             Output file: <obrazky/result-structure-chart-pizzeria-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-01-09 23:32:18
+(epstopdf)                    size: 16203 bytes
+(epstopdf)             Command: <epstopdf --outfile=obrazky/result-structure-chart-pizzeria-eps-converted-to.pdf obrazky/result-structure-chart-pizzeria.eps>
+(epstopdf)             \includegraphics on input line 210.
+Package epstopdf Info: Output file is already uptodate.
+ <obrazky/result-structure-chart-pizzeria-eps-converted-to.pdf, id=32, 275.0275pt x 316.18124pt>
+File: obrazky/result-structure-chart-pizzeria-eps-converted-to.pdf Graphic file (type pdf)
+ <use obrazky/result-structure-chart-pizzeria-eps-converted-to.pdf>
+Package pdftex.def Info: obrazky/result-structure-chart-pizzeria-eps-converted-to.pdf used on input line 210.
+(pdftex.def)             Requested size: 206.27011pt x 237.13535pt.
+ [7 <./obrazky/result-structure-chart-pizzeria-eps-converted-to.pdf>] <obrazky/ATD-pizzeria.png, id=47, 1216.545pt x 514.92375pt>
+File: obrazky/ATD-pizzeria.png Graphic file (type png)
+ <use obrazky/ATD-pizzeria.png>
+Package pdftex.def Info: obrazky/ATD-pizzeria.png used on input line 221.
+(pdftex.def)             Requested size: 425.79713pt x 180.226pt.
 
-[6 <./obrazky/gateway-types-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <obrazky/start-events.eps>
-(epstopdf)                    date: 2016-01-07 20:04:51
-(epstopdf)                    size: 69327 bytes
-(epstopdf)             Output file: <obrazky/start-events-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-07 20:05:17
-(epstopdf)                    size: 17329 bytes
-(epstopdf)             Command: <epstopdf --outfile=obrazky/start-events-eps-converted-to.pdf obrazky/start-events.eps>
-(epstopdf)             \includegraphics on input line 158.
-Package epstopdf Info: Output file is already uptodate.
- <obrazky/start-events-eps-converted-to.pdf, id=63, 254.9525pt x 149.55875pt>
-File: obrazky/start-events-eps-converted-to.pdf Graphic file (type pdf)
- <use obrazky/start-events-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/start-events-eps-converted-to.pdf used on input line 158.
-(pdftex.def)             Requested size: 254.95186pt x 149.55838pt.
-Package epstopdf Info: Source file: <obrazky/end-events.eps>
-(epstopdf)                    date: 2016-01-07 20:20:26
-(epstopdf)                    size: 59546 bytes
-(epstopdf)             Output file: <obrazky/end-events-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-07 20:20:43
-(epstopdf)                    size: 14225 bytes
-(epstopdf)             Command: <epstopdf --outfile=obrazky/end-events-eps-converted-to.pdf obrazky/end-events.eps>
-(epstopdf)             \includegraphics on input line 173.
-Package epstopdf Info: Output file is already uptodate.
- <obrazky/end-events-eps-converted-to.pdf, id=64, 300.12125pt x 83.31125pt>
-File: obrazky/end-events-eps-converted-to.pdf Graphic file (type pdf)
- <use obrazky/end-events-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/end-events-eps-converted-to.pdf used on input line 173.
-(pdftex.def)             Requested size: 300.12051pt x 83.31104pt.
- [7 <./obrazky/start-events-eps-converted-to.pdf>] [8 <./obrazky/end-events-eps-converted-to.pdf>]
-Overfull \hbox (21.22295pt too wide) in paragraph at lines 202--203
-\OT1/cmr/m/n/10 Narozd^^S^^Pl od sek-ven^^Tcn^^S^^Pho toku je tok zpr^^Sav v di-a-gramu zob-ra-zen ^^Tsipkou s p^^Treru^^Tsovanou
- []
-
-Package epstopdf Info: Source file: <obrazky/pool-swimming_lane.eps>
-(epstopdf)                    date: 2016-01-07 21:05:01
-(epstopdf)                    size: 75667 bytes
-(epstopdf)             Output file: <obrazky/pool-swimming_lane-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-07 21:07:08
-(epstopdf)                    size: 9629 bytes
-(epstopdf)             Command: <epstopdf --outfile=obrazky/pool-swimming_lane-eps-converted-to.pdf obrazky/pool-swimming_lane.eps>
-(epstopdf)             \includegraphics on input line 208.
-Package epstopdf Info: Output file is already uptodate.
-<obrazky/pool-swimming_lane-eps-converted-to.pdf, id=107, 445.665pt x 375.4025pt>
-File: obrazky/pool-swimming_lane-eps-converted-to.pdf Graphic file (type pdf)
- <use obrazky/pool-swimming_lane-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/pool-swimming_lane-eps-converted-to.pdf used on input line 208.
-(pdftex.def)             Requested size: 311.96336pt x 262.77995pt.
- [9] [10 <./obrazky/pool-swimming_lane-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <obrazky/data-object-store.eps>
-(epstopdf)                    date: 2016-01-07 21:59:55
-(epstopdf)                    size: 51710 bytes
-(epstopdf)             Output file: <obrazky/data-object-store-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-01-07 22:01:36
-(epstopdf)                    size: 9946 bytes
-(epstopdf)             Command: <epstopdf --outfile=obrazky/data-object-store-eps-converted-to.pdf obrazky/data-object-store.eps>
-(epstopdf)             \includegraphics on input line 227.
-Package epstopdf Info: Output file is already uptodate.
- <obrazky/data-object-store-eps-converted-to.pdf, id=116, 240.9pt x 115.43124pt>
-File: obrazky/data-object-store-eps-converted-to.pdf Graphic file (type pdf)
- <use obrazky/data-object-store-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/data-object-store-eps-converted-to.pdf used on input line 227.
-(pdftex.def)             Requested size: 168.62883pt x 80.80132pt.
- [11 <./obrazky/data-object-store-eps-converted-to.pdf>]
-Overfull \hbox (10.8884pt too wide) in paragraph at lines 259--260
-[]\OT1/cmr/m/n/10 BPMN 2.0 tak stan-dar-di-zuje re-pre-zen-taci dat v pro-cesu, zpr^^Sav, slu^^Tzeb, p^^Trid^^Telen^^S^^P
+Overfull \hbox (80.79713pt too wide) in paragraph at lines 221--222
+ [][] 
  []
 
 
-LaTeX Warning: Citation `Siver2011' on page 12 undefined on input line 269.
+LaTeX Warning: Reference `sec:tr_vzor_ulohy_signaly' on page 8 undefined on input line 226.
 
-[12] (./TSWLatexianTemp_kapitola3.bbl [13] [14]) [15] (./TSWLatexianTemp_kapitola3.aux)
+<obrazky/PSD-pizzeria.pdf, id=49, 1187.43625pt x 631.35875pt>
+File: obrazky/PSD-pizzeria.pdf Graphic file (type pdf)
+ <use obrazky/PSD-pizzeria.pdf>
+Package pdftex.def Info: obrazky/PSD-pizzeria.pdf used on input line 231.
+(pdftex.def)             Requested size: 415.60892pt x 220.97887pt.
+
+Overfull \hbox (70.60892pt too wide) in paragraph at lines 231--232
+ [][] 
+ []
+
+[8 <./obrazky/ATD-pizzeria.png>]
+
+LaTeX Warning: Reference `sec:tr_vzor_ulohy_signaly' on page 9 undefined on input line 237.
+
+
+LaTeX Warning: Reference `sec:tr_vzor_ulohy_signaly' on page 9 undefined on input line 239.
+
+<obrazky/pizzeria-bpmn-1.pdf, id=54, 667.5432pt x 757.55923pt>
+File: obrazky/pizzeria-bpmn-1.pdf Graphic file (type pdf)
+ <use obrazky/pizzeria-bpmn-1.pdf>
+Package pdftex.def Info: obrazky/pizzeria-bpmn-1.pdf used on input line 245.
+(pdftex.def)             Requested size: 441.59846pt x 501.14658pt.
+ [9 <./obrazky/PSD-pizzeria.pdf>] <obrazky/pizzeria-bpmn-2.pdf, id=66, 668.30801pt x 759.80396pt>
+File: obrazky/pizzeria-bpmn-2.pdf Graphic file (type pdf)
+ <use obrazky/pizzeria-bpmn-2.pdf>
+Package pdftex.def Info: obrazky/pizzeria-bpmn-2.pdf used on input line 253.
+(pdftex.def)             Requested size: 441.61493pt x 502.07504pt.
+ [10 <./obrazky/pizzeria-bpmn-1.pdf>] [11 <./obrazky/pizzeria-bpmn-2.pdf>]
+Overfull \hbox (5.40071pt too wide) in paragraph at lines 264--265
+[]\OT1/cmr/m/it/10 konzistentn^^S^^P \OT1/cmr/m/n/10 dle transak^^Tcn^^S^^Pho axi-omu { po^^Trad^^S^^P prov^^Sad^^Ten^^S^^P v^^Tsech transak^^Tcn^^S^^Pch
+ []
+
+(./TSWLatexianTemp_000937.bbl [12] [13]) [14] (./TSWLatexianTemp_000937.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2397 strings out of 493089
- 33201 string characters out of 6134841
- 102510 words of memory out of 5000000
- 5835 multiletter control sequences out of 15000+600000
+ 3811 strings out of 493089
+ 56935 string characters out of 6134841
+ 124809 words of memory out of 5000000
+ 7229 multiletter control sequences out of 15000+600000
  8241 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,23p,1059b,216s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,16n,42p,1898b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TSWLatexianTemp_kapitola3.pdf (15 pages, 235207 bytes).
+Output written on TSWLatexianTemp_000937.pdf (14 pages, 494804 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 356 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

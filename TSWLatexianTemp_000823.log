@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  3 JAN 2016 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.11)  10 JAN 2016 02:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000042.tex
-(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000042.tex
+**/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000823.tex
+(/Users/helleste/Documents/skola/12sem/diplomka/obsah/TSWLatexianTemp_000823.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -316,12 +316,12 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \NC@list=\toks19
 \extratabsurround=\skip48
 \backup@length=\skip49
-) (./TSWLatexianTemp_000042.aux
+) (./TSWLatexianTemp_000823.aux
 
 LaTeX Warning: Label `sec:vyjadreni_cfactu' multiply defined.
 
 )
-\openout1 = `TSWLatexianTemp_000042.aux'.
+\openout1 = `TSWLatexianTemp_000823.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -674,7 +674,7 @@ Overfull \hbox (12.74962pt too wide) in paragraph at lines 377--378
 \OT1/cmr/m/n/10 mo-del^^Wu po-moc^^S^^P vyj^^Sad^^Tren^^S^^P transak^^Tcn^^S^^Pho vzoru v BPMN dle sekce 4[]. V^^Sysledkem
  []
 
-(./TSWLatexianTemp_000042.bbl [26] [27]) [28] (./TSWLatexianTemp_000042.aux)
+(./TSWLatexianTemp_000823.bbl [26] [27]) [28] (./TSWLatexianTemp_000823.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -683,15 +683,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3651 strings out of 493089
- 56504 string characters out of 6134841
- 121202 words of memory out of 5000000
- 7072 multiletter control sequences out of 15000+600000
+ 3657 strings out of 493089
+ 56579 string characters out of 6134841
+ 121238 words of memory out of 5000000
+ 7078 multiletter control sequences out of 15000+600000
  8600 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,8n,42p,1440b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on TSWLatexianTemp_000042.pdf (28 pages, 861620 bytes).
+Output written on TSWLatexianTemp_000823.pdf (28 pages, 861684 bytes).
 PDF statistics:
  568 PDF objects out of 1000 (max. 8388607)
  436 compressed objects within 5 object streams
