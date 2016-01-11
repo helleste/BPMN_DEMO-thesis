@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: TSWLatexianTemp_000433.aux
+The style file: csn690.bst
+Database file #1: Bibliography.bib
+Repeated entry---line 220 of file Bibliography.bib
+ : @misc{Vasicek2008
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 311 of file Bibliography.bib
+ : @article{Naplava2015
+ :                     ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--to sort, need author or key in iso_9000
+Warning--to sort, need author or key in BPELcz
+Warning--to sort, need author or key in UMLActivity
+Warning--to sort, need author or key in DEMO_web
+Warning--to sort, need author or key in Notace
+Warning--to sort, need author or key in Metodika
+Warning--missing publisher in Peris-Ortiz2014
+Warning--empty journal in Bandor2007
+Warning--there's a number but no volume in Jedlitschka2010
+Warning--missing publisher in Dietz2006
+Warning--empty journal in Eriksson
+Warning--empty year in Eriksson
+Warning--missing publisher in Eriksson2000
+Warning--empty note in Vejrazkova2012
+Warning--empty journal in Shishkov2005
+Warning--missing publisher in Silver2011
+You've used 39 entries,
+            3151 wiz_defined-function locations,
+            900 strings with 11827 characters,
+and the built_in function-call counts, 13990 in all, are:
+= -- 935
+> -- 377
+< -- 12
++ -- 185
+- -- 106
+* -- 733
+:= -- 1602
+add.period$ -- 71
+call.type$ -- 39
+change.case$ -- 128
+chr.to.int$ -- 0
+cite$ -- 55
+duplicate$ -- 1393
+empty$ -- 1472
+format.name$ -- 117
+if$ -- 3028
+int.to.chr$ -- 0
+int.to.str$ -- 39
+missing$ -- 331
+newline$ -- 148
+num.names$ -- 66
+pop$ -- 781
+preamble$ -- 1
+purify$ -- 128
+quote$ -- 0
+skip$ -- 562
+stack$ -- 0
+substring$ -- 395
+swap$ -- 658
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 136
+warning$ -- 16
+while$ -- 84
+width$ -- 41
+write$ -- 339
+(There were 2 error messages)
