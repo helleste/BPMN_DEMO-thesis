@@ -1,5 +1,5 @@
 \section{Úvod}
-V předchozí kapitole byl představen návrh metody pro vytváření BPMN modelů za použití Enterprise ontology, \ptheory a metodologie DEMO. Cílem metody má být umožnit vytvářet BPMN modely, které budou vždy \textit{konzistentní}, \textit{kompletní} a \textit{jednoznačné}.
+V předchozí kapitole byl představen návrh metody pro vytváření BPMN modelů za použití Enterprise ontology, \ptheory{} a metodologie DEMO. Cílem metody má být umožnit vytvářet BPMN modely, které budou vždy \textit{konzistentní}, \textit{kompletní} a \textit{jednoznačné}.
 
 V této sekci je navržená metoda aplikována po jednotlivých krocích na konkrétní příklad a na závěr jsou diskutovány výsledky. Aplikace kroků 1, 2, 3 a 6 vycházejí z analogických postupů popsaných v \cite{Dietz2006}.
 
@@ -239,7 +239,7 @@ Zobrazení případu Pizzerie Mama Mia v BPMN za použití metody navržené v t
 \end{center}
 
 \section{Diskuse}
-Na obrázcích \ref{fig:pizzeria_bpmn_1} a \ref{fig:pizzeria_bpmn_2} vidíme, že se nám podařilo vytvořit BPMN model pro případ Pizzerie Mama Mia dle metody navržené v kapitole 5. Vytvořený BPMN model je:
+Na obrázcích \ref{fig:pizzeria_bpmn_1} a \ref{fig:pizzeria_bpmn_2} vidíme, že se nám podařilo vytvořit BPMN model pro případ Pizzerie Mama Mia dle metody navržené v kapitole \ref{chap:5}. Vytvořený BPMN model je:
 
 \begin{itemize}
 \item \textit{kompletní} dle transakčního axiomu – žádný transakční krok dle základního transakčního vzoru v modelu nechybí a díky použití plaveckých drah je jasné, který actor je zodpovědný za vykonání konkrétního transakčního kroku
@@ -247,6 +247,17 @@ Na obrázcích \ref{fig:pizzeria_bpmn_1} a \ref{fig:pizzeria_bpmn_2} vidíme, ž
 \item \textit{jednoznačný} – navržená metoda zajišťuje, že při správném aplikování všech kroků metody vznikne vždy ten samý model
 \item \textit{esenciální} – výsledný model neobsahuje žádné implementační detaily. Při jeho tvorbě bylo použito pouze aktivit, které jsme vyhodnotili jako Performa.
 \end{itemize}
+
+Na obrázku \ref{fig:pizzeria_bpmn_old} lze vidět případ Pizzerie Mama Mia v notaci BPMN, kterou můžeme najít v \cite{VanNuffel2009}. Je vidět, že od diagramu vzniklého aplikací metody se velmi liší, ačkoliv oba tyto diagramy modelují stejný případ a jsou dle specifikace BPMN korektní. V diagramu na obrázku \ref{fig:pizzeria_bpmn_old} evidentně chybí velké množství kroků dle transakčního axiomu, například chybí \textit{promise} objednávky klientovi nebo většina transakčních kroků u platby. Pokud by však neexistovaly DEMO modely, které jsme vytvořily v rámci této kapitoly, neměli bychom jak ověřit, zda je vzniklý model kompletní.
+
+
+\begin{landscape}
+\begin{figure}[htbp]
+\centerline{\includegraphics[scale=0.3]{obrazky/bpmn-pizzeria-old}}
+\caption{Případ Pizzerie Mama Mia dle \cite{VanNuffel2009}}
+\label{fig:pizzeria_bpmn_old}
+\end{figure}
+\end{landscape}
 
 \subsection{Slabiny metody}
 \subsubsection{Modelování komplexních procesů}

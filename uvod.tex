@@ -1,36 +1,36 @@
 Každá organizace (nezáleží zda firma, úřad nebo spolek) od určité velikosti začne řešit problémy s efektivitou a udržitelností růstu. Jedním z řešení, ať už k němu řídící pracovníci přistoupí vědomě či nevědomě, je nějaká forma \textit{procesního řízení}.
 
-Procesní řízení, jehož základům se podrobně věnuje kapitola 1, ve své podstatě znamená standardizaci opakujících se postupů, jejich zaznamenání ve formě, která umožní pozdější analýzu a optimalizaci za účelem zvyšování efektivity jejich provádění a eliminaci chyb, které mohou vzniknout.
+Procesní řízení, jehož základům se podrobně věnuje kapitola \ref{chap:1}, ve své podstatě znamená standardizaci opakujících se postupů, jejich zaznamenání ve formě, která umožní pozdější analýzu a optimalizaci za účelem zvyšování efektivity jejich provádění a eliminaci chyb, které mohou vzniknout.
 
 Přístupy, jak procesy zaznamenávat, analyzovat a optimalizovat se vyvíjí stejně jako se vyvíjí organizace, společnost, požadavky zákazníků a v neposlední řadě technologie. Od intuitivního zaznamenávání průběhu procesů pomocí \textit{vývojových diagramů}, které neumožňovaly nic jiného než prosté grafické znázornění posloupnosti aktivit, se vývoj posunul k automatizaci procesů pomocí výpočetních prostředků a analýze velkého množství dat o každém kroku analyzovaného procesu.
 
-Tato práce se snaží přispět k tomu, aby bylo možné procesy zaznamenávat a analyzovat s větší mírou konzistence podle metody, jejíž návrh tato práce představuje v kapitole 5.
+Tato práce se snaží přispět k tomu, aby bylo možné procesy zaznamenávat a analyzovat s větší mírou konzistence podle metody, jejíž návrh tato práce představuje v kapitole \ref{chap:5}.
 
-\subsection{Motivace}
+\section{Motivace}
 V této práci jsou analyzovány dvě techniky použitelné k modelování podnikových procesů – DEMO a BPMN. BPMN je v současnosti zřejmě nejpoužívanější notací pro vizuální reprezentaci podnikových procesů. Její předností je zejména velká srozumitelnost pro business uživatele, kteří jsou dobře obeznámeni s vývojovými diagramy a jsou tak schopni číst i vytvářet diagramy v BPMN bez větších problémů. Slabinou BPMN je však absence jasných pravidel \textit{jak} diagramy vytvářet, \textit{které} části procesu v nich zaznamenávat a \textit{z čeho} se procesy vlastně skládají. Výsledkem jsou BPMN modely, které jsou často \textit{nekompletní}, \textit{nekonzistentní} a \textit{nejednoznačné}.
 
-DEMO je metodologie založená na silném teoretickém základu, který se skládá především z \textit{Enterprise ontology} a \textit{\ptheory}. DEMO má jasná pravidla co v modelech zachycovat, jak při vytváření modelů postupovat a jak ověřit, zda jsou vzniklé modely korektní a správné. Metodologie DEMO zajišťuje, že pokud dodržíme veškeré postupy, které tato metodologie stanoví, tak nám při modelování stejného procesu musí na konci vždy vzniknout ten samý model. Tato jistota má zásadní pozitivní důsledky pro analýzu, sdílení i diskusi nad procesy v rámci organizace.
+DEMO je metodologie založená na silném teoretickém základu, který se skládá především z \textit{Enterprise ontology} a \textit{\ptheory{}}. DEMO má jasná pravidla co v modelech zachycovat, jak při vytváření modelů postupovat a jak ověřit, zda jsou vzniklé modely korektní a správné. Metodologie DEMO zajišťuje, že pokud dodržíme veškeré postupy, které tato metodologie stanoví, tak nám při modelování stejného procesu musí na konci vždy vzniknout ten samý model. Tato jistota má zásadní pozitivní důsledky pro analýzu, sdílení i diskusi nad procesy v rámci organizace.
 
 Tato práce si klade za cíl zkombinovat výhody obou technik, tedy dobrou srozumitelnost business uživateli na straně jedné a pevný teoretický základ na straně druhé, vyvinutím metody, která umožní vytvářet BPMN modely, které budou \textit{kompletní}, \textit{konzistentní} a \textit{jednoznačné}. V kombinaci s možnostmi automatizace by se mohlo jednat o krok dopředu v celé oblasti Business Process Managementu.
 
-\subsection{Struktura práce}
+\section{Struktura práce}
 Práce je rozdělena do šesti kapitol. V první jsou definovány základní pojmy, se kterými je ve zbytku textu pracováno a také je zde rozebrán vývoj přístupů k práci s podnikovými procesy. Druhá kapitola analyzuje nejpoužívanější techniky pro modelování podnikových procesů a srovnává jejich silné a slabé stránky. Třetí a čtvrtá kapitola rozebírají notaci BPMN, respektive metodologii DEMO do hloubky – jejich základní principy a postupy. V páté kapitole se nachází klíčová část této práce, kterou je jednak jednak návrh toho, jak vyjádřit klíčové prvky metodologie DEMO pomocí primitiv z notace BPMN a také návrh metody, která obsahuje sedm kroků dle kterých je možné vytvořit BPMN model procesu. Výsledný model by měl být \textit{kompletní}, \textit{konzistentní} a \textit{jednoznačný}. Závěrečná kapitola demonstruje navrženou metodu na konkrétním příkladu a diskutuje výsledky její aplikace.
 
-\subsection{Překlad cizojazyčných termínů}
+\section{Překlad cizojazyčných termínů}
 Při psaní textu se autor potýkal s problémem, že zejména v případě metodologie DEMO existuje jen mizivé množství textů v českém jazyce, které by popisovaly tuto metodologii. Základní termíny, kterými jsou označeny jednotlivé prvky metodologie, tak nemají český překlad. Autor se rozhodl toto řešit částečným překladem těch termínů, u kterých je přeložení přímočaré a jinak pracoval s původními anglickými výrazy. Při případné aktualizaci práce by bylo možné přeložit více termínů, pokud by se na českých ekvivalentech našla shoda v rámci české komunity DEMO.
 
-\subsection{Klíčové zdroje}
+\section{Klíčové zdroje}
 Pro čerpání informací použil autor této diplomové práce několik desítek zdrojů, ale tři níže uvedené stojí za vypíchnutí a krátký komentář, neboť byly pro vznik této práce zásadní.
 
-\subsubsection{Enterprise ontology – Jan L. G. Dietz}
-Jan Dietz je tvůrcem metodologie DEMO a autorem celé řady publikací na téma fungování organizací, sociálních interakcích v nich, stejně jako na modelování jejich činnosti. Kniha \textit{Enterprise ontology – Theory and Metodology} podrobně popisuje všechny tyto fenomény stejně jako Enterprise ontology, \ptheory a celou metodologii DEMO.
+\subsection{Enterprise ontology – Jan L. G. Dietz}
+Jan Dietz je tvůrcem metodologie DEMO a autorem celé řady publikací na téma fungování organizací, sociálních interakcích v nich, stejně jako na modelování jejich činnosti. Kniha \textit{Enterprise ontology – Theory and Metodology} podrobně popisuje všechny tyto fenomény stejně jako Enterprise ontology, \ptheory{} a celou metodologii DEMO.
 
-\subsubsection{Enhancing the Formal Foundations of BPMN by Enterprise Ontology – Van Nuffel, Mulder, Van Kervel}
+\subsection{Enhancing the Formal Foundations of BPMN by Enterprise Ontology – Van Nuffel, Mulder, Van Kervel}
 Tato publikace je jednou z mála, které se zabývají nějakým druhem kombinace DEMO a BPMN. V tomto případě se jedná zejména o analýzu již existujících BPMN modelů z hlediska požadavků na ontologickou kompletnost a konzistentnost. Tato práce zároveň obsahuje postup, jak zajistit úpravu těchto BPMN modelů tak, aby tyto požadavky splňovaly.
 
 V této souvislosti by autor rád zmínil, že v rámci tvorby této diplomové práce navštívil jednoho z autorů této publikace Stevena Van Kervela a jeho tým ve společnosti Formetis, za účelem diskutování závěrů a přínosů práce. Tato návštěva byla pro vznik této diplomové práce velkým přínosem.
 
-\subsubsection{Business Process Modeling and Simulation: DEMO, BORM and BPMN – Zuzana Vejražková}
+\subsection{Business Process Modeling and Simulation: DEMO, BORM and BPMN – Zuzana Vejražková}
 Třetí publikací, která byla zásadní pro vznik této diplomové práce je diplomová práce Zuzany Vejražkové, která vznikla na Fakultě informačních technologií ČVUT. Tato práce se zabývá analýzou technik DEMO, BORM a BPMN s důrazem na simulaci podnikových procesů, která umožňuje jejich efektivnější analýzu.
 
 Rozdíl mezi touto diplomovou prací a prací Zuzany Vejražkové je jednak ve volbě technik, které jsou zkombinovány (Zuzana Vejražková kombinuje DEMO s Petriho sítěmi, tato práce kombinuje DEMO a BPMN) a jednak v menším důrazu na simulaci a automatizaci, kterou autor této diplomové práce přenechává dalšímu výzkumu.

@@ -87,7 +87,7 @@ Pro potřeby této práce si ještě popíšeme následující element:
 \subsection{Aktivita}
 \textit{Aktivita} je v procesu graficky znázorněna obdélníkem se zaoblenými rohy. Jak již bylo popsáno výše, reprezentuje jednotku provedené práce. Jako jediný BPMN element má \textit{vykonavatele} \cite{Silver2011}. 
 
-\begin{figure}[H]\centering
+\begin{figure}[htbp]\centering
 \includegraphics{obrazky/activity}
 \caption{Element \textit{aktivita}}
 \label{fig:aktivita}
@@ -106,7 +106,7 @@ V případě, že je potřeba rozštěpit sekvenční tok, obvykle na základě 
 \item Event-based
 \end{itemize}
 
-\begin{figure}[H]\centering
+\begin{figure}[htbp]\centering
 \includegraphics{obrazky/gateway-types}
 \caption{Různé druhy elementu \textit{brána}}
 \label{fig:brany}
@@ -141,12 +141,6 @@ Symbol uvnitř kruhu označuje, o jaký typ počáteční nebo konečné událos
 \item Multiple a Multiple-Parallel
 \end{itemize}
 
-\begin{figure}[H]\centering
-\includegraphics{obrazky/start-events}
-\caption{Různé druhy \textit{počátečních událostí}}
-\label{fig:pocatecni_udalosti}
-\end{figure}
-
 BPMN 2.0 definuje 9 typů konečných událostí, ale v praxi se používají zejména tyto 4: \cite{Silver2011}
 
 \begin{itemize}
@@ -156,7 +150,14 @@ BPMN 2.0 definuje 9 typů konečných událostí, ale v praxi se používají ze
 \item Multiple
 \end{itemize}
 
-\begin{figure}[H]\centering
+\begin{figure}[htbp]\centering
+\includegraphics{obrazky/start-events}
+\caption{Různé druhy \textit{počátečních událostí}}
+\label{fig:pocatecni_udalosti}
+\end{figure}
+
+
+\begin{figure}[htbp]\centering
 \includegraphics{obrazky/end-events}
 \caption{Různé druhy \textit{konečných událostí}}
 \label{fig:konecne_udalosti}
@@ -174,9 +175,9 @@ Pokud je projekt spouštěn pravidelně v určitý čas dle nějakého plánu, p
 \subsubsection{Průběžná událost typu Signál}
 Průběžná událost typu \textit{Signál} vysílá nebo přijímá signál, což je neadresná zpráva, kterou může přijmout každý, kdo je připraven naslouchat. Je například vhodná pro neadresnou komunikaci uvnitř procesu (na rozdíl od zprávy). Na obrázku \ref{fig:prubezne_udalosti} vidíme průběžnou throwing i catching událost typu Signál. 
 
-\begin{figure}[H]\centering
+\begin{figure}[htbp]\centering
 \includegraphics{obrazky/intermediate-events-signals-messages}
-\caption{Různé druhy průběžných  událostí používané v této práci}
+\caption{Různé druhy průběžných událostí používaných v této práci}
 \label{fig:prubezne_udalosti}
 \end{figure}
 
@@ -203,7 +204,7 @@ na rozdíl od sekvenčního toku je \textit{tok zpráv} v diagramu zobrazen šip
 \subsection{Bazén a plavecké dráhy}
 Jasně ohraničený obdélník orientovaný vertikálně či horizontálně ohraničuje \textit{bazén}. Bazén slouží k vymezení hranic mezi procesem a externími entitami. Bazén obsahuje BPMN elementy procesu nebo se jedná o tzv.\textit{ black-box bazén}. Ten se používá v případě, že chceme modelovat komunikaci s externí entitou, ale nechceme zobrazovat jak vnitřní entita funguje.
 
-\begin{figure}[H]\centering
+\begin{figure}[htbp]\centering
 \includegraphics[scale=0.7]{obrazky/pool-swimming_lane}
 \caption{Element \textit{bazén} s \textit{plaveckými drahami}}
 \label{fig:bazen}
@@ -222,7 +223,7 @@ Datové úložiště oproti tomu reprezentuje data, která jsou dostupná trvale
 
 S ostatními elementy v procesu jsou výše popsané datové objekty spojené prostřednictvím datových asociací, které jsou znázorněny tečkovanými šipkami s nevyplněným \uv{V} na vrcholu nebo bez něj.
 
-\begin{figure}[H]\centering
+\begin{figure}[htbp]\centering
 \includegraphics[scale=0.7]{obrazky/data-object-store}
 \caption{Element \textit{datový objekt} a \textit{datové úložiště}}
 \label{fig:datove_objekty}

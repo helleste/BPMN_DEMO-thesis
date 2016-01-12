@@ -35,7 +35,7 @@ Vývojové diagramy se skládají z několika málo základních symbolů. Tyto 
 \item \textit{Spojovací symbol} – inverzním symbolem ke kosočtverci je ve vývojovém diagramu kruh, který se používá ke spojení více řídících toků do jednoho.
 \end{itemize}
 
-\begin{figure}[H]\centering %todo překreslit obrázek%
+\begin{figure}[H]\centering
 \includegraphics[width=1.0\textwidth]{obrazky/flowchart}
 \caption{Nákupní proces pomocí vývojového diagramu}
 \label{fig:Flowchart}
@@ -55,8 +55,7 @@ Vývojové diagramy mají mnoho využití. Hodí se například pro komunikaci m
 S trochou nadsázky by se dalo říct, že BPMN je vlastně rozšířením vývojového diagramu. Je určitě pravdou, že se BPMN touto jednoduchou technikou v mnohém inspirovalo a na jejích základech postavilo notaci, která umožňuje poměrně jednoduše modelovat i komplexní podnikové procesy a zároveň si stále uchovává dobrou srozumitelnost pro uživatele.
 
 \subsubsection{Základní pravidla}
-Jelikož se BPMN budeme podrobně věnovat v kapitole 3 %todo odkaz%
-nemá smysl na tomto místě zacházet do přílišných detailů. Zatím si vystačíme s tím, že v BPMN jsou zásadními objekty \textit{aktivity}, \textit{události}, \textit{brány}, \textit{počáteční a koncové symboly} a \textit{\uv{šipky}} neboli symboly reprezentující \textit{sekvenční tok} procesu nebo zasílání \textit{zpráv}. Vzhledově se tyto symboly příliš neliší od korespondujících  symbolů ve vývojovém diagramu.
+Jelikož se BPMN budeme podrobně věnovat v kapitole \ref{chap:3} nemá smysl na tomto místě zacházet do přílišných detailů. Zatím si vystačíme s tím, že v BPMN jsou zásadními objekty \textit{aktivity}, \textit{události}, \textit{brány}, \textit{počáteční a koncové symboly} a \textit{\uv{šipky}} neboli symboly reprezentující \textit{sekvenční tok} procesu nebo zasílání \textit{zpráv}. Vzhledově se tyto symboly příliš neliší od korespondujících  symbolů ve vývojovém diagramu.
 
 \begin{figure}[H]\centering 
 \includegraphics[width=1.0\textwidth]{obrazky/bpmn-order-process}
@@ -65,9 +64,9 @@ nemá smysl na tomto místě zacházet do přílišných detailů. Zatím si vys
 \end{figure}
 
 \subsubsection{Výhody a nevýhody}
-Mezi hlavní výhody BPMN určitě můžeme zařadit fakt, že BPMN je \textit{standard}, tedy je přesně definované, co který symbol vyjadřuje. O BPMN se stará organizace OMG (Object Management Group) a kontinuálně pracuje na jeho rozvoji. Díky širokému rozšíření BPMN existuje na trhu velké množství placených i neplacených nástrojů, které umožňují modelování podnikových procesů pomocí této notace.
+Mezi hlavní výhody BPMN určitě můžeme zařadit fakt, že BPMN je \textit{standard}, tedy je přesně definované, co který symbol vyjadřuje. O BPMN se stará organizace OMG (Object Management Group) a kontinuálně pracuje na jeho rozvoji. Díky širokému rozšíření BPMN existuje na trhu velké množství placených i neplacených nástrojů, které umožňují modelování podnikových procesů pomocí této notace. Stránka \url{https://bpmnmatrix.github.io} eviduje 58 dostupných nástrojů pro vytváření modelů podnikových procesů v BPMN.
 
-Další neoddiskutovatelnou předností je srozumitelnost notace, která je vysoká právě díky své podobnosti s vývojovými diagramy. Bez nutnosti zdlouhavého studia dokumentace je BPMN modelu schopen porozumět člověk z managementu společnosti a stejně tak i softwarový inženýr nebo vývojář. Právě pro ty ukrývá BPMN další výhodu a tou je poměrně přímočará převoditelnost BPMN modelů do strojově čitelných formátů, jako je jazyk XML nebo na něm založený jazyk BPEL. %todo ověřit%
+Další neoddiskutovatelnou předností je srozumitelnost notace, která je vysoká právě díky své podobnosti s vývojovými diagramy. Bez nutnosti zdlouhavého studia dokumentace je BPMN modelu schopen porozumět člověk z managementu společnosti a stejně tak i softwarový inženýr nebo vývojář. Právě pro ty ukrývá BPMN další výhodu a tou je poměrně přímočará převoditelnost BPMN modelů do strojově čitelných formátů, jako je jazyk XML nebo na něm založený jazyk BPEL.
 
 Ačkoliv je používání notace BPMN částečně definované v dokumentaci, reálné procesy v organizacích mohou být obtížně modelovatelné bez hluboké znalosti BPMN a může tedy docházet k vytváření nekorektních modelů nebo více různých modelů toho samého jevu. To je důsledkem absence metodologie, která by předepisovala postup pro modelování podnikového procesu v BPMN, jeho strukturu a další pravidla. Dalším problémem dle \cite{Polancic2014} je, že někteří výrobci softwaru pro modelování v BPMN si tento standard ohýbají podle sebe nebo ho \uv{obohacují} o vlastní \uv{vylepšení}, která pak dělají takto vytvořené modely obtížně přenositelnými.
 
@@ -146,10 +145,10 @@ Fundamentální vlastnosti, který by měl procesní model vytvořený v metodol
 Zjednodušeně řečeno, důvodem pro vytvoření této metodologie byla narůstající nespokojenost se stavem jiných metodologií, notací a jazyků obvykle používaných k modelování podnikových procesů. 
 Modely vytvořené v těchto nástrojích jsou totiž většinou příliš podrobné a příliš technicky zaměřené, takže stěžují pohled na organizaci z vrchu – jen na to důležité, co se v ní odehrává.
 
-DEMO je naopak postaveno na modelování podnikových procesů pomocí \textit{ontologií}, což znamená, že je zachyceno jen jádro problému, které většinou tvoří \textit{komunikace} mezi lidmi. DEMO má silný teoretický základ v teorii PSI, o které si více řekneme v kapitole 4. %todo odkaz%
+DEMO je naopak postaveno na modelování podnikových procesů pomocí \textit{ontologií}, což znamená, že je zachyceno jen jádro problému, které většinou tvoří \textit{komunikace} mezi lidmi. DEMO má silný teoretický základ v teorii PSI, o které si více řekneme v kapitole \ref{chap:4}.
 
 \subsubsection{Základní pravidla}
-Detailnímu popisu modelování v DEMO se věnuje kapitola 4, takže na tomto místě zmíníme jen základní věci. Kompletní model organizace (tzv. \textit{Essential model}) se skládá ze 4 různých modelů: \cite{Vejrazkova2012}
+Detailnímu popisu modelování v DEMO se věnuje kapitola \ref{chap:4}, takže na tomto místě zmíníme jen základní věci. Kompletní model organizace (tzv. \textit{Essential model}) se skládá ze 4 různých modelů: \cite{Vejrazkova2012}
 
 \begin{enumerate}
 \item Construction Model (CM)
@@ -167,7 +166,7 @@ Nejdůležitější aspekty v DEMO jsou dva:
 \item Actor
 \end{enumerate}
 
-Podrobně budou tyto elementy rozebrány v kapitole 4. %todo odkaz°
+Podrobně budou tyto elementy rozebrány v kapitole \ref{chap:4}.
 
 \subsubsection{Výhody a nevýhody}
 Mezi silné stránky metodologie DEMO určitě musíme zařadit absolutní \textit{jednoznačnost} modelů vzniklých dle této metodologie. Zatímco u jiných technik, jako je třeba vývojový diagram, ale i BPMN nebo UML, vzhledem k jejich poměrně vysoké úrovni detailu, může docházet k nejednoznačnostem, tj. že stejný jev je vymodelován různě. V DEMO díky jeho poměrně rigidním pravidlům a modelu postavenému na jasně strukturovaných transakcích dostáváme stejné modely pro stejné jevy, což je velmi pozitivní pro celkovou konzistenci BPM v organizaci a zároveň to usnadňuje analýzu a vylepšování procesů.
@@ -178,10 +177,10 @@ Jako nevýhodu celé metodologie je určitě nutné označit poměrně dlouhou a
 
 \begin{enumerate}
 \item Široký teoretický základ, který sahá až do oblasti ontologie, filozofie a dalších oborů. I samotná metodologie má za sebou velmi robustní teorii, která není na první pohled zřejmá.
-\item na rozdíl od vývojových diagramů nebo BPMN jsou modely vytvořené v DEMO pro člověka nezasvěceného do toho, jak DEMO funguje, prakticky nečitelné.
+\item Na rozdíl od vývojových diagramů nebo BPMN jsou modely vytvořené v DEMO pro člověka nezasvěceného do toho, jak DEMO funguje, prakticky nečitelné.
 \end{enumerate}
 
-Když by chtěla organizace začít používat DEMO pro modelování svých procesů, je nutné investovat čas i finanční prostředky do zasvěcení odpovědných lidí do metodologie a jejího používání, přičemž vycvičení lidí na potřebnou úroveň může být poměrně zdlouhavé. Právě toto by mohlo být jednou z hlavních překážek, které brání většímu rozšíření metodologie DEMO mimo akademickou půdu.
+Když by chtěla organizace začít používat DEMO pro modelování svých procesů, je nutné investovat čas i finanční prostředky do zasvěcení odpovědných lidí do metodologie a jejího používání, přičemž vycvičení lidí na potřebnou úroveň může být poměrně zdlouhavé. Právě toto by mohlo být jednou z hlavních překážek, které brání většímu rozšíření metodologie DEMO mimo akademickou půdu. Další komplikací je pak velmi malé množství dostupných nástrojů pro vytváření DEMO modelů. Oficiální stránka věnovaná metodologii DEMO uvádí na \url{http://www.ee-institute.org/en/demo/tools} pouze 4 nástroje, z nichž žádný nepodporuje všechny modely, které DEMO obsahuje.
 
 \subsubsection{Použití}
 Tato část je založena zejména na \cite{Vejrazkova2012}, kde jsou uvedeny nejméně 3 možné způsoby, jak využít DEMO:

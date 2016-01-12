@@ -1,0 +1,37 @@
+Na začátku této práce jsme uvedli důvody, proč je vůbec vhodné se modelování podnikových procesů věnovat – jedná se o cestu k větší efektivitě a udržitelnému růstu každé organizace. K řízení podnikových procesů však existuje celá řada přístupů, které se mění v čase podle toho, jak se mění podniky i technologie. Výkon dnešních výpočetních prostředků je na takové úrovni, že umožňuje  prakticky v reálném čase vyhodnocovat efektivitu provádění podnikového procesu a rychle zavádět úpravy v případě, že se podaří odhalit problém.
+
+Kdo z nás, zákazníků velkých podniků jako jsou banky, telefonní operátoři nebo státní úřady, má pocit, že procesy v těchto organizacích jsou skutečně efektivní, a že při jejich provádění nedochází ke zbytečným prodlevám či plýtvání? Běžně používaným tvrzením v médiích či mezi politiky je to, že jen malé organizace dokáží být efektivní a ty velké jsou naopak „těžkopádné molochy“. Čím je to způsobeno? Ve všech takto velkých organizacích se jistě procesnímu řízení věnují, je tedy možné, že je něco špatně s metodami, podle kterých jsou podnikové procesy v dnešní době řízeny?
+
+Ve druhé kapitole této práce najdeme srovnání nejběžnějších technik pro modelování podnikových procesů, jako jsou vývojové diagramy, UML nebo BPMN a také metodologie DEMO, která je sice v praxi využívána zatím jen málo, její potenciál je ale v mnohém revoluční. Tato metodologie totiž dokáže uvnitř operací různorodých organizací rozpoznat vzory a pomocí nich pak popsat chod celé organizace bez zahlcení detaily, které nejsou podstatné. Tento přístup umožňuje řídícím pracovníkům soustředit se jen na to důležité a přesto získat kompletní informace o vlastním podniku.
+
+Faktem však je, že první verze DEMO vznikly již v 80. letech minulého století a do dnešních dnů se DEMO šíří jen pomalu. O důvodech můžeme jen spekulovat, přesto je dokážeme s určitou mírou jistoty odhadnout. DEMO je totiž poměrně složité na naučení, což stojí podniky čas a úsilí, které zatím nejsou ochotny vynaložit.
+
+Oproti tomu notace BPMN těmito „nedostatky“ netrpí. O popularitě této notace, která vychází z vývojových diagramů, svědčí i fakt, že v dnešní době existuje na trhu několik desítek nástrojů, které ji podporují a nové stále přibývají. BPMN je jednoduchá a přímočará notace, ve které může uživatel začít modelovat „během několika málo hodin“. Důsledkem však je, že vzniká obrovské množství modelů, které svojí kvalitou efektivní řízení procesů v organizaci často spíše komplikují než usnadňují.
+
+Tato práce vznikla na popud Ing. Pavla Náplavy a Stevena Van Kervela z nizozemské firmy Formetis, kteří měli za to, že by kombinací těchto dvou technik mohl vzniknout nadějný nástroj pro zvýšení kvality řízení podnikových procesů. Tato práce se snaží udělat první malý krok tímto směrem v podobě průzkumu možností přenesení základních teoretických konceptů metodologie DEMO do notace BPMN. Zároveň přináší první verzi metody, která na teoretických základech z DEMO umožňuje vytvářet BPMN modely, které nebudou trpět nekompletností či nekonzistentností.
+
+\section{Přínosy práce}
+Přínosy této diplomové práce vidí autor ve čtyřech oblastech:
+
+\begin{enumerate}
+\item Srovnání nejběžnějších technik pro modelování podnikových procesů z pohledu jejich silných a slabých stránek zejména pro business uživatele
+\item Průzkum přínosů spojení DEMO a BPMN
+\item Předpis pro vyjádření základních konceptů DEMO pomocí primitiv notace BPMN
+\item Návrh první verze metody pro vytváření BPMN modelů podnikových procesů za použití teoretických konceptů z metodologie DEMO
+\end{enumerate}
+
+\section{Zjištění}
+Z argumentace v kapitolách \ref{chap:2}, \ref{chap:3}, \ref{chap:4} a \ref{chap:5} je zřejmé, že pro spojení obou technik existuje velký prostor, neboť silné stránky jedné techniky doplňují slabé stránky druhé techniky a naopak. Jednoduchost, přímočarost, velké množství dostupných nástrojů a uživatelská základna BPMN na straně jedné a teoretické koncepty, které zajišťují ontologickou kompletnost, konzistentnost, jednoznačnost a esencialitu, na straně DEMO si přímo říkají o nalezení cesty, jak tyto vlastnosti skloubit.
+
+V kapitole \ref{chap:5} je provedena analýza možností, jak skloubení dosáhnout, pomocí diskuse nad možnými přístupy, kterými je možné základní teoretické koncepty DEMO v BPMN vyjádřit. U každého navrženého přístupu je diskutována jednak míra korektnosti s jakou je pomocí takového přístupu možné dosáhnout požadovaných ontologických vlastností a jednak srozumitelnost a přívětivost použití takového přístupu pro business uživatele. 
+
+Podařilo se zjistit, jak dokládá text kapitoly \ref{chap:5}, že je skutečně možné v BPMN vyjádřit požadované koncepty z DEMO s minimální ztrátou korektnosti. BPMN modely, které vznikly aplikací metody navržené v kapitole \ref{chap:5}, jsou skutečně kompletní, konzistentní, jednoznačné a esenciální. Situací, které můžeme modelovat v BPMN, je však nepřeberné množství a vhodnost navržené metody tak musí být v takových situacích ověřena dalším výzkumem a nadále precizována.
+
+Slabiny navržené metody se nacházejí jednak v modelování komplexních procesů, které obsahují větší množství transakcí. Výsledný model se v takovou chvíli stává poměrně nepřehledným, což v praxi komplikuje jeho následnou analýzu. S tímto problémem se však potýká celé BPMN a navržená metoda ho jen zmírňuje. Nezřídka můžeme vidět v organizacích BPMN modely, které jsou rozprostřené přes několik stran formátu A4. Navržená metoda však ve svém šestém kroku počítá s vytvořením DEMO Actor-Transaction Diagramu, který poskytuje pohled na organizaci na nejvyšší úrovni abstrakce. Tento diagram totiž potřebuje pro zobrazení jedné transakce pouze jeden symbol. Částečným řešením tohoto problému by tak mohlo být generování výsledného BPMN modelu přímo z ATD a PSD diagramů.
+
+Další slabinou navržené metody je hned druhý krok, ve kterém je nutné rozlišit, které aktivity vyjádřené v textovém procesu jsou ontologické, infologické nebo datalogické. Jedná se o poměrně obtížný úkol, se kterým mají čas od času problémy i zkušení profesionálové. Řešení v tomto případě neexistuje, tuto dovednost lze získat pouze praxí.
+
+\section{Další výzkum}
+Závěry této práce poskytují obrovský prostor pro další výzkum. Vzhledem k tomu, že se jedná o první návrh metody, která kombinuje BPMN a DEMO, je třeba dalším výzkumem prověřit prakticky veškerá východiska, na kterých staví. Zejména pak vhodnost použití konkrétních BPMN primitiv pro vyjádření konceptů metodologie DEMO jako jsou agenda, C-act, C-fact, P-act, P-fact a další.
+
+Velká příležitost pro další výzkum se rovněž skýtá v oblasti automatizace některých částí této metody a v oblasti simulace výsledného BPMN modelu. V tomto případě by bylo vhodné analyzovat možnosti DEMO softwarového enginu, který vyvíjí firma Formetis, a implementovat rozšíření, které by umožnilo jednak z DEMO modelů automaticky generovat BPMN modely s vlastnostmi, které DEMO zajišťuje a dále simulovat běh a agendu BPMN modelu. Veškeré možnosti pro další výzkum jsou popsány v sekci \ref{sec:dalsi_vyzkum}.

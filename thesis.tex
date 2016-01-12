@@ -5,17 +5,22 @@
 % slovak thesis in Slovak language
 % english thesis in English language
 % hidelinks remove colour boxes around hyperlinks
-% 10pt 11pt 12pt
 
-\documentclass[thesis=B,slovak]{FITthesis}[2013/05/06]
+\documentclass[thesis=M,czech]{FITthesis}[2012/06/26]
 
 \usepackage[utf8]{inputenc} % LaTeX source encoded as UTF-8
-
-\usepackage{graphicx} %graphics files inclusion
+\usepackage{float}
 % \usepackage{amsmath} %advanced maths
 % \usepackage{amssymb} %additional math symbols
+\usepackage{subfig,graphicx}
+\usepackage{array}
+\usepackage{color}
+\usepackage{makecell}
 
 \usepackage{dirtree} %directory tree visualisation
+\usepackage{lscape}
+\usepackage{hyperref} %todo přidat do normální hlavičky %
+\usepackage{longtable}
 
 % % list of acronyms
 % \usepackage[acronym,nonumberlist,toc,numberedsection=autolabel]{glossaries}
@@ -24,24 +29,29 @@
 
 \newcommand{\tg}{\mathop{\mathrm{tg}}} %cesky tangens
 \newcommand{\cotg}{\mathop{\mathrm{cotg}}} %cesky cotangens
+\newcommand{\ptheory}{$\Psi$-theory}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-% ODTIALTO DALEJ VSETKO ZMENTE
+% ODTUD DAL VSE ZMENTE
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
-\department{Katedra \ldots (DOPLŇTE)}
-\title{Doplňte názov práce}
-\authorGN{Doplňte Vaše krstné meno/mená} %(krstné) meno (mená) autora
-\authorFN{Doplňte Vaše priezvisko} % priezvisko autora
-\authorWithDegrees{Doplňte Vaše meno a tituly} %meno autora včetne súčasných akademických titulov
-\supervisor{Doplňte meno vedúceho práce}
-\acknowledgements{Doplňte, ak chcete niekomu za niečo poďakovať. V~opačnom prípade úplne odstráňte tento príkaz.}
-\abstractCS{V niekoľkých vetách zhrňte obsah a prínos tejto práce v~slovenčine. Po prečítaní abstraktu by mal čitateľ mať dosť informácií pre rozhodnutie, či Vašu prácu chce čítať.}
-\abstractEN{Sem doplňte ekvivalent abstraktu Vašej práce v~angličtině.}
-\placeForDeclarationOfAuthenticity{V~Prahe}
-\declarationOfAuthenticityOption{1} %voľba Prehlásenia (číslo 1-6)
-\keywordsCS{Nahraďte zoznamom kľúčových slov v slovenčine oddelených čiarkou.}
-\keywordsEN{Nahraďte zoznamom kľúčových slov v angličtine oddelených čiarkou.}
+\department{Katedra softwarového inženýrství}
+\title{Možnosti využití metodiky DEMO pro tvorbu BPMN modelů}
+\authorGN{Štěpán} %(křestní) jméno (jména) autora
+\authorFN{Heller} %příjmení autora
+\authorWithDegrees{Bc. Štěpán Heller} %jméno autora včetně současných akademických titulů
+\supervisor{Ing. Pavel Náplava}
+\acknowledgements{Rád bych poděkoval mému vedoucímu Ing. Pavlu Náplavovi za cenné rady v průběhu tvorby práce a také Stevenu Van Kervelovi ze společnosti Formetis, jehož postřeby byly velkým přínosem pro vznik této práce.}
+\abstractCS{Tato diplomová práce se zabývá kombinací silných stránek notace BPMN (Business Process Model and Notation) a metodologie DEMO (Design \& Engineering Methodology for Organizations). Za silné stránky notace BPMN v tomto kontextu autor označuje zejména srozumitelnost pro business uživatele a dále širokou paletu nástrojů, které umožňují modelování podnikových procesů v BPMN. V případě metodologie DEMO autor identifikuje silné stránky v hlubokém teoretickém základu, který zajišťuje vytváření modelů, které jsou ontologicky kompletní, konzistentní a jsou oproštěné od implementačních detailů.
+
+V této práci čtenář nalezne srovnání běžných technik pro modelování podnikových procesů a dále hlubokou analýzu BPMN a DEMO. Hlavním přínosem této diplomové práce je však předpis, jak mapovat základní koncepty metodologie DEMO na BPMN primitiva a především návrh metody, jak využít důležité teoretické koncepty metodologie DEMO pro tvorbu BPMN modelů, které jsou kompletní, konzistentní, jednoznačné a esenciální. Navržená metoda je dále demonstrována na příkladu.}
+\abstractEN{This thesis combines the strong aspects of BPMN (Business Process Model and Notation) such as good understanding of the notation among business users and large amount of software tools available that support the notation with strong aspects of DEMO (Design \& Engineering Methodology for Organizations) such as the profound theoretical background which assures the user that the model he gets as a result is ontologically complete, consistent and abstracts away from all unnecessary implementation details.
+
+This thesis contains an analysis of available business process modelling techniques along with a thorough analysis of BPMN and DEMO. The main contribution of the thesis however is a proposal of a method that makes use of important theoretical concepts of DEMO in order to create BPMN models which are complete, consistent, unique and essential. The use of the method is then demonstrated on an example.}
+\placeForDeclarationOfAuthenticity{V~Praze}
+\declarationOfAuthenticityOption{4} %volba Prohlášení (číslo 1-6)
+\keywordsCS{DEMO, Design \& Engineering Methodology for Organizations, BPMN, Business Process Model and Notation, Enterprise ontology, Business Process Management, Proces, Procesní model}
+\keywordsEN{DEMO, Design \& Engineering Methodology for Organizations, BPMN, Business Process Model and Notation, Enterprise ontology, Business Process Management, Process, Process Model}
 
 \begin{document}
 
@@ -49,31 +59,75 @@
 % \newacronym{FIT}{FIT}{Fakulta informa{\v c}n{\' i}ch technologi{\' i}}
 
 \begin{introduction}
-	%sem napíšte úvod Vašej práce
+	\input{uvod.tex}
 \end{introduction}
 
-\chapter{Cieľ práce}
+\chapter{Definice základních pojmů} \label{chap:1}
+	\input{kapitola1.tex}
 
-\chapter{Analýza a návrh}
+\chapter{Techniky modelování podnikových procesů} \label{chap:2}
+	\input{kapitola2.tex}
 
-\chapter{Realizácia}
+\chapter{Notace BPMN} \label{chap:3}
+	\input{kapitola3.tex}
+	
+\chapter{Metodologie DEMO} \label{chap:4}
+	\input{kapitola4.tex}
+	
+\chapter{Využití metodologie DEMO pro vytváření BPMN modelů} \label{chap:5}
+	\input{kapitola5.tex}
 
+\chapter{Aplikace metody} \label{chap:6}
+	\input{kapitola6.tex}
+	
 \begin{conclusion}
-	%sem napíšte záver Vašej práce
+	\input{zaver.tex}
 \end{conclusion}
 
+\nocite{*}
 \bibliographystyle{csn690}
-\bibliography{mybibliographyfile}
+\bibliography{Bibliography}
 
 \appendix
 
-\chapter{Zoznam použitých skratiek}
+\chapter{Seznam použitých zkratek}
 % \printglossaries
 \begin{description}
-	\item[GUI] Graphical user interface
-	\item[XML] Extensible markup language
+	\item[ABD] Actor Bank Diagram
+	\item[AM] Action Model
+	\item[ATD] Actor-Transaction Diagram
+	\item[BCT] Bank Contents Table
+	\item[BPMN] Business Process Model and Notation
+	\item[BPEL] Business Process Execution Language
+	\item[BPM] Business Process Management
+	\item[BPMI] Business Process Management Initiative
+	\item[BPML] Business Process Management Language
+	\item[BPMS] Business Process Management Software
+	\item[CMM] Capability Maturity Model
+	\item[DEMO] Design \& Engineering Methodology for Organizations
+	\item[IAM] Interaction Model
+	\item[ISM] Interstriction Model
+	\item[IUT] Information Use Table
+	\item[JIT] Just In Time
+	\item[OCD] Organization Construction Diagram
+	\item[OFD] Object Fact Diagram
+	\item[OPL] Object Property List
+	\item[OMG] Object Management Group
+	\item[PSD] Process Structure Diagram
+	\item[SM] State Model
+	\item[TQM] Total Quality Management
+	\item[TRT] Transaction Result Table
+	\item[UML] Unified Modeling Language
+	\item[WSDL] Web Services Description Language
 \end{description}
 
+\chapter{Glosář}
+\begin{description}
+	\item[Black Box Model] Jako \uv{Black Box Model} označujeme model systému, u kterého víme, že určitým způsobem přeměňuje vstupy na výstupy, ale nevíme, jak funguje uvnitř.
+	\item[White Box Model] Jako \uv{White Box Model} označujeme model systému, u kterého víme, že určitým způsobem přeměňuje vstupy na výstupy, ale také to, jak k tomu dochází. Víme tedy, jak takový systém funguje uvnitř.
+	\item[WSDL – Web Service Description Language] Jazyk pro popis webové služby z pohledu poskytovaných funkcionalit a možností, jak je používat z vnějšku.
+	\item[XML – Extensible Markup Language] Značkovací jazyk používaný většinou ke specifikaci struktury uvnitř různých typů dat pro účely dalšího zpracování.
+\end{description}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 % % Tuto kapitolu z výsledné práce ODSTRAŇTE.
@@ -181,20 +235,20 @@
 % 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
-\chapter{Obsah priloženého CD}
+\chapter{Obsah přiloženého CD}
 
 %upravte podle skutecnosti
 
 \begin{figure}
 	\dirtree{%
 		.1 readme.txt\DTcomment{stručný popis obsahu CD}.
-		.1 exe\DTcomment{adresár so spustiteľnou formou implementácie}.
+		.1 exe\DTcomment{adresář se spustitelnou formou implementace}.
 		.1 src.
-		.2 impl\DTcomment{zdrojové kódy implementácie}.
-		.2 thesis\DTcomment{zdrojová forma práce vo formáte \LaTeX{}}.
+		.2 impl\DTcomment{zdrojové kódy implementace}.
+		.2 thesis\DTcomment{zdrojová forma práce ve formátu \LaTeX{}}.
 		.1 text\DTcomment{text práce}.
-		.2 thesis.pdf\DTcomment{text práce vo formáte PDF}.
-		.2 thesis.ps\DTcomment{text práce vo formáte PS}.
+		.2 thesis.pdf\DTcomment{text práce ve formátu PDF}.
+		.2 thesis.ps\DTcomment{text práce ve formátu PS}.
 	}
 \end{figure}
 
